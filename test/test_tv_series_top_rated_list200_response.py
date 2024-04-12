@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_top_rated_list200_response import TvSeriesTopRatedList200Response
+from tmdb_client.models.tv_series_top_rated_list200_response import TvSeriesTopRatedList200Response
 
 class TestTvSeriesTopRatedList200Response(unittest.TestCase):
     """TvSeriesTopRatedList200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvSeriesTopRatedList200Response(unittest.TestCase):
             return TvSeriesTopRatedList200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.tv_series_top_rated_list_200_response_results_inner.tv_series_top_rated_list_200_response_results_inner(
+                    tmdb_client.models.tv_series_top_rated_list_200_response_results_inner.tv_series_top_rated_list_200_response_results_inner(
                         backdrop_path = '/99vBORZixICa32Pwdwj0lWcr8K.jpg', 
                         first_air_date = '2021-09-03', 
                         genre_ids = [

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.search_keyword200_response import SearchKeyword200Response
+from tmdb_client.models.search_keyword200_response import SearchKeyword200Response
 
 class TestSearchKeyword200Response(unittest.TestCase):
     """SearchKeyword200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestSearchKeyword200Response(unittest.TestCase):
             return SearchKeyword200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.search_keyword_200_response_results_inner.search_keyword_200_response_results_inner(
+                    tmdb_client.models.search_keyword_200_response_results_inner.search_keyword_200_response_results_inner(
                         id = 262419, 
                         name = 'lost', )
                     ],

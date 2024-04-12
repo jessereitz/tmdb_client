@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_aggregate_credits200_response_crew_inner_jobs_inner import TvSeriesAggregateCredits200ResponseCrewInnerJobsInner
+from tmdb_client.models.tv_series_aggregate_credits200_response_crew_inner_jobs_inner import TvSeriesAggregateCredits200ResponseCrewInnerJobsInner
 
 class TestTvSeriesAggregateCredits200ResponseCrewInnerJobsInner(unittest.TestCase):
     """TvSeriesAggregateCredits200ResponseCrewInnerJobsInner unit test stubs"""

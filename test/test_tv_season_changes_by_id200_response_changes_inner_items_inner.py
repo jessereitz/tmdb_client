@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_season_changes_by_id200_response_changes_inner_items_inner import TvSeasonChangesById200ResponseChangesInnerItemsInner
+from tmdb_client.models.tv_season_changes_by_id200_response_changes_inner_items_inner import TvSeasonChangesById200ResponseChangesInnerItemsInner
 
 class TestTvSeasonChangesById200ResponseChangesInnerItemsInner(unittest.TestCase):
     """TvSeasonChangesById200ResponseChangesInnerItemsInner unit test stubs"""
@@ -38,7 +38,7 @@ class TestTvSeasonChangesById200ResponseChangesInnerItemsInner(unittest.TestCase
                 id = '5717c8c69251414cfd00250f',
                 action = 'updated',
                 time = '2016-04-20 18:21:58 UTC',
-                value = openapi_client.models.tv_season_changes_by_id_200_response_changes_inner_items_inner_value.tv_season_changes_by_id_200_response_changes_inner_items_inner_value(
+                value = tmdb_client.models.tv_season_changes_by_id_200_response_changes_inner_items_inner_value.tv_season_changes_by_id_200_response_changes_inner_items_inner_value(
                     episode_id = 63056, 
                     episode_number = 1, )
             )

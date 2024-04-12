@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_episode_translations200_response_translations_inner_data import TvEpisodeTranslations200ResponseTranslationsInnerData
+from tmdb_client.models.tv_episode_translations200_response_translations_inner_data import TvEpisodeTranslations200ResponseTranslationsInnerData
 
 class TestTvEpisodeTranslations200ResponseTranslationsInnerData(unittest.TestCase):
     """TvEpisodeTranslations200ResponseTranslationsInnerData unit test stubs"""

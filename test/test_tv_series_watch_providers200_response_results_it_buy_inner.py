@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_watch_providers200_response_results_it_buy_inner import TvSeriesWatchProviders200ResponseResultsITBuyInner
+from tmdb_client.models.tv_series_watch_providers200_response_results_it_buy_inner import TvSeriesWatchProviders200ResponseResultsITBuyInner
 
 class TestTvSeriesWatchProviders200ResponseResultsITBuyInner(unittest.TestCase):
     """TvSeriesWatchProviders200ResponseResultsITBuyInner unit test stubs"""

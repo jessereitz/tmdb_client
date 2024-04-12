@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_season_aggregate_credits200_response_cast_inner import TvSeasonAggregateCredits200ResponseCastInner
+from tmdb_client.models.tv_season_aggregate_credits200_response_cast_inner import TvSeasonAggregateCredits200ResponseCastInner
 
 class TestTvSeasonAggregateCredits200ResponseCastInner(unittest.TestCase):
     """TvSeasonAggregateCredits200ResponseCastInner unit test stubs"""
@@ -44,7 +44,7 @@ class TestTvSeasonAggregateCredits200ResponseCastInner(unittest.TestCase):
                 popularity = 30.6,
                 profile_path = '/lRsRgnksAhBRXwAB68MFjmTtLrk.jpg',
                 roles = [
-                    openapi_client.models.tv_season_aggregate_credits_200_response_cast_inner_roles_inner.tv_season_aggregate_credits_200_response_cast_inner_roles_inner(
+                    tmdb_client.models.tv_season_aggregate_credits_200_response_cast_inner_roles_inner.tv_season_aggregate_credits_200_response_cast_inner_roles_inner(
                         credit_id = '5256c8b219c2956ff6047cd8', 
                         character = 'Tyrion Lannister', 
                         episode_count = 10, )

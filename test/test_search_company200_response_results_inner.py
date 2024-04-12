@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.search_company200_response_results_inner import SearchCompany200ResponseResultsInner
+from tmdb_client.models.search_company200_response_results_inner import SearchCompany200ResponseResultsInner
 
 class TestSearchCompany200ResponseResultsInner(unittest.TestCase):
     """SearchCompany200ResponseResultsInner unit test stubs"""

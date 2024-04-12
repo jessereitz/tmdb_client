@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_episode_changes_by_id200_response_changes_inner import TvEpisodeChangesById200ResponseChangesInner
+from tmdb_client.models.tv_episode_changes_by_id200_response_changes_inner import TvEpisodeChangesById200ResponseChangesInner
 
 class TestTvEpisodeChangesById200ResponseChangesInner(unittest.TestCase):
     """TvEpisodeChangesById200ResponseChangesInner unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvEpisodeChangesById200ResponseChangesInner(unittest.TestCase):
             return TvEpisodeChangesById200ResponseChangesInner(
                 key = 'production_code',
                 items = [
-                    openapi_client.models.tv_episode_changes_by_id_200_response_changes_inner_items_inner.tv_episode_changes_by_id_200_response_changes_inner_items_inner(
+                    tmdb_client.models.tv_episode_changes_by_id_200_response_changes_inner_items_inner.tv_episode_changes_by_id_200_response_changes_inner_items_inner(
                         id = '54bd9ed7c3a3686c6b00da66', 
                         action = 'added', 
                         time = '2015-01-20 00:18:31 UTC', 

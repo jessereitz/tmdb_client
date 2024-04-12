@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.certification_movie_list200_response_certifications_id_inner import CertificationMovieList200ResponseCertificationsIDInner
+from tmdb_client.models.certification_movie_list200_response_certifications_id_inner import CertificationMovieList200ResponseCertificationsIDInner
 
 class TestCertificationMovieList200ResponseCertificationsIDInner(unittest.TestCase):
     """CertificationMovieList200ResponseCertificationsIDInner unit test stubs"""

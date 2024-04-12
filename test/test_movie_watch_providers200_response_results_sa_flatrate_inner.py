@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_watch_providers200_response_results_sa_flatrate_inner import MovieWatchProviders200ResponseResultsSAFlatrateInner
+from tmdb_client.models.movie_watch_providers200_response_results_sa_flatrate_inner import MovieWatchProviders200ResponseResultsSAFlatrateInner
 
 class TestMovieWatchProviders200ResponseResultsSAFlatrateInner(unittest.TestCase):
     """MovieWatchProviders200ResponseResultsSAFlatrateInner unit test stubs"""

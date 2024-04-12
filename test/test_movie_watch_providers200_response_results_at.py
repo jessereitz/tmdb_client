@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_watch_providers200_response_results_at import MovieWatchProviders200ResponseResultsAT
+from tmdb_client.models.movie_watch_providers200_response_results_at import MovieWatchProviders200ResponseResultsAT
 
 class TestMovieWatchProviders200ResponseResultsAT(unittest.TestCase):
     """MovieWatchProviders200ResponseResultsAT unit test stubs"""
@@ -37,21 +37,21 @@ class TestMovieWatchProviders200ResponseResultsAT(unittest.TestCase):
             return MovieWatchProviders200ResponseResultsAT(
                 link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=AT',
                 flatrate = [
-                    openapi_client.models.movie_watch_providers_200_response_results_at_flatrate_inner.movie_watch_providers_200_response_results_AT_flatrate_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_at_flatrate_inner.movie_watch_providers_200_response_results_AT_flatrate_inner(
                         logo_path = '/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg', 
                         provider_id = 337, 
                         provider_name = 'Disney Plus', 
                         display_priority = 2, )
                     ],
                 buy = [
-                    openapi_client.models.movie_watch_providers_200_response_results_at_buy_inner.movie_watch_providers_200_response_results_AT_buy_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_at_buy_inner.movie_watch_providers_200_response_results_AT_buy_inner(
                         logo_path = '/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg', 
                         provider_id = 10, 
                         provider_name = 'Amazon Video', 
                         display_priority = 3, )
                     ],
                 rent = [
-                    openapi_client.models.movie_watch_providers_200_response_results_at_buy_inner.movie_watch_providers_200_response_results_AT_buy_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_at_buy_inner.movie_watch_providers_200_response_results_AT_buy_inner(
                         logo_path = '/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg', 
                         provider_id = 10, 
                         provider_name = 'Amazon Video', 

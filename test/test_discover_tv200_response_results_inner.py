@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.discover_tv200_response_results_inner import DiscoverTv200ResponseResultsInner
+from tmdb_client.models.discover_tv200_response_results_inner import DiscoverTv200ResponseResultsInner
 
 class TestDiscoverTv200ResponseResultsInner(unittest.TestCase):
     """DiscoverTv200ResponseResultsInner unit test stubs"""

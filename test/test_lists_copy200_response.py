@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.lists_copy200_response import ListsCopy200Response
+from tmdb_client.models.lists_copy200_response import ListsCopy200Response
 
 class TestListsCopy200Response(unittest.TestCase):
     """ListsCopy200Response unit test stubs"""
@@ -38,7 +38,7 @@ class TestListsCopy200Response(unittest.TestCase):
                 id = 1399,
                 page = 1,
                 results = [
-                    openapi_client.models.lists_copy_200_response_results_inner.lists_copy_200_response_results_inner(
+                    tmdb_client.models.lists_copy_200_response_results_inner.lists_copy_200_response_results_inner(
                         description = '', 
                         favorite_count = 0, 
                         id = 8257231, 

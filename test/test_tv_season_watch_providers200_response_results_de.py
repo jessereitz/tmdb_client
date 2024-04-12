@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_season_watch_providers200_response_results_de import TvSeasonWatchProviders200ResponseResultsDE
+from tmdb_client.models.tv_season_watch_providers200_response_results_de import TvSeasonWatchProviders200ResponseResultsDE
 
 class TestTvSeasonWatchProviders200ResponseResultsDE(unittest.TestCase):
     """TvSeasonWatchProviders200ResponseResultsDE unit test stubs"""
@@ -37,14 +37,14 @@ class TestTvSeasonWatchProviders200ResponseResultsDE(unittest.TestCase):
             return TvSeasonWatchProviders200ResponseResultsDE(
                 link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=DE',
                 buy = [
-                    openapi_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
                         logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                         provider_id = 2, 
                         provider_name = 'Apple TV', 
                         display_priority = 4, )
                     ],
                 flatrate = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_de_flatrate_inner.tv_series_watch_providers_200_response_results_DE_flatrate_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_de_flatrate_inner.tv_series_watch_providers_200_response_results_DE_flatrate_inner(
                         logo_path = '/MiVcYLkztM6qqLeVSYWHFCUcXx.jpg', 
                         provider_id = 30, 
                         provider_name = 'WOW', 

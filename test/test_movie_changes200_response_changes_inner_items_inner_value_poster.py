@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_changes200_response_changes_inner_items_inner_value_poster import MovieChanges200ResponseChangesInnerItemsInnerValuePoster
+from tmdb_client.models.movie_changes200_response_changes_inner_items_inner_value_poster import MovieChanges200ResponseChangesInnerItemsInnerValuePoster
 
 class TestMovieChanges200ResponseChangesInnerItemsInnerValuePoster(unittest.TestCase):
     """MovieChanges200ResponseChangesInnerItemsInnerValuePoster unit test stubs"""

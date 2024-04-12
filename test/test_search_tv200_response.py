@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.search_tv200_response import SearchTv200Response
+from tmdb_client.models.search_tv200_response import SearchTv200Response
 
 class TestSearchTv200Response(unittest.TestCase):
     """SearchTv200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestSearchTv200Response(unittest.TestCase):
             return SearchTv200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.search_tv_200_response_results_inner.search_tv_200_response_results_inner(
+                    tmdb_client.models.search_tv_200_response_results_inner.search_tv_200_response_results_inner(
                         adult = False, 
                         backdrop_path = '/bsNm9z2TJfe0WO3RedPGWQ8mG1X.jpg', 
                         genre_ids = [

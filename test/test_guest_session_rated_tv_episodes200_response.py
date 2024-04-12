@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.guest_session_rated_tv_episodes200_response import GuestSessionRatedTvEpisodes200Response
+from tmdb_client.models.guest_session_rated_tv_episodes200_response import GuestSessionRatedTvEpisodes200Response
 
 class TestGuestSessionRatedTvEpisodes200Response(unittest.TestCase):
     """GuestSessionRatedTvEpisodes200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestGuestSessionRatedTvEpisodes200Response(unittest.TestCase):
             return GuestSessionRatedTvEpisodes200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.guest_session_rated_tv_episodes_200_response_results_inner.guest_session_rated_tv_episodes_200_response_results_inner(
+                    tmdb_client.models.guest_session_rated_tv_episodes_200_response_results_inner.guest_session_rated_tv_episodes_200_response_results_inner(
                         air_date = '2011-04-17', 
                         episode_number = 1, 
                         id = 63056, 

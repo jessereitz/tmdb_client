@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.watch_providers_movie_list200_response import WatchProvidersMovieList200Response
+from tmdb_client.models.watch_providers_movie_list200_response import WatchProvidersMovieList200Response
 
 class TestWatchProvidersMovieList200Response(unittest.TestCase):
     """WatchProvidersMovieList200Response unit test stubs"""
@@ -36,8 +36,8 @@ class TestWatchProvidersMovieList200Response(unittest.TestCase):
         if include_optional:
             return WatchProvidersMovieList200Response(
                 results = [
-                    openapi_client.models.watch_providers_movie_list_200_response_results_inner.watch_providers_movie_list_200_response_results_inner(
-                        display_priorities = openapi_client.models.watch_providers_movie_list_200_response_results_inner_display_priorities.watch_providers_movie_list_200_response_results_inner_display_priorities(
+                    tmdb_client.models.watch_providers_movie_list_200_response_results_inner.watch_providers_movie_list_200_response_results_inner(
+                        display_priorities = tmdb_client.models.watch_providers_movie_list_200_response_results_inner_display_priorities.watch_providers_movie_list_200_response_results_inner_display_priorities(
                             ca = 6, 
                             ae = 1, 
                             ar = 3, 

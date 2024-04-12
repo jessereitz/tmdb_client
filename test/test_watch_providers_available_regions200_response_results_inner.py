@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.watch_providers_available_regions200_response_results_inner import WatchProvidersAvailableRegions200ResponseResultsInner
+from tmdb_client.models.watch_providers_available_regions200_response_results_inner import WatchProvidersAvailableRegions200ResponseResultsInner
 
 class TestWatchProvidersAvailableRegions200ResponseResultsInner(unittest.TestCase):
     """WatchProvidersAvailableRegions200ResponseResultsInner unit test stubs"""

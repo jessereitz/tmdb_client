@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.keyword_movies200_response_results_inner import KeywordMovies200ResponseResultsInner
+from tmdb_client.models.keyword_movies200_response_results_inner import KeywordMovies200ResponseResultsInner
 
 class TestKeywordMovies200ResponseResultsInner(unittest.TestCase):
     """KeywordMovies200ResponseResultsInner unit test stubs"""

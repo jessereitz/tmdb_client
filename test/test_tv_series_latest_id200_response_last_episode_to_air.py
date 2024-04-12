@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_latest_id200_response_last_episode_to_air import TvSeriesLatestId200ResponseLastEpisodeToAir
+from tmdb_client.models.tv_series_latest_id200_response_last_episode_to_air import TvSeriesLatestId200ResponseLastEpisodeToAir
 
 class TestTvSeriesLatestId200ResponseLastEpisodeToAir(unittest.TestCase):
     """TvSeriesLatestId200ResponseLastEpisodeToAir unit test stubs"""

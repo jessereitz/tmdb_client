@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_episode_images200_response_stills_inner import TvEpisodeImages200ResponseStillsInner
+from tmdb_client.models.tv_episode_images200_response_stills_inner import TvEpisodeImages200ResponseStillsInner
 
 class TestTvEpisodeImages200ResponseStillsInner(unittest.TestCase):
     """TvEpisodeImages200ResponseStillsInner unit test stubs"""

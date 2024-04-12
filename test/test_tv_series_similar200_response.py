@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_similar200_response import TvSeriesSimilar200Response
+from tmdb_client.models.tv_series_similar200_response import TvSeriesSimilar200Response
 
 class TestTvSeriesSimilar200Response(unittest.TestCase):
     """TvSeriesSimilar200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvSeriesSimilar200Response(unittest.TestCase):
             return TvSeriesSimilar200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.tv_series_similar_200_response_results_inner.tv_series_similar_200_response_results_inner(
+                    tmdb_client.models.tv_series_similar_200_response_results_inner.tv_series_similar_200_response_results_inner(
                         adult = False, 
                         backdrop_path = '/zcFSvWa34nDn2NcqOPuthyOIBWT.jpg', 
                         genre_ids = [

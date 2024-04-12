@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.search_person200_response_results_inner import SearchPerson200ResponseResultsInner
+from tmdb_client.models.search_person200_response_results_inner import SearchPerson200ResponseResultsInner
 
 class TestSearchPerson200ResponseResultsInner(unittest.TestCase):
     """SearchPerson200ResponseResultsInner unit test stubs"""
@@ -44,7 +44,7 @@ class TestSearchPerson200ResponseResultsInner(unittest.TestCase):
                 popularity = 84.631,
                 profile_path = '/xndWFsBlClOJFRdhSt4NBwiPq2o.jpg',
                 known_for = [
-                    openapi_client.models.search_person_200_response_results_inner_known_for_inner.search_person_200_response_results_inner_known_for_inner(
+                    tmdb_client.models.search_person_200_response_results_inner_known_for_inner.search_person_200_response_results_inner_known_for_inner(
                         adult = False, 
                         backdrop_path = '/3h1JZGDhZ8nzxdgvkxha0qBqi05.jpg', 
                         id = 13, 

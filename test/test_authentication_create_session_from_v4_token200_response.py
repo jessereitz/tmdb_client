@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.authentication_create_session_from_v4_token200_response import AuthenticationCreateSessionFromV4Token200Response
+from tmdb_client.models.authentication_create_session_from_v4_token200_response import AuthenticationCreateSessionFromV4Token200Response
 
 class TestAuthenticationCreateSessionFromV4Token200Response(unittest.TestCase):
     """AuthenticationCreateSessionFromV4Token200Response unit test stubs"""

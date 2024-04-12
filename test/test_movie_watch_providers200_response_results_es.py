@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_watch_providers200_response_results_es import MovieWatchProviders200ResponseResultsES
+from tmdb_client.models.movie_watch_providers200_response_results_es import MovieWatchProviders200ResponseResultsES
 
 class TestMovieWatchProviders200ResponseResultsES(unittest.TestCase):
     """MovieWatchProviders200ResponseResultsES unit test stubs"""
@@ -37,28 +37,28 @@ class TestMovieWatchProviders200ResponseResultsES(unittest.TestCase):
             return MovieWatchProviders200ResponseResultsES(
                 link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=ES',
                 rent = [
-                    openapi_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
                         logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                         provider_id = 2, 
                         provider_name = 'Apple TV', 
                         display_priority = 4, )
                     ],
                 ads = [
-                    openapi_client.models.movie_watch_providers_200_response_results_es_ads_inner.movie_watch_providers_200_response_results_ES_ads_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_es_ads_inner.movie_watch_providers_200_response_results_ES_ads_inner(
                         logo_path = '/5GEbAhFW2S5T8zVc1MNvz00pIzM.jpg', 
                         provider_id = 35, 
                         provider_name = 'Rakuten TV', 
                         display_priority = 11, )
                     ],
                 flatrate = [
-                    openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                         logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                         provider_id = 119, 
                         provider_name = 'Amazon Prime Video', 
                         display_priority = 1, )
                     ],
                 buy = [
-                    openapi_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
                         logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                         provider_id = 2, 
                         provider_name = 'Apple TV', 

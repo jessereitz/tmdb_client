@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_episode_translations200_response_translations_inner import TvEpisodeTranslations200ResponseTranslationsInner
+from tmdb_client.models.tv_episode_translations200_response_translations_inner import TvEpisodeTranslations200ResponseTranslationsInner
 
 class TestTvEpisodeTranslations200ResponseTranslationsInner(unittest.TestCase):
     """TvEpisodeTranslations200ResponseTranslationsInner unit test stubs"""
@@ -39,7 +39,7 @@ class TestTvEpisodeTranslations200ResponseTranslationsInner(unittest.TestCase):
                 iso_639_1 = 'ar',
                 name = 'العربية',
                 english_name = 'Arabic',
-                data = openapi_client.models.tv_episode_translations_200_response_translations_inner_data.tv_episode_translations_200_response_translations_inner_data(
+                data = tmdb_client.models.tv_episode_translations_200_response_translations_inner_data.tv_episode_translations_200_response_translations_inner_data(
                     name = '', 
                     overview = 'خلف باب واسع من الجليد في شمالي وستيروس هناك شيء يحدث. تتلقى عائلة ستارك التي من وينترفيل زيارة من العائلة المالكة، بينما يشكل أمير عائلة تارغارين المنفي تحالفاً جديداً للسيطرة على العرش من جديد.', )
             )

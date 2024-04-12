@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.trending_people200_response_results_inner import TrendingPeople200ResponseResultsInner
+from tmdb_client.models.trending_people200_response_results_inner import TrendingPeople200ResponseResultsInner
 
 class TestTrendingPeople200ResponseResultsInner(unittest.TestCase):
     """TrendingPeople200ResponseResultsInner unit test stubs"""
@@ -45,7 +45,7 @@ class TestTrendingPeople200ResponseResultsInner(unittest.TestCase):
                 known_for_department = 'Acting',
                 profile_path = '/3vxvsmYLTf4jnr163SUlBIw51ee.jpg',
                 known_for = [
-                    openapi_client.models.trending_people_200_response_results_inner_known_for_inner.trending_people_200_response_results_inner_known_for_inner(
+                    tmdb_client.models.trending_people_200_response_results_inner_known_for_inner.trending_people_200_response_results_inner_known_for_inner(
                         adult = False, 
                         backdrop_path = '/ilRyazdMJwN05exqhwK4tMKBYZs.jpg', 
                         id = 335984, 

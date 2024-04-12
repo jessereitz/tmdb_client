@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.credit_details200_response_person import CreditDetails200ResponsePerson
+from tmdb_client.models.credit_details200_response_person import CreditDetails200ResponsePerson
 
 class TestCreditDetails200ResponsePerson(unittest.TestCase):
     """CreditDetails200ResponsePerson unit test stubs"""

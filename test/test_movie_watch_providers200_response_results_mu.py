@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_watch_providers200_response_results_mu import MovieWatchProviders200ResponseResultsMU
+from tmdb_client.models.movie_watch_providers200_response_results_mu import MovieWatchProviders200ResponseResultsMU
 
 class TestMovieWatchProviders200ResponseResultsMU(unittest.TestCase):
     """MovieWatchProviders200ResponseResultsMU unit test stubs"""
@@ -37,14 +37,14 @@ class TestMovieWatchProviders200ResponseResultsMU(unittest.TestCase):
             return MovieWatchProviders200ResponseResultsMU(
                 link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=MU',
                 buy = [
-                    openapi_client.models.movie_watch_providers_200_response_results_mu_buy_inner.movie_watch_providers_200_response_results_MU_buy_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_mu_buy_inner.movie_watch_providers_200_response_results_MU_buy_inner(
                         logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                         provider_id = 2, 
                         provider_name = 'Apple TV', 
                         display_priority = 15, )
                     ],
                 rent = [
-                    openapi_client.models.movie_watch_providers_200_response_results_mu_buy_inner.movie_watch_providers_200_response_results_MU_buy_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_mu_buy_inner.movie_watch_providers_200_response_results_MU_buy_inner(
                         logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                         provider_id = 2, 
                         provider_name = 'Apple TV', 

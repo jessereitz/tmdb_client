@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_latest_id200_response import TvSeriesLatestId200Response
+from tmdb_client.models.tv_series_latest_id200_response import TvSeriesLatestId200Response
 
 class TestTvSeriesLatestId200Response(unittest.TestCase):
     """TvSeriesLatestId200Response unit test stubs"""
@@ -54,7 +54,7 @@ class TestTvSeriesLatestId200Response(unittest.TestCase):
                     ''
                     ],
                 last_air_date = '2023-04-21',
-                last_episode_to_air = openapi_client.models.tv_series_latest_id_200_response_last_episode_to_air.tv_series_latest_id_200_response_last_episode_to_air(
+                last_episode_to_air = tmdb_client.models.tv_series_latest_id_200_response_last_episode_to_air.tv_series_latest_id_200_response_last_episode_to_air(
                     id = 4398801, 
                     name = 'Episode 8', 
                     overview = '', 
@@ -89,7 +89,7 @@ class TestTvSeriesLatestId200Response(unittest.TestCase):
                     ''
                     ],
                 seasons = [
-                    openapi_client.models.tv_series_latest_id_200_response_seasons_inner.tv_series_latest_id_200_response_seasons_inner(
+                    tmdb_client.models.tv_series_latest_id_200_response_seasons_inner.tv_series_latest_id_200_response_seasons_inner(
                         air_date = null, 
                         episode_count = 1, 
                         id = 338956, 

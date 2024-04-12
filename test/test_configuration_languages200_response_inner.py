@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.configuration_languages200_response_inner import ConfigurationLanguages200ResponseInner
+from tmdb_client.models.configuration_languages200_response_inner import ConfigurationLanguages200ResponseInner
 
 class TestConfigurationLanguages200ResponseInner(unittest.TestCase):
     """ConfigurationLanguages200ResponseInner unit test stubs"""

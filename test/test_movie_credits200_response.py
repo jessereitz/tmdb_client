@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_credits200_response import MovieCredits200Response
+from tmdb_client.models.movie_credits200_response import MovieCredits200Response
 
 class TestMovieCredits200Response(unittest.TestCase):
     """MovieCredits200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestMovieCredits200Response(unittest.TestCase):
             return MovieCredits200Response(
                 id = 550,
                 cast = [
-                    openapi_client.models.movie_credits_200_response_cast_inner.movie_credits_200_response_cast_inner(
+                    tmdb_client.models.movie_credits_200_response_cast_inner.movie_credits_200_response_cast_inner(
                         adult = False, 
                         gender = 2, 
                         id = 819, 
@@ -52,7 +52,7 @@ class TestMovieCredits200Response(unittest.TestCase):
                         order = 0, )
                     ],
                 crew = [
-                    openapi_client.models.movie_credits_200_response_crew_inner.movie_credits_200_response_crew_inner(
+                    tmdb_client.models.movie_credits_200_response_crew_inner.movie_credits_200_response_crew_inner(
                         adult = False, 
                         gender = 2, 
                         id = 376, 

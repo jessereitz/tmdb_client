@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_add_rating200_response import MovieAddRating200Response
+from tmdb_client.models.movie_add_rating200_response import MovieAddRating200Response
 
 class TestMovieAddRating200Response(unittest.TestCase):
     """MovieAddRating200Response unit test stubs"""

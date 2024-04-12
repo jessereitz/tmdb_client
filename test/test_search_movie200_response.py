@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.search_movie200_response import SearchMovie200Response
+from tmdb_client.models.search_movie200_response import SearchMovie200Response
 
 class TestSearchMovie200Response(unittest.TestCase):
     """SearchMovie200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestSearchMovie200Response(unittest.TestCase):
             return SearchMovie200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.search_movie_200_response_results_inner.search_movie_200_response_results_inner(
+                    tmdb_client.models.search_movie_200_response_results_inner.search_movie_200_response_results_inner(
                         adult = False, 
                         backdrop_path = '/hZkgoQYus5vegHoetLkCJzb17zJ.jpg', 
                         genre_ids = [

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.find_by_id200_response import FindById200Response
+from tmdb_client.models.find_by_id200_response import FindById200Response
 
 class TestFindById200Response(unittest.TestCase):
     """FindById200Response unit test stubs"""
@@ -36,7 +36,7 @@ class TestFindById200Response(unittest.TestCase):
         if include_optional:
             return FindById200Response(
                 movie_results = [
-                    openapi_client.models.find_by_id_200_response_movie_results_inner.find_by_id_200_response_movie_results_inner(
+                    tmdb_client.models.find_by_id_200_response_movie_results_inner.find_by_id_200_response_movie_results_inner(
                         adult = False, 
                         backdrop_path = '/44immBwzhDVyjn87b3x3l9mlhAD.jpg', 
                         id = 934433, 

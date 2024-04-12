@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.account_rated_tv_episodes200_response import AccountRatedTvEpisodes200Response
+from tmdb_client.models.account_rated_tv_episodes200_response import AccountRatedTvEpisodes200Response
 
 class TestAccountRatedTvEpisodes200Response(unittest.TestCase):
     """AccountRatedTvEpisodes200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestAccountRatedTvEpisodes200Response(unittest.TestCase):
             return AccountRatedTvEpisodes200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.account_rated_tv_episodes_200_response_results_inner.account_rated_tv_episodes_200_response_results_inner(
+                    tmdb_client.models.account_rated_tv_episodes_200_response_results_inner.account_rated_tv_episodes_200_response_results_inner(
                         air_date = '2013-10-17', 
                         episode_number = 5, 
                         id = 64782, 

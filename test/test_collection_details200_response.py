@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.collection_details200_response import CollectionDetails200Response
+from tmdb_client.models.collection_details200_response import CollectionDetails200Response
 
 class TestCollectionDetails200Response(unittest.TestCase):
     """CollectionDetails200Response unit test stubs"""
@@ -41,7 +41,7 @@ class TestCollectionDetails200Response(unittest.TestCase):
                 poster_path = '/r8Ph5MYXL04Qzu4QBbq2KjqwtkQ.jpg',
                 backdrop_path = '/d8duYyyC9J5T825Hg7grmaabfxQ.jpg',
                 parts = [
-                    openapi_client.models.collection_details_200_response_parts_inner.collection_details_200_response_parts_inner(
+                    tmdb_client.models.collection_details_200_response_parts_inner.collection_details_200_response_parts_inner(
                         adult = False, 
                         backdrop_path = '/2w4xG178RpB4MDAIfTkqAuSJzec.jpg', 
                         id = 11, 

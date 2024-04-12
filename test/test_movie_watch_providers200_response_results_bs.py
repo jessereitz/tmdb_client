@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_watch_providers200_response_results_bs import MovieWatchProviders200ResponseResultsBS
+from tmdb_client.models.movie_watch_providers200_response_results_bs import MovieWatchProviders200ResponseResultsBS
 
 class TestMovieWatchProviders200ResponseResultsBS(unittest.TestCase):
     """MovieWatchProviders200ResponseResultsBS unit test stubs"""
@@ -37,7 +37,7 @@ class TestMovieWatchProviders200ResponseResultsBS(unittest.TestCase):
             return MovieWatchProviders200ResponseResultsBS(
                 link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=BS',
                 flatrate = [
-                    openapi_client.models.movie_watch_providers_200_response_results_bb_flatrate_inner.movie_watch_providers_200_response_results_BB_flatrate_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_bb_flatrate_inner.movie_watch_providers_200_response_results_BB_flatrate_inner(
                         logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                         provider_id = 384, 
                         provider_name = 'HBO Max', 

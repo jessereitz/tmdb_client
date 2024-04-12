@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_aggregate_credits200_response_crew_inner import TvSeriesAggregateCredits200ResponseCrewInner
+from tmdb_client.models.tv_series_aggregate_credits200_response_crew_inner import TvSeriesAggregateCredits200ResponseCrewInner
 
 class TestTvSeriesAggregateCredits200ResponseCrewInner(unittest.TestCase):
     """TvSeriesAggregateCredits200ResponseCrewInner unit test stubs"""
@@ -44,7 +44,7 @@ class TestTvSeriesAggregateCredits200ResponseCrewInner(unittest.TestCase):
                 popularity = 1.4,
                 profile_path = '/cjhADpqdrnwB1PdDUKaBnWrIj2Q.jpg',
                 jobs = [
-                    openapi_client.models.tv_series_aggregate_credits_200_response_crew_inner_jobs_inner.tv_series_aggregate_credits_200_response_crew_inner_jobs_inner(
+                    tmdb_client.models.tv_series_aggregate_credits_200_response_crew_inner_jobs_inner.tv_series_aggregate_credits_200_response_crew_inner_jobs_inner(
                         credit_id = '54eee9e5c3a3686d5800584e', 
                         job = 'Production Design', 
                         episode_count = 43, )

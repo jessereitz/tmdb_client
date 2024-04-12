@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.details_copy200_response_results_inner import DetailsCopy200ResponseResultsInner
+from tmdb_client.models.details_copy200_response_results_inner import DetailsCopy200ResponseResultsInner
 
 class TestDetailsCopy200ResponseResultsInner(unittest.TestCase):
     """DetailsCopy200ResponseResultsInner unit test stubs"""

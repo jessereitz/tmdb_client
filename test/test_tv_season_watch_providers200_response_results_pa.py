@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_season_watch_providers200_response_results_pa import TvSeasonWatchProviders200ResponseResultsPA
+from tmdb_client.models.tv_season_watch_providers200_response_results_pa import TvSeasonWatchProviders200ResponseResultsPA
 
 class TestTvSeasonWatchProviders200ResponseResultsPA(unittest.TestCase):
     """TvSeasonWatchProviders200ResponseResultsPA unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvSeasonWatchProviders200ResponseResultsPA(unittest.TestCase):
             return TvSeasonWatchProviders200ResponseResultsPA(
                 link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=PA',
                 flatrate = [
-                    openapi_client.models.movie_watch_providers_200_response_results_jm_flatrate_inner.movie_watch_providers_200_response_results_JM_flatrate_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_jm_flatrate_inner.movie_watch_providers_200_response_results_JM_flatrate_inner(
                         logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                         provider_id = 384, 
                         provider_name = 'HBO Max', 

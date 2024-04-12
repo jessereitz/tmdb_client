@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.account_watchlist_movies200_response_results_inner import AccountWatchlistMovies200ResponseResultsInner
+from tmdb_client.models.account_watchlist_movies200_response_results_inner import AccountWatchlistMovies200ResponseResultsInner
 
 class TestAccountWatchlistMovies200ResponseResultsInner(unittest.TestCase):
     """AccountWatchlistMovies200ResponseResultsInner unit test stubs"""

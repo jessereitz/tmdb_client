@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_screened_theatrically200_response_results_inner import TvSeriesScreenedTheatrically200ResponseResultsInner
+from tmdb_client.models.tv_series_screened_theatrically200_response_results_inner import TvSeriesScreenedTheatrically200ResponseResultsInner
 
 class TestTvSeriesScreenedTheatrically200ResponseResultsInner(unittest.TestCase):
     """TvSeriesScreenedTheatrically200ResponseResultsInner unit test stubs"""

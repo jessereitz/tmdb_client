@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_season_images200_response_posters_inner import TvSeasonImages200ResponsePostersInner
+from tmdb_client.models.tv_season_images200_response_posters_inner import TvSeasonImages200ResponsePostersInner
 
 class TestTvSeasonImages200ResponsePostersInner(unittest.TestCase):
     """TvSeasonImages200ResponsePostersInner unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_watch_providers200_response_results_ug import TvSeriesWatchProviders200ResponseResultsUG
+from tmdb_client.models.tv_series_watch_providers200_response_results_ug import TvSeriesWatchProviders200ResponseResultsUG
 
 class TestTvSeriesWatchProviders200ResponseResultsUG(unittest.TestCase):
     """TvSeriesWatchProviders200ResponseResultsUG unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvSeriesWatchProviders200ResponseResultsUG(unittest.TestCase):
             return TvSeriesWatchProviders200ResponseResultsUG(
                 link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/watch?locale=UG',
                 flatrate = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_ke_flatrate_inner.tv_series_watch_providers_200_response_results_KE_flatrate_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_ke_flatrate_inner.tv_series_watch_providers_200_response_results_KE_flatrate_inner(
                         logo_path = '/okiQZMXnqwv0aD3QDYmu5DBNLce.jpg', 
                         provider_id = 55, 
                         provider_name = 'ShowMax', 

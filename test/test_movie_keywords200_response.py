@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_keywords200_response import MovieKeywords200Response
+from tmdb_client.models.movie_keywords200_response import MovieKeywords200Response
 
 class TestMovieKeywords200Response(unittest.TestCase):
     """MovieKeywords200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestMovieKeywords200Response(unittest.TestCase):
             return MovieKeywords200Response(
                 id = 550,
                 keywords = [
-                    openapi_client.models.movie_keywords_200_response_keywords_inner.movie_keywords_200_response_keywords_inner(
+                    tmdb_client.models.movie_keywords_200_response_keywords_inner.movie_keywords_200_response_keywords_inner(
                         id = 818, 
                         name = 'based on novel or book', )
                     ]

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_season_account_states200_response_results_inner import TvSeasonAccountStates200ResponseResultsInner
+from tmdb_client.models.tv_season_account_states200_response_results_inner import TvSeasonAccountStates200ResponseResultsInner
 
 class TestTvSeasonAccountStates200ResponseResultsInner(unittest.TestCase):
     """TvSeasonAccountStates200ResponseResultsInner unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvSeasonAccountStates200ResponseResultsInner(unittest.TestCase):
             return TvSeasonAccountStates200ResponseResultsInner(
                 id = 63056,
                 episode_number = 1,
-                rated = openapi_client.models.movie_account_states_200_response_rated.movie_account_states_200_response_rated(
+                rated = tmdb_client.models.movie_account_states_200_response_rated.movie_account_states_200_response_rated(
                     value = 9, )
             )
         else:

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_now_playing_list200_response import MovieNowPlayingList200Response
+from tmdb_client.models.movie_now_playing_list200_response import MovieNowPlayingList200Response
 
 class TestMovieNowPlayingList200Response(unittest.TestCase):
     """MovieNowPlayingList200Response unit test stubs"""
@@ -35,12 +35,12 @@ class TestMovieNowPlayingList200Response(unittest.TestCase):
         model = MovieNowPlayingList200Response()
         if include_optional:
             return MovieNowPlayingList200Response(
-                dates = openapi_client.models.movie_now_playing_list_200_response_dates.movie_now_playing_list_200_response_dates(
+                dates = tmdb_client.models.movie_now_playing_list_200_response_dates.movie_now_playing_list_200_response_dates(
                     maximum = '2023-05-03', 
                     minimum = '2023-03-16', ),
                 page = 1,
                 results = [
-                    openapi_client.models.movie_now_playing_list_200_response_results_inner.movie_now_playing_list_200_response_results_inner(
+                    tmdb_client.models.movie_now_playing_list_200_response_results_inner.movie_now_playing_list_200_response_results_inner(
                         adult = False, 
                         backdrop_path = '/iJQIbOPm81fPEGKt5BPuZmfnA54.jpg', 
                         genre_ids = [

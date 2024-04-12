@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_watch_providers200_response_results_tr import TvSeriesWatchProviders200ResponseResultsTR
+from tmdb_client.models.tv_series_watch_providers200_response_results_tr import TvSeriesWatchProviders200ResponseResultsTR
 
 class TestTvSeriesWatchProviders200ResponseResultsTR(unittest.TestCase):
     """TvSeriesWatchProviders200ResponseResultsTR unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvSeriesWatchProviders200ResponseResultsTR(unittest.TestCase):
             return TvSeriesWatchProviders200ResponseResultsTR(
                 link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/watch?locale=TR',
                 flatrate = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_tr_flatrate_inner.tv_series_watch_providers_200_response_results_TR_flatrate_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_tr_flatrate_inner.tv_series_watch_providers_200_response_results_TR_flatrate_inner(
                         logo_path = '/z3XAGCCbDD3KTZFvc96Ytr3XR56.jpg', 
                         provider_id = 341, 
                         provider_name = 'blutv', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.authentication_validate_key200_response import AuthenticationValidateKey200Response
+from tmdb_client.models.authentication_validate_key200_response import AuthenticationValidateKey200Response
 
 class TestAuthenticationValidateKey200Response(unittest.TestCase):
     """AuthenticationValidateKey200Response unit test stubs"""

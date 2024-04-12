@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.company_images200_response_logos_inner import CompanyImages200ResponseLogosInner
+from tmdb_client.models.company_images200_response_logos_inner import CompanyImages200ResponseLogosInner
 
 class TestCompanyImages200ResponseLogosInner(unittest.TestCase):
     """CompanyImages200ResponseLogosInner unit test stubs"""

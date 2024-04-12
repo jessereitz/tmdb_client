@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.person_images200_response import PersonImages200Response
+from tmdb_client.models.person_images200_response import PersonImages200Response
 
 class TestPersonImages200Response(unittest.TestCase):
     """PersonImages200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestPersonImages200Response(unittest.TestCase):
             return PersonImages200Response(
                 id = 287,
                 profiles = [
-                    openapi_client.models.person_images_200_response_profiles_inner.person_images_200_response_profiles_inner(
+                    tmdb_client.models.person_images_200_response_profiles_inner.person_images_200_response_profiles_inner(
                         aspect_ratio = 0.666, 
                         height = 980, 
                         iso_639_1 = null, 

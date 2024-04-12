@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.person_changes200_response_changes_inner_items_inner import PersonChanges200ResponseChangesInnerItemsInner
+from tmdb_client.models.person_changes200_response_changes_inner_items_inner import PersonChanges200ResponseChangesInnerItemsInner
 
 class TestPersonChanges200ResponseChangesInnerItemsInner(unittest.TestCase):
     """PersonChanges200ResponseChangesInnerItemsInner unit test stubs"""

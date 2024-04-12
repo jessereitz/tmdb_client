@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_changes200_response_changes_inner_items_inner_value import MovieChanges200ResponseChangesInnerItemsInnerValue
+from tmdb_client.models.movie_changes200_response_changes_inner_items_inner_value import MovieChanges200ResponseChangesInnerItemsInnerValue
 
 class TestMovieChanges200ResponseChangesInnerItemsInnerValue(unittest.TestCase):
     """MovieChanges200ResponseChangesInnerItemsInnerValue unit test stubs"""
@@ -35,7 +35,7 @@ class TestMovieChanges200ResponseChangesInnerItemsInnerValue(unittest.TestCase):
         model = MovieChanges200ResponseChangesInnerItemsInnerValue()
         if include_optional:
             return MovieChanges200ResponseChangesInnerItemsInnerValue(
-                poster = openapi_client.models.movie_changes_200_response_changes_inner_items_inner_value_poster.movie_changes_200_response_changes_inner_items_inner_value_poster(
+                poster = tmdb_client.models.movie_changes_200_response_changes_inner_items_inner_value_poster.movie_changes_200_response_changes_inner_items_inner_value_poster(
                     file_path = '/s9ZrHprviFCx3azfWNBtt1LPSnL.jpg', )
             )
         else:

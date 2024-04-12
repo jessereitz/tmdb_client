@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_details200_response_production_countries_inner import TvSeriesDetails200ResponseProductionCountriesInner
+from tmdb_client.models.tv_series_details200_response_production_countries_inner import TvSeriesDetails200ResponseProductionCountriesInner
 
 class TestTvSeriesDetails200ResponseProductionCountriesInner(unittest.TestCase):
     """TvSeriesDetails200ResponseProductionCountriesInner unit test stubs"""

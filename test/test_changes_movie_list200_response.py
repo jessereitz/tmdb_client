@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.changes_movie_list200_response import ChangesMovieList200Response
+from tmdb_client.models.changes_movie_list200_response import ChangesMovieList200Response
 
 class TestChangesMovieList200Response(unittest.TestCase):
     """ChangesMovieList200Response unit test stubs"""
@@ -36,7 +36,7 @@ class TestChangesMovieList200Response(unittest.TestCase):
         if include_optional:
             return ChangesMovieList200Response(
                 results = [
-                    openapi_client.models.changes_movie_list_200_response_results_inner.changes_movie_list_200_response_results_inner(
+                    tmdb_client.models.changes_movie_list_200_response_results_inner.changes_movie_list_200_response_results_inner(
                         id = 1120293, 
                         adult = False, )
                     ],

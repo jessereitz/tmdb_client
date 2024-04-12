@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.configuration_details200_response import ConfigurationDetails200Response
+from tmdb_client.models.configuration_details200_response import ConfigurationDetails200Response
 
 class TestConfigurationDetails200Response(unittest.TestCase):
     """ConfigurationDetails200Response unit test stubs"""
@@ -35,7 +35,7 @@ class TestConfigurationDetails200Response(unittest.TestCase):
         model = ConfigurationDetails200Response()
         if include_optional:
             return ConfigurationDetails200Response(
-                images = openapi_client.models.configuration_details_200_response_images.configuration_details_200_response_images(
+                images = tmdb_client.models.configuration_details_200_response_images.configuration_details_200_response_images(
                     base_url = 'http://image.tmdb.org/t/p/', 
                     secure_base_url = 'https://image.tmdb.org/t/p/', 
                     backdrop_sizes = [

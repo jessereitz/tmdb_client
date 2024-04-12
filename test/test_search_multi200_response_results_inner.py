@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.search_multi200_response_results_inner import SearchMulti200ResponseResultsInner
+from tmdb_client.models.search_multi200_response_results_inner import SearchMulti200ResponseResultsInner
 
 class TestSearchMulti200ResponseResultsInner(unittest.TestCase):
     """SearchMulti200ResponseResultsInner unit test stubs"""

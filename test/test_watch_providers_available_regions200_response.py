@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.watch_providers_available_regions200_response import WatchProvidersAvailableRegions200Response
+from tmdb_client.models.watch_providers_available_regions200_response import WatchProvidersAvailableRegions200Response
 
 class TestWatchProvidersAvailableRegions200Response(unittest.TestCase):
     """WatchProvidersAvailableRegions200Response unit test stubs"""
@@ -36,7 +36,7 @@ class TestWatchProvidersAvailableRegions200Response(unittest.TestCase):
         if include_optional:
             return WatchProvidersAvailableRegions200Response(
                 results = [
-                    openapi_client.models.watch_providers_available_regions_200_response_results_inner.watch_providers_available_regions_200_response_results_inner(
+                    tmdb_client.models.watch_providers_available_regions_200_response_results_inner.watch_providers_available_regions_200_response_results_inner(
                         iso_3166_1 = 'AD', 
                         english_name = 'Andorra', 
                         native_name = 'Andorra', )

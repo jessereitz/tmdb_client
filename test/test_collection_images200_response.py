@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.collection_images200_response import CollectionImages200Response
+from tmdb_client.models.collection_images200_response import CollectionImages200Response
 
 class TestCollectionImages200Response(unittest.TestCase):
     """CollectionImages200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestCollectionImages200Response(unittest.TestCase):
             return CollectionImages200Response(
                 id = 10,
                 backdrops = [
-                    openapi_client.models.collection_images_200_response_backdrops_inner.collection_images_200_response_backdrops_inner(
+                    tmdb_client.models.collection_images_200_response_backdrops_inner.collection_images_200_response_backdrops_inner(
                         aspect_ratio = 1.778, 
                         height = 1080, 
                         iso_639_1 = null, 
@@ -47,7 +47,7 @@ class TestCollectionImages200Response(unittest.TestCase):
                         width = 1920, )
                     ],
                 posters = [
-                    openapi_client.models.collection_images_200_response_posters_inner.collection_images_200_response_posters_inner(
+                    tmdb_client.models.collection_images_200_response_posters_inner.collection_images_200_response_posters_inner(
                         aspect_ratio = 0.667, 
                         height = 3000, 
                         iso_639_1 = 'en', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.list_check_item_status200_response import ListCheckItemStatus200Response
+from tmdb_client.models.list_check_item_status200_response import ListCheckItemStatus200Response
 
 class TestListCheckItemStatus200Response(unittest.TestCase):
     """ListCheckItemStatus200Response unit test stubs"""

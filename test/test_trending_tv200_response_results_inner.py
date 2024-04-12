@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.trending_tv200_response_results_inner import TrendingTv200ResponseResultsInner
+from tmdb_client.models.trending_tv200_response_results_inner import TrendingTv200ResponseResultsInner
 
 class TestTrendingTv200ResponseResultsInner(unittest.TestCase):
     """TrendingTv200ResponseResultsInner unit test stubs"""

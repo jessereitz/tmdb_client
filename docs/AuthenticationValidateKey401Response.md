@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.authentication_validate_key401_response import AuthenticationValidateKey401Response
+from tmdb_client.models.authentication_validate_key401_response import AuthenticationValidateKey401Response
 
 # TODO update the JSON string below
 json = "{}"

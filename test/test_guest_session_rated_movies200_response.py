@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.guest_session_rated_movies200_response import GuestSessionRatedMovies200Response
+from tmdb_client.models.guest_session_rated_movies200_response import GuestSessionRatedMovies200Response
 
 class TestGuestSessionRatedMovies200Response(unittest.TestCase):
     """GuestSessionRatedMovies200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestGuestSessionRatedMovies200Response(unittest.TestCase):
             return GuestSessionRatedMovies200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.guest_session_rated_movies_200_response_results_inner.guest_session_rated_movies_200_response_results_inner(
+                    tmdb_client.models.guest_session_rated_movies_200_response_results_inner.guest_session_rated_movies_200_response_results_inner(
                         adult = False, 
                         backdrop_path = '/ikR2qy9xJCHX7M8i5rcvuNfdYXs.jpg', 
                         genre_ids = [

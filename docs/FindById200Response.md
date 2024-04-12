@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.find_by_id200_response import FindById200Response
+from tmdb_client.models.find_by_id200_response import FindById200Response
 
 # TODO update the JSON string below
 json = "{}"

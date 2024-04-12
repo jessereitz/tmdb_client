@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_episode_credits200_response import TvEpisodeCredits200Response
+from tmdb_client.models.tv_episode_credits200_response import TvEpisodeCredits200Response
 
 class TestTvEpisodeCredits200Response(unittest.TestCase):
     """TvEpisodeCredits200Response unit test stubs"""
@@ -36,7 +36,7 @@ class TestTvEpisodeCredits200Response(unittest.TestCase):
         if include_optional:
             return TvEpisodeCredits200Response(
                 cast = [
-                    openapi_client.models.tv_series_credits_200_response_cast_inner.tv_series_credits_200_response_cast_inner(
+                    tmdb_client.models.tv_series_credits_200_response_cast_inner.tv_series_credits_200_response_cast_inner(
                         adult = False, 
                         gender = 2, 
                         id = 22970, 
@@ -50,7 +50,7 @@ class TestTvEpisodeCredits200Response(unittest.TestCase):
                         order = 0, )
                     ],
                 crew = [
-                    openapi_client.models.tv_episode_credits_200_response_crew_inner.tv_episode_credits_200_response_crew_inner(
+                    tmdb_client.models.tv_episode_credits_200_response_crew_inner.tv_episode_credits_200_response_crew_inner(
                         department = 'Directing', 
                         job = 'Director', 
                         credit_id = '5256c8a219c2956ff6046e77', 
@@ -64,7 +64,7 @@ class TestTvEpisodeCredits200Response(unittest.TestCase):
                         profile_path = '/MzSOFrd99HRdr6pkSRSctk3kBR.jpg', )
                     ],
                 guest_stars = [
-                    openapi_client.models.tv_episode_credits_200_response_guest_stars_inner.tv_episode_credits_200_response_guest_stars_inner(
+                    tmdb_client.models.tv_episode_credits_200_response_guest_stars_inner.tv_episode_credits_200_response_guest_stars_inner(
                         character = 'Benjen Stark', 
                         credit_id = '5256c8b919c2956ff604836a', 
                         order = 62, 

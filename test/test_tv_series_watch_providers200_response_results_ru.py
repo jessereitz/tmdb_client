@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_watch_providers200_response_results_ru import TvSeriesWatchProviders200ResponseResultsRU
+from tmdb_client.models.tv_series_watch_providers200_response_results_ru import TvSeriesWatchProviders200ResponseResultsRU
 
 class TestTvSeriesWatchProviders200ResponseResultsRU(unittest.TestCase):
     """TvSeriesWatchProviders200ResponseResultsRU unit test stubs"""
@@ -37,14 +37,14 @@ class TestTvSeriesWatchProviders200ResponseResultsRU(unittest.TestCase):
             return TvSeriesWatchProviders200ResponseResultsRU(
                 link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/watch?locale=RU',
                 flatrate = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_ru_flatrate_inner.tv_series_watch_providers_200_response_results_RU_flatrate_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_ru_flatrate_inner.tv_series_watch_providers_200_response_results_RU_flatrate_inner(
                         logo_path = '/w1T8s7FqakcfucR8cgOvbe6UeXN.jpg', 
                         provider_id = 115, 
                         provider_name = 'Okko', 
                         display_priority = 0, )
                     ],
                 ads = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_ru_ads_inner.tv_series_watch_providers_200_response_results_RU_ads_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_ru_ads_inner.tv_series_watch_providers_200_response_results_RU_ads_inner(
                         logo_path = '/3jJtMOIwtvcrCyeRMUvv4wsfhJk.jpg', 
                         provider_id = 577, 
                         provider_name = 'TvIgle', 

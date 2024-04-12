@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.account_details200_response import AccountDetails200Response
+from tmdb_client.models.account_details200_response import AccountDetails200Response
 
 class TestAccountDetails200Response(unittest.TestCase):
     """AccountDetails200Response unit test stubs"""
@@ -35,10 +35,10 @@ class TestAccountDetails200Response(unittest.TestCase):
         model = AccountDetails200Response()
         if include_optional:
             return AccountDetails200Response(
-                avatar = openapi_client.models.account_details_200_response_avatar.account_details_200_response_avatar(
-                    gravatar = openapi_client.models.account_details_200_response_avatar_gravatar.account_details_200_response_avatar_gravatar(
+                avatar = tmdb_client.models.account_details_200_response_avatar.account_details_200_response_avatar(
+                    gravatar = tmdb_client.models.account_details_200_response_avatar_gravatar.account_details_200_response_avatar_gravatar(
                         hash = 'c9e9fc152ee756a900db85757c29815d', ), 
-                    tmdb = openapi_client.models.account_details_200_response_avatar_tmdb.account_details_200_response_avatar_tmdb(
+                    tmdb = tmdb_client.models.account_details_200_response_avatar_tmdb.account_details_200_response_avatar_tmdb(
                         avatar_path = '/xy44UvpbTgzs9kWmp4C3fEaCl5h.png', ), ),
                 id = 548,
                 iso_639_1 = 'en',

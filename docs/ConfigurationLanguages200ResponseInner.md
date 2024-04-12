@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.configuration_languages200_response_inner import ConfigurationLanguages200ResponseInner
+from tmdb_client.models.configuration_languages200_response_inner import ConfigurationLanguages200ResponseInner
 
 # TODO update the JSON string below
 json = "{}"

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.changes_people_list200_response import ChangesPeopleList200Response
+from tmdb_client.models.changes_people_list200_response import ChangesPeopleList200Response
 
 class TestChangesPeopleList200Response(unittest.TestCase):
     """ChangesPeopleList200Response unit test stubs"""
@@ -36,7 +36,7 @@ class TestChangesPeopleList200Response(unittest.TestCase):
         if include_optional:
             return ChangesPeopleList200Response(
                 results = [
-                    openapi_client.models.changes_people_list_200_response_results_inner.changes_people_list_200_response_results_inner(
+                    tmdb_client.models.changes_people_list_200_response_results_inner.changes_people_list_200_response_results_inner(
                         id = 4037513, 
                         adult = False, )
                     ],

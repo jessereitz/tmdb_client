@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_reviews200_response_results_inner import MovieReviews200ResponseResultsInner
+from tmdb_client.models.movie_reviews200_response_results_inner import MovieReviews200ResponseResultsInner
 
 class TestMovieReviews200ResponseResultsInner(unittest.TestCase):
     """MovieReviews200ResponseResultsInner unit test stubs"""
@@ -36,7 +36,7 @@ class TestMovieReviews200ResponseResultsInner(unittest.TestCase):
         if include_optional:
             return MovieReviews200ResponseResultsInner(
                 author = 'Goddard',
-                author_details = openapi_client.models.movie_reviews_200_response_results_inner_author_details.movie_reviews_200_response_results_inner_author_details(
+                author_details = tmdb_client.models.movie_reviews_200_response_results_inner_author_details.movie_reviews_200_response_results_inner_author_details(
                     name = '', 
                     username = 'Goddard', 
                     avatar_path = '/https://secure.gravatar.com/avatar/f248ec34f953bc62cafcbdd81fddd6b6.jpg', 

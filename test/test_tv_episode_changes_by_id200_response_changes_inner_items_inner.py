@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_episode_changes_by_id200_response_changes_inner_items_inner import TvEpisodeChangesById200ResponseChangesInnerItemsInner
+from tmdb_client.models.tv_episode_changes_by_id200_response_changes_inner_items_inner import TvEpisodeChangesById200ResponseChangesInnerItemsInner
 
 class TestTvEpisodeChangesById200ResponseChangesInnerItemsInner(unittest.TestCase):
     """TvEpisodeChangesById200ResponseChangesInnerItemsInner unit test stubs"""

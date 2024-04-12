@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.account_details200_response_avatar_tmdb import AccountDetails200ResponseAvatarTmdb
+from tmdb_client.models.account_details200_response_avatar_tmdb import AccountDetails200ResponseAvatarTmdb
 
 class TestAccountDetails200ResponseAvatarTmdb(unittest.TestCase):
     """AccountDetails200ResponseAvatarTmdb unit test stubs"""

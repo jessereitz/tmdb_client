@@ -1,4 +1,4 @@
-# openapi_client.DefaultApi
+# tmdb_client.DefaultApi
 
 All URIs are relative to *https://api.themoviedb.org*
 
@@ -170,15 +170,15 @@ Add Favorite
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_add_rating200_response import MovieAddRating200Response
-from openapi_client.models.movie_add_rating_request import MovieAddRatingRequest
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_add_rating200_response import MovieAddRating200Response
+from tmdb_client.models.movie_add_rating_request import MovieAddRatingRequest
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -194,9 +194,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     account_id = 56 # int | 
     session_id = 'session_id_example' # str |  (optional)
     movie_add_rating_request = {"media_type":"movie","media_id":550,"favorite":true} # MovieAddRatingRequest |  (optional)
@@ -254,15 +254,15 @@ Add To Watchlist
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_add_rating200_response import MovieAddRating200Response
-from openapi_client.models.movie_add_rating_request import MovieAddRatingRequest
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_add_rating200_response import MovieAddRating200Response
+from tmdb_client.models.movie_add_rating_request import MovieAddRatingRequest
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -278,9 +278,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     account_id = 56 # int | 
     session_id = 'session_id_example' # str |  (optional)
     movie_add_rating_request = {"media_type":"movie","media_id":11,"watchlist":true} # MovieAddRatingRequest |  (optional)
@@ -338,14 +338,14 @@ Details
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.account_details200_response import AccountDetails200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.account_details200_response import AccountDetails200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -361,9 +361,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     account_id = null # int |  (default to null)
     session_id = 'session_id_example' # str |  (optional)
 
@@ -419,14 +419,14 @@ Favorite TV
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.account_favorite_tv200_response import AccountFavoriteTv200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.account_favorite_tv200_response import AccountFavoriteTv200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -442,9 +442,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     account_id = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
@@ -506,14 +506,14 @@ Favorite Movies
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.account_get_favorites200_response import AccountGetFavorites200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.account_get_favorites200_response import AccountGetFavorites200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -529,9 +529,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     account_id = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
@@ -593,14 +593,14 @@ Lists
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.account_lists200_response import AccountLists200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.account_lists200_response import AccountLists200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -616,9 +616,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     account_id = 56 # int | 
     page = 1 # int |  (optional) (default to 1)
     session_id = 'session_id_example' # str |  (optional)
@@ -676,14 +676,14 @@ Rated Movies
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.account_rated_movies200_response import AccountRatedMovies200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.account_rated_movies200_response import AccountRatedMovies200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -699,9 +699,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     account_id = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
@@ -763,14 +763,14 @@ Rated TV
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.account_rated_tv200_response import AccountRatedTv200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.account_rated_tv200_response import AccountRatedTv200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -786,9 +786,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     account_id = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
@@ -850,14 +850,14 @@ Rated TV Episodes
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.account_rated_tv_episodes200_response import AccountRatedTvEpisodes200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.account_rated_tv_episodes200_response import AccountRatedTvEpisodes200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -873,9 +873,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     account_id = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
@@ -937,14 +937,14 @@ Watchlist Movies
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.account_watchlist_movies200_response import AccountWatchlistMovies200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.account_watchlist_movies200_response import AccountWatchlistMovies200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -960,9 +960,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     account_id = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
@@ -1024,14 +1024,14 @@ Watchlist TV
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.account_watchlist_tv200_response import AccountWatchlistTv200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.account_watchlist_tv200_response import AccountWatchlistTv200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -1047,9 +1047,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     account_id = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
@@ -1111,14 +1111,14 @@ Get the TV network logos by id.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.alternative_names_copy200_response import AlternativeNamesCopy200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.alternative_names_copy200_response import AlternativeNamesCopy200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -1134,9 +1134,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     network_id = 56 # int | 
 
     try:
@@ -1190,14 +1190,14 @@ Create Guest Session
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.authentication_create_guest_session200_response import AuthenticationCreateGuestSession200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.authentication_create_guest_session200_response import AuthenticationCreateGuestSession200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -1213,9 +1213,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
 
     try:
         # Create Guest Session
@@ -1265,14 +1265,14 @@ Create Request Token
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.authentication_create_request_token200_response import AuthenticationCreateRequestToken200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.authentication_create_request_token200_response import AuthenticationCreateRequestToken200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -1288,9 +1288,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
 
     try:
         # Create Request Token
@@ -1340,15 +1340,15 @@ Create Session
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.authentication_create_session200_response import AuthenticationCreateSession200Response
-from openapi_client.models.movie_add_rating_request import MovieAddRatingRequest
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.authentication_create_session200_response import AuthenticationCreateSession200Response
+from tmdb_client.models.movie_add_rating_request import MovieAddRatingRequest
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -1364,9 +1364,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     movie_add_rating_request = {"request_token":"6bc047b88f669d1fb86574f06381005d93d3517a"} # MovieAddRatingRequest |  (optional)
 
     try:
@@ -1420,15 +1420,15 @@ This method allows an application to validate a request token by entering a user
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.authentication_create_session_from_login200_response import AuthenticationCreateSessionFromLogin200Response
-from openapi_client.models.movie_add_rating_request import MovieAddRatingRequest
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.authentication_create_session_from_login200_response import AuthenticationCreateSessionFromLogin200Response
+from tmdb_client.models.movie_add_rating_request import MovieAddRatingRequest
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -1444,9 +1444,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     movie_add_rating_request = {"username":"johnny_appleseed","password":"test123","request_token":"1531f1a558c8357ce8990cf887ff196e8f5402ec"} # MovieAddRatingRequest |  (optional)
 
     try:
@@ -1500,15 +1500,15 @@ Create Session (from v4 token)
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.authentication_create_session_from_v4_token200_response import AuthenticationCreateSessionFromV4Token200Response
-from openapi_client.models.movie_add_rating_request import MovieAddRatingRequest
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.authentication_create_session_from_v4_token200_response import AuthenticationCreateSessionFromV4Token200Response
+from tmdb_client.models.movie_add_rating_request import MovieAddRatingRequest
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -1524,9 +1524,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     movie_add_rating_request = {"access_token":"eyK0eXAiOiJAV1QiLCJhbGciOiUIUzI1NiJ9.eyJhdWQiOiI0Ozc2YzA1ZTg4YTY1Yzk0MjFjZDI1NmBiYzRiNGE0NyIsInN1YiI6IjRiYzg4OTJhMDE3YTNjMGY5MjAwMDAwMiIsInNjb3BlayI6WyJhcGlfcmVhZCJdLCL2ZXJzaW9uIjoxfQ.Bn660W0Vi-_AI5HvwIEqtc2s5mAXDknBnTrUREZYH7A"} # MovieAddRatingRequest |  (optional)
 
     try:
@@ -1580,15 +1580,15 @@ Delete Session
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.authentication_delete_session200_response import AuthenticationDeleteSession200Response
-from openapi_client.models.movie_add_rating_request import MovieAddRatingRequest
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.authentication_delete_session200_response import AuthenticationDeleteSession200Response
+from tmdb_client.models.movie_add_rating_request import MovieAddRatingRequest
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -1604,9 +1604,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     movie_add_rating_request = {"session_id":"2629f70fb498edc263a0adb99118ac41f0053e8c"} # MovieAddRatingRequest |  (optional)
 
     try:
@@ -1660,14 +1660,14 @@ Test your API Key to see if it's valid.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.authentication_validate_key200_response import AuthenticationValidateKey200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.authentication_validate_key200_response import AuthenticationValidateKey200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -1683,9 +1683,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
 
     try:
         # Validate Key
@@ -1736,14 +1736,14 @@ Get an up to date list of the officially supported movie certifications on TMDB.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.certification_movie_list200_response import CertificationMovieList200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.certification_movie_list200_response import CertificationMovieList200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -1759,9 +1759,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
 
     try:
         # Movie Certifications
@@ -1811,14 +1811,14 @@ TV Certifications
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.certifications_tv_list200_response import CertificationsTvList200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.certifications_tv_list200_response import CertificationsTvList200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -1834,9 +1834,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
 
     try:
         # TV Certifications
@@ -1886,14 +1886,14 @@ Get a list of all of the movie ids that have been changed in the past 24 hours.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.changes_movie_list200_response import ChangesMovieList200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.changes_movie_list200_response import ChangesMovieList200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -1909,9 +1909,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     end_date = '2013-10-20' # date |  (optional)
     page = 1 # int |  (optional) (default to 1)
     start_date = '2013-10-20' # date |  (optional)
@@ -1969,14 +1969,14 @@ People List
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.changes_people_list200_response import ChangesPeopleList200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.changes_people_list200_response import ChangesPeopleList200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -1992,9 +1992,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     end_date = '2013-10-20' # date |  (optional)
     page = 1 # int |  (optional) (default to 1)
     start_date = '2013-10-20' # date |  (optional)
@@ -2052,14 +2052,14 @@ TV List
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.changes_tv_list200_response import ChangesTvList200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.changes_tv_list200_response import ChangesTvList200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -2075,9 +2075,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     end_date = '2013-10-20' # date |  (optional)
     page = 1 # int |  (optional) (default to 1)
     start_date = '2013-10-20' # date |  (optional)
@@ -2135,14 +2135,14 @@ Get collection details by ID.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.collection_details200_response import CollectionDetails200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.collection_details200_response import CollectionDetails200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -2158,9 +2158,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     collection_id = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
 
@@ -2216,14 +2216,14 @@ Get the images that belong to a collection.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.collection_images200_response import CollectionImages200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.collection_images200_response import CollectionImages200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -2239,9 +2239,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     collection_id = 56 # int | 
     include_image_language = 'include_image_language_example' # str | specify a comma separated list of ISO-639-1 values to query, for example: `en,null` (optional)
     language = 'language_example' # str |  (optional)
@@ -2299,14 +2299,14 @@ Translations
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.collection_translations200_response import CollectionTranslations200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.collection_translations200_response import CollectionTranslations200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -2322,9 +2322,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     collection_id = 56 # int | 
 
     try:
@@ -2378,14 +2378,14 @@ Get the company details by ID.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.company_alternative_names200_response import CompanyAlternativeNames200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.company_alternative_names200_response import CompanyAlternativeNames200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -2401,9 +2401,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     company_id = 56 # int | 
 
     try:
@@ -2457,14 +2457,14 @@ Get the company details by ID.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.company_details200_response import CompanyDetails200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.company_details200_response import CompanyDetails200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -2480,9 +2480,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     company_id = 56 # int | 
 
     try:
@@ -2536,14 +2536,14 @@ Get the company logos by id.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.company_images200_response import CompanyImages200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.company_images200_response import CompanyImages200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -2559,9 +2559,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     company_id = 56 # int | 
 
     try:
@@ -2615,14 +2615,14 @@ Get the list of countries (ISO 3166-1 tags) used throughout TMDB.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.watch_providers_available_regions200_response_results_inner import WatchProvidersAvailableRegions200ResponseResultsInner
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.watch_providers_available_regions200_response_results_inner import WatchProvidersAvailableRegions200ResponseResultsInner
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -2638,9 +2638,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     language = 'en-US' # str |  (optional) (default to 'en-US')
 
     try:
@@ -2694,14 +2694,14 @@ Query the API configuration details.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.configuration_details200_response import ConfigurationDetails200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.configuration_details200_response import ConfigurationDetails200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -2717,9 +2717,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
 
     try:
         # Details
@@ -2769,14 +2769,14 @@ Get the list of the jobs and departments we use on TMDB.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.configuration_jobs200_response_inner import ConfigurationJobs200ResponseInner
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.configuration_jobs200_response_inner import ConfigurationJobs200ResponseInner
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -2792,9 +2792,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
 
     try:
         # Jobs
@@ -2844,14 +2844,14 @@ Get the list of languages (ISO 639-1 tags) used throughout TMDB.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.configuration_languages200_response_inner import ConfigurationLanguages200ResponseInner
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.configuration_languages200_response_inner import ConfigurationLanguages200ResponseInner
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -2867,9 +2867,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
 
     try:
         # Languages
@@ -2919,13 +2919,13 @@ Get a list of the officially supported translations on TMDB.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -2941,9 +2941,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
 
     try:
         # Primary Translations
@@ -2993,14 +2993,14 @@ Get the list of timezones used throughout TMDB.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.configuration_timezones200_response_inner import ConfigurationTimezones200ResponseInner
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.configuration_timezones200_response_inner import ConfigurationTimezones200ResponseInner
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -3016,9 +3016,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
 
     try:
         # Timezones
@@ -3068,14 +3068,14 @@ Get a movie or TV credit details by ID.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.credit_details200_response import CreditDetails200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.credit_details200_response import CreditDetails200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -3091,9 +3091,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     credit_id = 'credit_id_example' # str | 
 
     try:
@@ -3147,14 +3147,14 @@ Get the alternative names of a network.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.details_copy200_response import DetailsCopy200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.details_copy200_response import DetailsCopy200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -3170,9 +3170,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     network_id = 56 # int | 
 
     try:
@@ -3226,14 +3226,14 @@ Find movies using over 30 filters and sort options.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.discover_movie200_response import DiscoverMovie200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.discover_movie200_response import DiscoverMovie200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -3249,9 +3249,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     certification = 'certification_example' # str | use in conjunction with `region` (optional)
     certification_gte = 'certification_gte_example' # str | use in conjunction with `region` (optional)
     certification_lte = 'certification_lte_example' # str | use in conjunction with `region` (optional)
@@ -3379,14 +3379,14 @@ Find TV shows using over 30 filters and sort options.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.discover_tv200_response import DiscoverTv200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.discover_tv200_response import DiscoverTv200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -3402,9 +3402,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     air_date_gte = '2013-10-20' # date |  (optional)
     air_date_lte = '2013-10-20' # date |  (optional)
     first_air_date_year = 56 # int |  (optional)
@@ -3522,14 +3522,14 @@ Find data by external ID's.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.find_by_id200_response import FindById200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.find_by_id200_response import FindById200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -3545,9 +3545,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     external_id = 'external_id_example' # str | 
     external_source = 'external_source_example' # str | 
     language = 'language_example' # str |  (optional)
@@ -3605,14 +3605,14 @@ Get the list of official genres for movies.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.genre_movie_list200_response import GenreMovieList200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.genre_movie_list200_response import GenreMovieList200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -3628,9 +3628,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     language = 'en' # str |  (optional) (default to 'en')
 
     try:
@@ -3684,14 +3684,14 @@ Get the list of official genres for TV shows.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.genre_tv_list200_response import GenreTvList200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.genre_tv_list200_response import GenreTvList200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -3707,9 +3707,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     language = 'en' # str |  (optional) (default to 'en')
 
     try:
@@ -3763,14 +3763,14 @@ Get the rated movies for a guest session.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.guest_session_rated_movies200_response import GuestSessionRatedMovies200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.guest_session_rated_movies200_response import GuestSessionRatedMovies200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -3786,9 +3786,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     guest_session_id = 'guest_session_id_example' # str | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
@@ -3848,14 +3848,14 @@ Get the rated TV shows for a guest session.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.guest_session_rated_tv200_response import GuestSessionRatedTv200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.guest_session_rated_tv200_response import GuestSessionRatedTv200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -3871,9 +3871,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     guest_session_id = 'guest_session_id_example' # str | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
@@ -3933,14 +3933,14 @@ Get the rated TV episodes for a guest session.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.guest_session_rated_tv_episodes200_response import GuestSessionRatedTvEpisodes200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.guest_session_rated_tv_episodes200_response import GuestSessionRatedTvEpisodes200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -3956,9 +3956,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     guest_session_id = 'guest_session_id_example' # str | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
@@ -4018,14 +4018,14 @@ Details
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.keyword_details200_response import KeywordDetails200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.keyword_details200_response import KeywordDetails200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -4041,9 +4041,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     keyword_id = 56 # int | 
 
     try:
@@ -4097,14 +4097,14 @@ Movies
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.keyword_movies200_response import KeywordMovies200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.keyword_movies200_response import KeywordMovies200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -4120,9 +4120,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     keyword_id = 'keyword_id_example' # str | 
     include_adult = False # bool |  (optional) (default to False)
     language = 'en-US' # str |  (optional) (default to 'en-US')
@@ -4182,15 +4182,15 @@ Add a movie to a list.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.list_add_movie_request import ListAddMovieRequest
-from openapi_client.models.list_delete200_response import ListDelete200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.list_add_movie_request import ListAddMovieRequest
+from tmdb_client.models.list_delete200_response import ListDelete200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -4206,9 +4206,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     list_id = 56 # int | 
     session_id = 'session_id_example' # str | 
     list_add_movie_request = {"media_id":18} # ListAddMovieRequest |  (optional)
@@ -4266,14 +4266,14 @@ Use this method to check if an item has already been added to the list.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.list_check_item_status200_response import ListCheckItemStatus200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.list_check_item_status200_response import ListCheckItemStatus200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -4289,9 +4289,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     list_id = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
     movie_id = 56 # int |  (optional)
@@ -4349,14 +4349,14 @@ Clear all items from a list.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.list_delete200_response import ListDelete200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.list_delete200_response import ListDelete200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -4372,9 +4372,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     list_id = 56 # int | 
     session_id = 'session_id_example' # str | 
     confirm = False # bool |  (default to False)
@@ -4432,15 +4432,15 @@ Create
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.list_create200_response import ListCreate200Response
-from openapi_client.models.movie_add_rating_request import MovieAddRatingRequest
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.list_create200_response import ListCreate200Response
+from tmdb_client.models.movie_add_rating_request import MovieAddRatingRequest
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -4456,9 +4456,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     session_id = 'session_id_example' # str | 
     movie_add_rating_request = {"name":"This is my awesome test list.","description":"Just an awesome list.","language":"en"} # MovieAddRatingRequest |  (optional)
 
@@ -4514,14 +4514,14 @@ Delete a list.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.list_delete200_response import ListDelete200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.list_delete200_response import ListDelete200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -4537,9 +4537,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     list_id = 56 # int | 
     session_id = 'session_id_example' # str | 
 
@@ -4595,14 +4595,14 @@ Details
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.list_details200_response import ListDetails200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.list_details200_response import ListDetails200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -4618,9 +4618,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     list_id = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
@@ -4678,15 +4678,15 @@ Remove a movie from a list.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_add_rating_request import MovieAddRatingRequest
-from openapi_client.models.movie_delete_rating200_response import MovieDeleteRating200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_add_rating_request import MovieAddRatingRequest
+from tmdb_client.models.movie_delete_rating200_response import MovieDeleteRating200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -4702,9 +4702,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     list_id = 56 # int | 
     session_id = 'session_id_example' # str | 
     movie_add_rating_request = {media_id=18} # MovieAddRatingRequest |  (optional)
@@ -4762,14 +4762,14 @@ Get the lists that a TV series has been added to.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.lists_copy200_response import ListsCopy200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.lists_copy200_response import ListsCopy200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -4785,9 +4785,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
@@ -4845,14 +4845,14 @@ Get the rating, watchlist and favourite status of an account.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_account_states200_response import MovieAccountStates200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_account_states200_response import MovieAccountStates200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -4868,9 +4868,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     movie_id = 56 # int | 
     session_id = 'session_id_example' # str |  (optional)
     guest_session_id = 'guest_session_id_example' # str |  (optional)
@@ -4928,15 +4928,15 @@ Rate a movie and save it to your rated list.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_add_rating200_response import MovieAddRating200Response
-from openapi_client.models.movie_add_rating_request import MovieAddRatingRequest
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_add_rating200_response import MovieAddRating200Response
+from tmdb_client.models.movie_add_rating_request import MovieAddRatingRequest
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -4952,9 +4952,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     movie_id = 56 # int | 
     content_type = 'application/json;charset=utf-8' # str |  (default to 'application/json;charset=utf-8')
     guest_session_id = 'guest_session_id_example' # str |  (optional)
@@ -5016,14 +5016,14 @@ Get the alternative titles for a movie.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_alternative_titles200_response import MovieAlternativeTitles200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_alternative_titles200_response import MovieAlternativeTitles200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -5039,9 +5039,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     movie_id = 56 # int | 
     country = 'country_example' # str | specify a ISO-3166-1 value to filter the results (optional)
 
@@ -5097,14 +5097,14 @@ Get the recent changes for a movie.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_changes200_response import MovieChanges200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_changes200_response import MovieChanges200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -5120,9 +5120,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     movie_id = 56 # int | 
     end_date = '2013-10-20' # date |  (optional)
     page = 1 # int |  (optional) (default to 1)
@@ -5182,14 +5182,14 @@ Credits
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_credits200_response import MovieCredits200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_credits200_response import MovieCredits200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -5205,9 +5205,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     movie_id = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
 
@@ -5263,14 +5263,14 @@ Delete a user rating.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_delete_rating200_response import MovieDeleteRating200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_delete_rating200_response import MovieDeleteRating200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -5286,9 +5286,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     movie_id = 56 # int | 
     content_type = 'application/json;charset=utf-8' # str |  (optional) (default to 'application/json;charset=utf-8')
     guest_session_id = 'guest_session_id_example' # str |  (optional)
@@ -5348,14 +5348,14 @@ Get the top level details of a movie by ID.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_details200_response import MovieDetails200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_details200_response import MovieDetails200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -5371,9 +5371,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     movie_id = 56 # int | 
     append_to_response = 'append_to_response_example' # str | comma separated list of endpoints within this namespace, 20 items max (optional)
     language = 'en-US' # str |  (optional) (default to 'en-US')
@@ -5431,14 +5431,14 @@ External IDs
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_external_ids200_response import MovieExternalIds200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_external_ids200_response import MovieExternalIds200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -5454,9 +5454,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     movie_id = 56 # int | 
 
     try:
@@ -5510,14 +5510,14 @@ Get the images that belong to a movie.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_images200_response import MovieImages200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_images200_response import MovieImages200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -5533,9 +5533,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     movie_id = 56 # int | 
     include_image_language = 'include_image_language_example' # str | specify a comma separated list of ISO-639-1 values to query, for example: `en,null` (optional)
     language = 'language_example' # str |  (optional)
@@ -5593,14 +5593,14 @@ Keywords
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_keywords200_response import MovieKeywords200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_keywords200_response import MovieKeywords200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -5616,9 +5616,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     movie_id = 'movie_id_example' # str | 
 
     try:
@@ -5672,14 +5672,14 @@ Get the newest movie ID.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_latest_id200_response import MovieLatestId200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_latest_id200_response import MovieLatestId200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -5695,9 +5695,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
 
     try:
         # Latest
@@ -5747,14 +5747,14 @@ Get the lists that a movie has been added to.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_lists200_response import MovieLists200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_lists200_response import MovieLists200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -5770,9 +5770,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     movie_id = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
@@ -5830,14 +5830,14 @@ Get a list of movies that are currently in theatres.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_now_playing_list200_response import MovieNowPlayingList200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_now_playing_list200_response import MovieNowPlayingList200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -5853,9 +5853,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
     region = 'region_example' # str | ISO-3166-1 code (optional)
@@ -5913,14 +5913,14 @@ Get a list of movies ordered by popularity.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_popular_list200_response import MoviePopularList200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_popular_list200_response import MoviePopularList200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -5936,9 +5936,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
     region = 'region_example' # str | ISO-3166-1 code (optional)
@@ -5996,13 +5996,13 @@ Recommendations
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -6018,9 +6018,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     movie_id = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
@@ -6078,14 +6078,14 @@ Get the release dates and certifications for a movie.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_release_dates200_response import MovieReleaseDates200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_release_dates200_response import MovieReleaseDates200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -6101,9 +6101,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     movie_id = 56 # int | 
 
     try:
@@ -6157,14 +6157,14 @@ Get the user reviews for a movie.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_reviews200_response import MovieReviews200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_reviews200_response import MovieReviews200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -6180,9 +6180,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     movie_id = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
@@ -6240,14 +6240,14 @@ Get the similar movies based on genres and keywords.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_similar200_response import MovieSimilar200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_similar200_response import MovieSimilar200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -6263,9 +6263,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     movie_id = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
@@ -6323,14 +6323,14 @@ Get a list of movies ordered by rating.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_top_rated_list200_response import MovieTopRatedList200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_top_rated_list200_response import MovieTopRatedList200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -6346,9 +6346,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
     region = 'region_example' # str | ISO-3166-1 code (optional)
@@ -6406,14 +6406,14 @@ Get the translations for a movie.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_translations200_response import MovieTranslations200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_translations200_response import MovieTranslations200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -6429,9 +6429,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     movie_id = 56 # int | 
 
     try:
@@ -6485,14 +6485,14 @@ Get a list of movies that are being released soon.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_upcoming_list200_response import MovieUpcomingList200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_upcoming_list200_response import MovieUpcomingList200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -6508,9 +6508,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
     region = 'region_example' # str | ISO-3166-1 code (optional)
@@ -6568,14 +6568,14 @@ Videos
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_videos200_response import MovieVideos200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_videos200_response import MovieVideos200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -6591,9 +6591,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     movie_id = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
 
@@ -6649,14 +6649,14 @@ Get the list of streaming providers we have for a movie.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_watch_providers200_response import MovieWatchProviders200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_watch_providers200_response import MovieWatchProviders200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -6672,9 +6672,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     movie_id = 56 # int | 
 
     try:
@@ -6728,14 +6728,14 @@ Details
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.network_details200_response import NetworkDetails200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.network_details200_response import NetworkDetails200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -6751,9 +6751,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     network_id = 56 # int | 
 
     try:
@@ -6807,14 +6807,14 @@ Get the recent changes for a person.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.person_changes200_response import PersonChanges200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.person_changes200_response import PersonChanges200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -6830,9 +6830,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     person_id = 56 # int | 
     end_date = '2013-10-20' # date |  (optional)
     page = 1 # int |  (optional) (default to 1)
@@ -6892,14 +6892,14 @@ Get the combined movie and TV credits that belong to a person.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.person_combined_credits200_response import PersonCombinedCredits200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.person_combined_credits200_response import PersonCombinedCredits200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -6915,9 +6915,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     person_id = 'person_id_example' # str | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
 
@@ -6973,14 +6973,14 @@ Query the top level details of a person.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.person_details200_response import PersonDetails200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.person_details200_response import PersonDetails200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -6996,9 +6996,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     person_id = 56 # int | 
     append_to_response = 'append_to_response_example' # str | comma separated list of endpoints within this namespace, 20 items max (optional)
     language = 'en-US' # str |  (optional) (default to 'en-US')
@@ -7056,14 +7056,14 @@ Get the external ID's that belong to a person.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.person_external_ids200_response import PersonExternalIds200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.person_external_ids200_response import PersonExternalIds200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -7079,9 +7079,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     person_id = 56 # int | 
 
     try:
@@ -7135,14 +7135,14 @@ Get the profile images that belong to a person.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.person_images200_response import PersonImages200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.person_images200_response import PersonImages200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -7158,9 +7158,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     person_id = 56 # int | 
 
     try:
@@ -7214,14 +7214,14 @@ Get the newest created person. This is a live response and will continuously cha
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.person_latest_id200_response import PersonLatestId200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.person_latest_id200_response import PersonLatestId200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -7237,9 +7237,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
 
     try:
         # Latest
@@ -7289,14 +7289,14 @@ Get the movie credits for a person.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.person_movie_credits200_response import PersonMovieCredits200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.person_movie_credits200_response import PersonMovieCredits200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -7312,9 +7312,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     person_id = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
 
@@ -7370,14 +7370,14 @@ Get a list of people ordered by popularity.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.person_popular_list200_response import PersonPopularList200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.person_popular_list200_response import PersonPopularList200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -7393,9 +7393,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
 
@@ -7451,14 +7451,14 @@ Get the tagged images for a person.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.person_tagged_images200_response import PersonTaggedImages200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.person_tagged_images200_response import PersonTaggedImages200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -7474,9 +7474,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     person_id = 56 # int | 
     page = 1 # int |  (optional) (default to 1)
 
@@ -7532,14 +7532,14 @@ Get the TV credits that belong to a person.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.person_tv_credits200_response import PersonTvCredits200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.person_tv_credits200_response import PersonTvCredits200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -7555,9 +7555,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     person_id = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
 
@@ -7613,14 +7613,14 @@ Retrieve the details of a movie or TV show review.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.review_details200_response import ReviewDetails200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.review_details200_response import ReviewDetails200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -7636,9 +7636,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     review_id = 'review_id_example' # str | 
 
     try:
@@ -7692,14 +7692,14 @@ Search for collections by their original, translated and alternative names.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.search_collection200_response import SearchCollection200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.search_collection200_response import SearchCollection200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -7715,9 +7715,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     query = 'query_example' # str | 
     include_adult = False # bool |  (optional) (default to False)
     language = 'en-US' # str |  (optional) (default to 'en-US')
@@ -7779,14 +7779,14 @@ Search for companies by their original and alternative names.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.search_company200_response import SearchCompany200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.search_company200_response import SearchCompany200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -7802,9 +7802,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     query = 'query_example' # str | 
     page = 1 # int |  (optional) (default to 1)
 
@@ -7860,14 +7860,14 @@ Search for keywords by their name.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.search_keyword200_response import SearchKeyword200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.search_keyword200_response import SearchKeyword200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -7883,9 +7883,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     query = 'query_example' # str | 
     page = 1 # int |  (optional) (default to 1)
 
@@ -7941,14 +7941,14 @@ Search for movies by their original, translated and alternative titles.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.search_movie200_response import SearchMovie200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.search_movie200_response import SearchMovie200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -7964,9 +7964,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     query = 'query_example' # str | 
     include_adult = False # bool |  (optional) (default to False)
     language = 'en-US' # str |  (optional) (default to 'en-US')
@@ -8032,14 +8032,14 @@ Use multi search when you want to search for movies, TV shows and people in a si
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.search_multi200_response import SearchMulti200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.search_multi200_response import SearchMulti200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -8055,9 +8055,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     query = 'query_example' # str | 
     include_adult = False # bool |  (optional) (default to False)
     language = 'en-US' # str |  (optional) (default to 'en-US')
@@ -8117,14 +8117,14 @@ Search for people by their name and also known as names.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.search_person200_response import SearchPerson200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.search_person200_response import SearchPerson200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -8140,9 +8140,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     query = 'query_example' # str | 
     include_adult = False # bool |  (optional) (default to False)
     language = 'en-US' # str |  (optional) (default to 'en-US')
@@ -8202,14 +8202,14 @@ Search for TV shows by their original, translated and also known as names.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.search_tv200_response import SearchTv200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.search_tv200_response import SearchTv200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -8225,9 +8225,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     query = 'query_example' # str | 
     first_air_date_year = 56 # int | Search only the first air date. Valid values are: 1000..9999 (optional)
     include_adult = False # bool |  (optional) (default to False)
@@ -8291,14 +8291,14 @@ Get the translations that belong to a person.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.translations200_response import Translations200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.translations200_response import Translations200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -8314,9 +8314,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     person_id = 56 # int | 
 
     try:
@@ -8370,14 +8370,14 @@ Get the trending movies, TV shows and people.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.trending_all200_response import TrendingAll200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.trending_all200_response import TrendingAll200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -8393,9 +8393,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     time_window = 'day' # str |  (default to 'day')
     language = 'en-US' # str | `ISO-639-1`-`ISO-3166-1` code (optional) (default to 'en-US')
 
@@ -8451,14 +8451,14 @@ Get the trending movies on TMDB.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.trending_all200_response import TrendingAll200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.trending_all200_response import TrendingAll200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -8474,9 +8474,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     time_window = 'day' # str |  (default to 'day')
     language = 'en-US' # str | `ISO-639-1`-`ISO-3166-1` code (optional) (default to 'en-US')
 
@@ -8532,14 +8532,14 @@ Get the trending people on TMDB.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.trending_people200_response import TrendingPeople200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.trending_people200_response import TrendingPeople200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -8555,9 +8555,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     time_window = 'day' # str |  (default to 'day')
     language = 'en-US' # str | `ISO-639-1`-`ISO-3166-1` code (optional) (default to 'en-US')
 
@@ -8613,14 +8613,14 @@ Get the trending TV shows on TMDB.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.trending_tv200_response import TrendingTv200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.trending_tv200_response import TrendingTv200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -8636,9 +8636,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     time_window = 'day' # str |  (default to 'day')
     language = 'en-US' # str | `ISO-639-1`-`ISO-3166-1` code (optional) (default to 'en-US')
 
@@ -8694,14 +8694,14 @@ Get the rating, watchlist and favourite status.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_account_states200_response import MovieAccountStates200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_account_states200_response import MovieAccountStates200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -8717,9 +8717,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     season_number = 56 # int | 
     episode_number = 56 # int | 
@@ -8781,15 +8781,15 @@ Rate a TV episode and save it to your rated list.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_add_rating200_response import MovieAddRating200Response
-from openapi_client.models.movie_add_rating_request import MovieAddRatingRequest
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_add_rating200_response import MovieAddRating200Response
+from tmdb_client.models.movie_add_rating_request import MovieAddRatingRequest
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -8805,9 +8805,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     content_type = 'application/json;charset=utf-8' # str |  (default to 'application/json;charset=utf-8')
     season_number = 56 # int | 
@@ -8873,14 +8873,14 @@ Get the recent changes for a TV episode.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_episode_changes_by_id200_response import TvEpisodeChangesById200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_episode_changes_by_id200_response import TvEpisodeChangesById200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -8896,9 +8896,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     episode_id = 56 # int | 
 
     try:
@@ -8952,14 +8952,14 @@ Credits
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_episode_credits200_response import TvEpisodeCredits200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_episode_credits200_response import TvEpisodeCredits200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -8975,9 +8975,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     season_number = 56 # int | 
     episode_number = 56 # int | 
@@ -9037,14 +9037,14 @@ Delete your rating on a TV episode.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_delete_rating200_response import MovieDeleteRating200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_delete_rating200_response import MovieDeleteRating200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -9060,9 +9060,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     season_number = 56 # int | 
     episode_number = 56 # int | 
@@ -9126,14 +9126,14 @@ Query the details of a TV episode.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_episode_details200_response import TvEpisodeDetails200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_episode_details200_response import TvEpisodeDetails200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -9149,9 +9149,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     season_number = 56 # int | 
     episode_number = 56 # int | 
@@ -9213,14 +9213,14 @@ Get a list of external IDs that have been added to a TV episode.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_episode_external_ids200_response import TvEpisodeExternalIds200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_episode_external_ids200_response import TvEpisodeExternalIds200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -9236,9 +9236,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     season_number = 56 # int | 
     episode_number = 'episode_number_example' # str | 
@@ -9296,14 +9296,14 @@ Get the details of a TV episode group.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_episode_group_details200_response import TvEpisodeGroupDetails200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_episode_group_details200_response import TvEpisodeGroupDetails200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -9319,9 +9319,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     tv_episode_group_id = 'tv_episode_group_id_example' # str | 
 
     try:
@@ -9375,14 +9375,14 @@ Get the images that belong to a TV episode.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_episode_images200_response import TvEpisodeImages200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_episode_images200_response import TvEpisodeImages200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -9398,9 +9398,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     season_number = 56 # int | 
     episode_number = 56 # int | 
@@ -9462,14 +9462,14 @@ Get the translations that have been added to a TV episode.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_episode_translations200_response import TvEpisodeTranslations200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_episode_translations200_response import TvEpisodeTranslations200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -9485,9 +9485,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     season_number = 56 # int | 
     episode_number = 56 # int | 
@@ -9545,14 +9545,14 @@ Get the videos that belong to a TV episode.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_season_videos200_response import TvSeasonVideos200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_season_videos200_response import TvSeasonVideos200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -9568,9 +9568,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     season_number = 56 # int | 
     episode_number = 56 # int | 
@@ -9632,14 +9632,14 @@ Get the rating, watchlist and favourite status.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_season_account_states200_response import TvSeasonAccountStates200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_season_account_states200_response import TvSeasonAccountStates200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -9655,9 +9655,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     season_number = 56 # int | 
     session_id = 'session_id_example' # str |  (optional)
@@ -9717,14 +9717,14 @@ Get the aggregate credits (cast and crew) that have been added to a TV season.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_season_aggregate_credits200_response import TvSeasonAggregateCredits200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_season_aggregate_credits200_response import TvSeasonAggregateCredits200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -9740,9 +9740,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     season_number = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
@@ -9800,14 +9800,14 @@ Get the recent changes for a TV season.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_season_changes_by_id200_response import TvSeasonChangesById200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_season_changes_by_id200_response import TvSeasonChangesById200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -9823,9 +9823,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     season_id = 56 # int | 
     end_date = 'end_date_example' # str |  (optional)
     page = 1 # int |  (optional) (default to 1)
@@ -9885,14 +9885,14 @@ Credits
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_season_credits200_response import TvSeasonCredits200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_season_credits200_response import TvSeasonCredits200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -9908,9 +9908,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     season_number = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
@@ -9968,14 +9968,14 @@ Query the details of a TV season.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_season_details200_response import TvSeasonDetails200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_season_details200_response import TvSeasonDetails200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -9991,9 +9991,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     season_number = 56 # int | 
     append_to_response = 'append_to_response_example' # str | comma separated list of endpoints within this namespace, 20 items max (optional)
@@ -10053,14 +10053,14 @@ Get a list of external IDs that have been added to a TV season.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_season_external_ids200_response import TvSeasonExternalIds200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_season_external_ids200_response import TvSeasonExternalIds200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -10076,9 +10076,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     season_number = 56 # int | 
 
@@ -10134,14 +10134,14 @@ Get the images that belong to a TV season.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_season_images200_response import TvSeasonImages200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_season_images200_response import TvSeasonImages200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -10157,9 +10157,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     season_number = 56 # int | 
     include_image_language = 'include_image_language_example' # str | specify a comma separated list of ISO-639-1 values to query, for example: `en,null` (optional)
@@ -10219,14 +10219,14 @@ Get the translations for a TV season.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_season_translations200_response import TvSeasonTranslations200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_season_translations200_response import TvSeasonTranslations200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -10242,9 +10242,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     season_number = 56 # int | 
 
@@ -10300,14 +10300,14 @@ Get the videos that belong to a TV season.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_season_videos200_response import TvSeasonVideos200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_season_videos200_response import TvSeasonVideos200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -10323,9 +10323,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     season_number = 56 # int | 
     include_video_language = 'include_video_language_example' # str | filter the list results by language, supports more than one value by using a comma (optional)
@@ -10385,14 +10385,14 @@ Get the list of streaming providers we have for a TV season.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_season_watch_providers200_response import TvSeasonWatchProviders200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_season_watch_providers200_response import TvSeasonWatchProviders200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -10408,9 +10408,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     season_number = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
@@ -10468,14 +10468,14 @@ Get the rating, watchlist and favourite status.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_account_states200_response import MovieAccountStates200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_account_states200_response import MovieAccountStates200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -10491,9 +10491,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     session_id = 'session_id_example' # str |  (optional)
     guest_session_id = 'guest_session_id_example' # str |  (optional)
@@ -10551,15 +10551,15 @@ Rate a TV show and save it to your rated list.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_add_rating200_response import MovieAddRating200Response
-from openapi_client.models.movie_add_rating_request import MovieAddRatingRequest
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_add_rating200_response import MovieAddRating200Response
+from tmdb_client.models.movie_add_rating_request import MovieAddRatingRequest
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -10575,9 +10575,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     content_type = 'application/json;charset=utf-8' # str |  (default to 'application/json;charset=utf-8')
     guest_session_id = 'guest_session_id_example' # str |  (optional)
@@ -10639,14 +10639,14 @@ Get the aggregate credits (cast and crew) that have been added to a TV show.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_series_aggregate_credits200_response import TvSeriesAggregateCredits200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_series_aggregate_credits200_response import TvSeriesAggregateCredits200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -10662,9 +10662,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
 
@@ -10720,14 +10720,14 @@ Get a list of TV shows airing today.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_series_airing_today_list200_response import TvSeriesAiringTodayList200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_series_airing_today_list200_response import TvSeriesAiringTodayList200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -10743,9 +10743,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
     timezone = 'timezone_example' # str |  (optional)
@@ -10803,14 +10803,14 @@ Get the alternative titles that have been added to a TV show.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_series_alternative_titles200_response import TvSeriesAlternativeTitles200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_series_alternative_titles200_response import TvSeriesAlternativeTitles200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -10826,9 +10826,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
 
     try:
@@ -10882,14 +10882,14 @@ Get the recent changes for a TV show.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_series_changes200_response import TvSeriesChanges200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_series_changes200_response import TvSeriesChanges200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -10905,9 +10905,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     end_date = 'end_date_example' # str |  (optional)
     page = 1 # int |  (optional) (default to 1)
@@ -10967,14 +10967,14 @@ Get the content ratings that have been added to a TV show.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_series_content_ratings200_response import TvSeriesContentRatings200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_series_content_ratings200_response import TvSeriesContentRatings200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -10990,9 +10990,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
 
     try:
@@ -11046,14 +11046,14 @@ Get the latest season credits of a TV show.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_series_credits200_response import TvSeriesCredits200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_series_credits200_response import TvSeriesCredits200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -11069,9 +11069,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
 
@@ -11127,14 +11127,14 @@ Delete Rating
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_delete_rating200_response import MovieDeleteRating200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_delete_rating200_response import MovieDeleteRating200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -11150,9 +11150,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     content_type = 'application/json;charset=utf-8' # str |  (optional) (default to 'application/json;charset=utf-8')
     guest_session_id = 'guest_session_id_example' # str |  (optional)
@@ -11212,14 +11212,14 @@ Get the details of a TV show.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_series_details200_response import TvSeriesDetails200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_series_details200_response import TvSeriesDetails200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -11235,9 +11235,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     append_to_response = 'append_to_response_example' # str | comma separated list of endpoints within this namespace, 20 items max (optional)
     language = 'en-US' # str |  (optional) (default to 'en-US')
@@ -11295,14 +11295,14 @@ Get the episode groups that have been added to a TV show.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_series_episode_groups200_response import TvSeriesEpisodeGroups200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_series_episode_groups200_response import TvSeriesEpisodeGroups200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -11318,9 +11318,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
 
     try:
@@ -11374,14 +11374,14 @@ Get a list of external IDs that have been added to a TV show.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_series_external_ids200_response import TvSeriesExternalIds200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_series_external_ids200_response import TvSeriesExternalIds200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -11397,9 +11397,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
 
     try:
@@ -11453,14 +11453,14 @@ Get the images that belong to a TV series.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.movie_images200_response import MovieImages200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.movie_images200_response import MovieImages200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -11476,9 +11476,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     include_image_language = 'include_image_language_example' # str | specify a comma separated list of ISO-639-1 values to query, for example: `en,null` (optional)
     language = 'language_example' # str |  (optional)
@@ -11536,14 +11536,14 @@ Get a list of keywords that have been added to a TV show.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_series_keywords200_response import TvSeriesKeywords200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_series_keywords200_response import TvSeriesKeywords200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -11559,9 +11559,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
 
     try:
@@ -11615,14 +11615,14 @@ Get the newest TV show ID.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_series_latest_id200_response import TvSeriesLatestId200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_series_latest_id200_response import TvSeriesLatestId200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -11638,9 +11638,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
 
     try:
         # Latest
@@ -11690,14 +11690,14 @@ Get a list of TV shows that air in the next 7 days.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_series_on_the_air_list200_response import TvSeriesOnTheAirList200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_series_on_the_air_list200_response import TvSeriesOnTheAirList200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -11713,9 +11713,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
     timezone = 'timezone_example' # str |  (optional)
@@ -11773,14 +11773,14 @@ Get a list of TV shows ordered by popularity.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_series_popular_list200_response import TvSeriesPopularList200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_series_popular_list200_response import TvSeriesPopularList200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -11796,9 +11796,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
 
@@ -11854,14 +11854,14 @@ Recommendations
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_series_recommendations200_response import TvSeriesRecommendations200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_series_recommendations200_response import TvSeriesRecommendations200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -11877,9 +11877,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
@@ -11937,14 +11937,14 @@ Get the reviews that have been added to a TV show.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_series_reviews200_response import TvSeriesReviews200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_series_reviews200_response import TvSeriesReviews200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -11960,9 +11960,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
@@ -12020,14 +12020,14 @@ Get the seasons and episodes that have screened theatrically.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_series_screened_theatrically200_response import TvSeriesScreenedTheatrically200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_series_screened_theatrically200_response import TvSeriesScreenedTheatrically200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -12043,9 +12043,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
 
     try:
@@ -12099,14 +12099,14 @@ Get the similar TV shows.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_series_similar200_response import TvSeriesSimilar200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_series_similar200_response import TvSeriesSimilar200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -12122,9 +12122,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 'series_id_example' # str | 
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
@@ -12182,14 +12182,14 @@ Get a list of TV shows ordered by rating.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_series_top_rated_list200_response import TvSeriesTopRatedList200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_series_top_rated_list200_response import TvSeriesTopRatedList200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -12205,9 +12205,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     language = 'en-US' # str |  (optional) (default to 'en-US')
     page = 1 # int |  (optional) (default to 1)
 
@@ -12263,14 +12263,14 @@ Get the translations that have been added to a TV show.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_series_translations200_response import TvSeriesTranslations200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_series_translations200_response import TvSeriesTranslations200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -12286,9 +12286,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
 
     try:
@@ -12342,14 +12342,14 @@ Get the videos that belong to a TV show.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_series_videos200_response import TvSeriesVideos200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_series_videos200_response import TvSeriesVideos200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -12365,9 +12365,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
     include_video_language = 'include_video_language_example' # str | filter the list results by language, supports more than one value by using a comma (optional)
     language = 'en-US' # str |  (optional) (default to 'en-US')
@@ -12425,14 +12425,14 @@ Get the list of streaming providers we have for a TV show.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.tv_series_watch_providers200_response import TvSeriesWatchProviders200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.tv_series_watch_providers200_response import TvSeriesWatchProviders200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -12448,9 +12448,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     series_id = 56 # int | 
 
     try:
@@ -12504,14 +12504,14 @@ Get the list of streaming providers we have for TV shows.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.watch_providers_movie_list200_response import WatchProvidersMovieList200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.watch_providers_movie_list200_response import WatchProvidersMovieList200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -12527,9 +12527,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     language = 'en-US' # str |  (optional) (default to 'en-US')
     watch_region = 'watch_region_example' # str |  (optional)
 
@@ -12585,14 +12585,14 @@ Get the list of the countries we have watch provider (OTT/streaming) data for.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.watch_providers_available_regions200_response import WatchProvidersAvailableRegions200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.watch_providers_available_regions200_response import WatchProvidersAvailableRegions200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -12608,9 +12608,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     language = 'en-US' # str |  (optional) (default to 'en-US')
 
     try:
@@ -12664,14 +12664,14 @@ Get the list of streaming providers we have for movies.
 * Api Key Authentication (sec0):
 
 ```python
-import openapi_client
-from openapi_client.models.watch_providers_movie_list200_response import WatchProvidersMovieList200Response
-from openapi_client.rest import ApiException
+import tmdb_client
+from tmdb_client.models.watch_providers_movie_list200_response import WatchProvidersMovieList200Response
+from tmdb_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.themoviedb.org
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = tmdb_client.Configuration(
     host = "https://api.themoviedb.org"
 )
 
@@ -12687,9 +12687,9 @@ configuration.api_key['sec0'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['sec0'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with tmdb_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DefaultApi(api_client)
+    api_instance = tmdb_client.DefaultApi(api_client)
     language = 'en-US' # str |  (optional) (default to 'en-US')
     watch_region = 'watch_region_example' # str |  (optional)
 

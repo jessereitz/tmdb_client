@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_watch_providers200_response_results_no import TvSeriesWatchProviders200ResponseResultsNO
+from tmdb_client.models.tv_series_watch_providers200_response_results_no import TvSeriesWatchProviders200ResponseResultsNO
 
 class TestTvSeriesWatchProviders200ResponseResultsNO(unittest.TestCase):
     """TvSeriesWatchProviders200ResponseResultsNO unit test stubs"""
@@ -37,14 +37,14 @@ class TestTvSeriesWatchProviders200ResponseResultsNO(unittest.TestCase):
             return TvSeriesWatchProviders200ResponseResultsNO(
                 link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/watch?locale=NO',
                 flatrate = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_ar_flatrate_inner.tv_series_watch_providers_200_response_results_AR_flatrate_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_ar_flatrate_inner.tv_series_watch_providers_200_response_results_AR_flatrate_inner(
                         logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                         provider_id = 384, 
                         provider_name = 'HBO Max', 
                         display_priority = 5, )
                     ],
                 buy = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_no_buy_inner.tv_series_watch_providers_200_response_results_NO_buy_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_no_buy_inner.tv_series_watch_providers_200_response_results_NO_buy_inner(
                         logo_path = '/shq88b09gTBYC4hA7K7MUL8Q4zP.jpg', 
                         provider_id = 68, 
                         provider_name = 'Microsoft Store', 

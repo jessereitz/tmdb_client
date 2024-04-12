@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_watch_providers200_response_results_jp import MovieWatchProviders200ResponseResultsJP
+from tmdb_client.models.movie_watch_providers200_response_results_jp import MovieWatchProviders200ResponseResultsJP
 
 class TestMovieWatchProviders200ResponseResultsJP(unittest.TestCase):
     """MovieWatchProviders200ResponseResultsJP unit test stubs"""
@@ -37,21 +37,21 @@ class TestMovieWatchProviders200ResponseResultsJP(unittest.TestCase):
             return MovieWatchProviders200ResponseResultsJP(
                 link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=JP',
                 flatrate = [
-                    openapi_client.models.movie_watch_providers_200_response_results_jp_flatrate_inner.movie_watch_providers_200_response_results_JP_flatrate_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_jp_flatrate_inner.movie_watch_providers_200_response_results_JP_flatrate_inner(
                         logo_path = '/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg', 
                         provider_id = 337, 
                         provider_name = 'Disney Plus', 
                         display_priority = 3, )
                     ],
                 rent = [
-                    openapi_client.models.movie_watch_providers_200_response_results_jp_rent_inner.movie_watch_providers_200_response_results_JP_rent_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_jp_rent_inner.movie_watch_providers_200_response_results_JP_rent_inner(
                         logo_path = '/g8jqHtXJsMlc8B1Gb0Rt8AvUJMn.jpg', 
                         provider_id = 85, 
                         provider_name = 'dTV', 
                         display_priority = 2, )
                     ],
                 buy = [
-                    openapi_client.models.movie_watch_providers_200_response_results_dk_rent_inner.movie_watch_providers_200_response_results_DK_rent_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_dk_rent_inner.movie_watch_providers_200_response_results_DK_rent_inner(
                         logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                         provider_id = 2, 
                         provider_name = 'Apple TV', 

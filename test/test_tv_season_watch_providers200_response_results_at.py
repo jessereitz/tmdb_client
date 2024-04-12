@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_season_watch_providers200_response_results_at import TvSeasonWatchProviders200ResponseResultsAT
+from tmdb_client.models.tv_season_watch_providers200_response_results_at import TvSeasonWatchProviders200ResponseResultsAT
 
 class TestTvSeasonWatchProviders200ResponseResultsAT(unittest.TestCase):
     """TvSeasonWatchProviders200ResponseResultsAT unit test stubs"""
@@ -37,14 +37,14 @@ class TestTvSeasonWatchProviders200ResponseResultsAT(unittest.TestCase):
             return TvSeasonWatchProviders200ResponseResultsAT(
                 link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=AT',
                 flatrate = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_at_flatrate_inner.tv_series_watch_providers_200_response_results_AT_flatrate_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_at_flatrate_inner.tv_series_watch_providers_200_response_results_AT_flatrate_inner(
                         logo_path = '/y0kyIFElN5sJAsmW8Txj69wzrD2.jpg', 
                         provider_id = 321, 
                         provider_name = 'Sky X', 
                         display_priority = 23, )
                     ],
                 buy = [
-                    openapi_client.models.movie_watch_providers_200_response_results_at_buy_inner.movie_watch_providers_200_response_results_AT_buy_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_at_buy_inner.movie_watch_providers_200_response_results_AT_buy_inner(
                         logo_path = '/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg', 
                         provider_id = 10, 
                         provider_name = 'Amazon Video', 

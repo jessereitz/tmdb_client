@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.certification_movie_list200_response_certifications import CertificationMovieList200ResponseCertifications
+from tmdb_client.models.certification_movie_list200_response_certifications import CertificationMovieList200ResponseCertifications
 
 class TestCertificationMovieList200ResponseCertifications(unittest.TestCase):
     """CertificationMovieList200ResponseCertifications unit test stubs"""
@@ -36,271 +36,271 @@ class TestCertificationMovieList200ResponseCertifications(unittest.TestCase):
         if include_optional:
             return CertificationMovieList200ResponseCertifications(
                 au = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_au_inner.certification_movie_list_200_response_certifications_AU_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_au_inner.certification_movie_list_200_response_certifications_AU_inner(
                         certification = 'E', 
                         meaning = 'Exempt from classification. Films that are exempt from classification must not contain contentious material (i.e. material that would ordinarily be rated M or higher).', 
                         order = 1, )
                     ],
                 bg = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_bg_inner.certification_movie_list_200_response_certifications_BG_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_bg_inner.certification_movie_list_200_response_certifications_BG_inner(
                         certification = 'D', 
                         meaning = 'Prohibited for persons under 16.', 
                         order = 4, )
                     ],
                 br = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_br_inner.certification_movie_list_200_response_certifications_BR_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_br_inner.certification_movie_list_200_response_certifications_BR_inner(
                         certification = '14', 
                         meaning = 'Not recommended for minors under fourteen. More violent material, stronger sex references and/or nudity.', 
                         order = 4, )
                     ],
                 ca = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_ca_inner.certification_movie_list_200_response_certifications_CA_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_ca_inner.certification_movie_list_200_response_certifications_CA_inner(
                         certification = 'G', 
                         meaning = 'All ages.', 
                         order = 2, )
                     ],
                 ca_qc = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_ca_qc_inner.certification_movie_list_200_response_certifications_CA_QC_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_ca_qc_inner.certification_movie_list_200_response_certifications_CA_QC_inner(
                         certification = 'NR', 
                         meaning = 'No rating information.', 
                         order = 0, )
                     ],
                 de = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_de_inner.certification_movie_list_200_response_certifications_DE_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_de_inner.certification_movie_list_200_response_certifications_DE_inner(
                         certification = '12', 
                         meaning = 'Children 12 or older admitted, children between 6 and 11 only when accompanied by parent or a legal guardian.', 
                         order = 3, )
                     ],
                 dk = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_ca_qc_inner.certification_movie_list_200_response_certifications_CA_QC_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_ca_qc_inner.certification_movie_list_200_response_certifications_CA_QC_inner(
                         certification = 'NR', 
                         meaning = 'No rating information.', 
                         order = 0, )
                     ],
                 es = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_es_inner.certification_movie_list_200_response_certifications_ES_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_es_inner.certification_movie_list_200_response_certifications_ES_inner(
                         certification = 'A', 
                         meaning = 'General admission.', 
                         order = 1, )
                     ],
                 fi = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_fi_inner.certification_movie_list_200_response_certifications_FI_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_fi_inner.certification_movie_list_200_response_certifications_FI_inner(
                         certification = 'K-16', 
                         meaning = 'Over 16 years.', 
                         order = 4, )
                     ],
                 fr = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_fr_inner.certification_movie_list_200_response_certifications_FR_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_fr_inner.certification_movie_list_200_response_certifications_FR_inner(
                         certification = 'TP', 
                         meaning = 'Valid for all audiences.', 
                         order = 1, )
                     ],
                 gb = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_gb_inner.certification_movie_list_200_response_certifications_GB_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_gb_inner.certification_movie_list_200_response_certifications_GB_inner(
                         certification = '15', 
                         meaning = 'Only those over 15 years are admitted. Nobody younger than 15 can rent or buy a 15-rated VHS, DVD, Blu-ray Disc, UMD or game, or watch a film in the cinema with this rating. Films under this category can contain adult themes, hard drugs, frequent strong language and limited use of very strong language, strong violence and strong sex references, and nudity without graphic detail. Sexual activity may be portrayed but without any strong detail. Sexual violence may be shown if discreet and justified by context.', 
                         order = 5, )
                     ],
                 hu = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_hu_inner.certification_movie_list_200_response_certifications_HU_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_hu_inner.certification_movie_list_200_response_certifications_HU_inner(
                         certification = '6', 
                         meaning = 'Not recommended below age of 6.', 
                         order = 2, )
                     ],
                 var_in = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_in_inner.certification_movie_list_200_response_certifications_IN_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_in_inner.certification_movie_list_200_response_certifications_IN_inner(
                         certification = 'U', 
                         meaning = 'Unrestricted Public Exhibition throughout India, suitable for all age groups. Films under this category should not upset children over 4. Such films may contain educational, social or family-oriented themes. Films under this category may also contain fantasy violence and/or mild bad language.', 
                         order = 1, )
                     ],
                 it = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_ca_qc_inner.certification_movie_list_200_response_certifications_CA_QC_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_ca_qc_inner.certification_movie_list_200_response_certifications_CA_QC_inner(
                         certification = 'NR', 
                         meaning = 'No rating information.', 
                         order = 0, )
                     ],
                 lt = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_ca_qc_inner.certification_movie_list_200_response_certifications_CA_QC_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_ca_qc_inner.certification_movie_list_200_response_certifications_CA_QC_inner(
                         certification = 'NR', 
                         meaning = 'No rating information.', 
                         order = 0, )
                     ],
                 my = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_ca_qc_inner.certification_movie_list_200_response_certifications_CA_QC_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_ca_qc_inner.certification_movie_list_200_response_certifications_CA_QC_inner(
                         certification = 'NR', 
                         meaning = 'No rating information.', 
                         order = 0, )
                     ],
                 nl = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_nl_inner.certification_movie_list_200_response_certifications_NL_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_nl_inner.certification_movie_list_200_response_certifications_NL_inner(
                         certification = 'AL', 
                         meaning = 'All ages.', 
                         order = 1, )
                     ],
                 no = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_no_inner.certification_movie_list_200_response_certifications_NO_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_no_inner.certification_movie_list_200_response_certifications_NO_inner(
                         certification = '6', 
                         meaning = '6 years (no restriction for children accompanied by an adult).', 
                         order = 2, )
                     ],
                 nz = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_nz_inner.certification_movie_list_200_response_certifications_NZ_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_nz_inner.certification_movie_list_200_response_certifications_NZ_inner(
                         certification = 'G', 
                         meaning = 'Suitable for general audiences.', 
                         order = 1, )
                     ],
                 ph = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_ca_qc_inner.certification_movie_list_200_response_certifications_CA_QC_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_ca_qc_inner.certification_movie_list_200_response_certifications_CA_QC_inner(
                         certification = 'NR', 
                         meaning = 'No rating information.', 
                         order = 0, )
                     ],
                 pt = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_pt_inner.certification_movie_list_200_response_certifications_PT_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_pt_inner.certification_movie_list_200_response_certifications_PT_inner(
                         certification = 'Públicos', 
                         meaning = 'For all the public (especially designed for children under 3 years of age).', 
                         order = 1, )
                     ],
                 ru = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_ru_inner.certification_movie_list_200_response_certifications_RU_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_ru_inner.certification_movie_list_200_response_certifications_RU_inner(
                         certification = '6+', 
                         meaning = '(For children above 6) – Unsuitable for children under 6.', 
                         order = 2, )
                     ],
                 se = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_se_inner.certification_movie_list_200_response_certifications_SE_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_se_inner.certification_movie_list_200_response_certifications_SE_inner(
                         certification = '11', 
                         meaning = 'Children over the age of 7, who are accompanied by an adult, are admitted to films that have been passed for children from the age of 11.', 
                         order = 3, )
                     ],
                 us = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_us_inner.certification_movie_list_200_response_certifications_US_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_us_inner.certification_movie_list_200_response_certifications_US_inner(
                         certification = 'R', 
                         meaning = 'Under 17 requires accompanying parent or adult guardian 21 or older. The parent/guardian is required to stay with the child under 17 through the entire movie, even if the parent gives the child/teenager permission to see the film alone. These films may contain strong profanity, graphic sexuality, nudity, strong violence, horror, gore, and strong drug use. A movie rated R for profanity often has more severe or frequent language than the PG-13 rating would permit. An R-rated movie may have more blood, gore, drug use, nudity, or graphic sexuality than a PG-13 movie would admit.', 
                         order = 4, )
                     ],
                 kr = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_kr_inner.certification_movie_list_200_response_certifications_KR_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_kr_inner.certification_movie_list_200_response_certifications_KR_inner(
                         certification = 'All', 
                         meaning = 'Film suitable for all ages.', 
                         order = 0, )
                     ],
                 sk = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_sk_inner.certification_movie_list_200_response_certifications_SK_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_sk_inner.certification_movie_list_200_response_certifications_SK_inner(
                         certification = 'U', 
                         meaning = 'General audience.', 
                         order = 1, )
                     ],
                 th = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_th_inner.certification_movie_list_200_response_certifications_TH_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_th_inner.certification_movie_list_200_response_certifications_TH_inner(
                         certification = 'P', 
                         meaning = 'Educational.', 
                         order = 1, )
                     ],
                 mx = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_mx_inner.certification_movie_list_200_response_certifications_MX_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_mx_inner.certification_movie_list_200_response_certifications_MX_inner(
                         certification = 'AA', 
                         meaning = 'Informative-only rating: Understandable for children under 7 years.', 
                         order = 1, )
                     ],
                 id = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_id_inner.certification_movie_list_200_response_certifications_ID_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_id_inner.certification_movie_list_200_response_certifications_ID_inner(
                         certification = 'SU', 
                         meaning = 'All ages.', 
                         order = 1, )
                     ],
                 tr = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_tr_inner.certification_movie_list_200_response_certifications_TR_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_tr_inner.certification_movie_list_200_response_certifications_TR_inner(
                         certification = 'Genel İzleyici Kitlesi', 
                         meaning = 'General audience.', 
                         order = 1, )
                     ],
                 ar = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_ar_inner.certification_movie_list_200_response_certifications_AR_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_ar_inner.certification_movie_list_200_response_certifications_AR_inner(
                         certification = 'ATP', 
                         meaning = 'For all public.', 
                         order = 1, )
                     ],
                 gr = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_gr_inner.certification_movie_list_200_response_certifications_GR_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_gr_inner.certification_movie_list_200_response_certifications_GR_inner(
                         certification = 'K', 
                         meaning = 'No restrictions.', 
                         order = 1, )
                     ],
                 tw = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_tw_inner.certification_movie_list_200_response_certifications_TW_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_tw_inner.certification_movie_list_200_response_certifications_TW_inner(
                         certification = '0+', 
                         meaning = 'Viewing is permitted for audiences of all ages.', 
                         order = 1, )
                     ],
                 za = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_za_inner.certification_movie_list_200_response_certifications_ZA_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_za_inner.certification_movie_list_200_response_certifications_ZA_inner(
                         certification = 'A', 
                         meaning = 'Suitable for all.', 
                         order = 1, )
                     ],
                 sg = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_sg_inner.certification_movie_list_200_response_certifications_SG_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_sg_inner.certification_movie_list_200_response_certifications_SG_inner(
                         certification = 'G', 
                         meaning = 'Suitable for all ages.', 
                         order = 1, )
                     ],
                 ie = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_ie_inner.certification_movie_list_200_response_certifications_IE_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_ie_inner.certification_movie_list_200_response_certifications_IE_inner(
                         certification = 'G', 
                         meaning = 'Suitable for children of school going age (note: children can be enrolled in school from the age of 4).', 
                         order = 1, )
                     ],
                 pr = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_pr_inner.certification_movie_list_200_response_certifications_PR_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_pr_inner.certification_movie_list_200_response_certifications_PR_inner(
                         certification = 'G', 
                         meaning = '', 
                         order = 1, )
                     ],
                 jp = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_jp_inner.certification_movie_list_200_response_certifications_JP_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_jp_inner.certification_movie_list_200_response_certifications_JP_inner(
                         certification = 'G', 
                         meaning = 'General, suitable for all ages.', 
                         order = 1, )
                     ],
                 vi = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_vi_inner.certification_movie_list_200_response_certifications_VI_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_vi_inner.certification_movie_list_200_response_certifications_VI_inner(
                         certification = 'G', 
                         meaning = 'All ages admitted.', 
                         order = 1, )
                     ],
                 ch = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_ch_inner.certification_movie_list_200_response_certifications_CH_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_ch_inner.certification_movie_list_200_response_certifications_CH_inner(
                         certification = '0', 
                         meaning = '', 
                         order = 1, )
                     ],
                 il = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_il_inner.certification_movie_list_200_response_certifications_IL_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_il_inner.certification_movie_list_200_response_certifications_IL_inner(
                         certification = 'All', 
                         meaning = '', 
                         order = 1, )
                     ],
                 hk = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_hk_inner.certification_movie_list_200_response_certifications_HK_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_hk_inner.certification_movie_list_200_response_certifications_HK_inner(
                         certification = 'I', 
                         meaning = '', 
                         order = 1, )
                     ],
                 mo = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_mo_inner.certification_movie_list_200_response_certifications_MO_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_mo_inner.certification_movie_list_200_response_certifications_MO_inner(
                         certification = 'A', 
                         meaning = '', 
                         order = 1, )
                     ],
                 lv = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_lv_inner.certification_movie_list_200_response_certifications_LV_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_lv_inner.certification_movie_list_200_response_certifications_LV_inner(
                         certification = 'U', 
                         meaning = '', 
                         order = 1, )
                     ],
                 lu = [
-                    openapi_client.models.certification_movie_list_200_response_certifications_lu_inner.certification_movie_list_200_response_certifications_LU_inner(
+                    tmdb_client.models.certification_movie_list_200_response_certifications_lu_inner.certification_movie_list_200_response_certifications_LU_inner(
                         certification = 'EA', 
                         meaning = '', 
                         order = 1, )

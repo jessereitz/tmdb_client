@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_watch_providers200_response_results_lt import TvSeriesWatchProviders200ResponseResultsLT
+from tmdb_client.models.tv_series_watch_providers200_response_results_lt import TvSeriesWatchProviders200ResponseResultsLT
 
 class TestTvSeriesWatchProviders200ResponseResultsLT(unittest.TestCase):
     """TvSeriesWatchProviders200ResponseResultsLT unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvSeriesWatchProviders200ResponseResultsLT(unittest.TestCase):
             return TvSeriesWatchProviders200ResponseResultsLT(
                 link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/watch?locale=LT',
                 flatrate = [
-                    openapi_client.models.movie_watch_providers_200_response_results_lt_rent_inner.movie_watch_providers_200_response_results_LT_rent_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_lt_rent_inner.movie_watch_providers_200_response_results_LT_rent_inner(
                         logo_path = '/xTVM8uXT9QocigQ07LE7Irc65W2.jpg', 
                         provider_id = 553, 
                         provider_name = 'Telia Play', 

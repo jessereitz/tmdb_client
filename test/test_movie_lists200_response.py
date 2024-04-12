@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_lists200_response import MovieLists200Response
+from tmdb_client.models.movie_lists200_response import MovieLists200Response
 
 class TestMovieLists200Response(unittest.TestCase):
     """MovieLists200Response unit test stubs"""
@@ -38,7 +38,7 @@ class TestMovieLists200Response(unittest.TestCase):
                 id = 550,
                 page = 1,
                 results = [
-                    openapi_client.models.movie_lists_200_response_results_inner.movie_lists_200_response_results_inner(
+                    tmdb_client.models.movie_lists_200_response_results_inner.movie_lists_200_response_results_inner(
                         description = 'Movies I own', 
                         favorite_count = 0, 
                         id = 8248696, 

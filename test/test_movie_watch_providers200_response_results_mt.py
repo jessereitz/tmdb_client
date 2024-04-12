@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_watch_providers200_response_results_mt import MovieWatchProviders200ResponseResultsMT
+from tmdb_client.models.movie_watch_providers200_response_results_mt import MovieWatchProviders200ResponseResultsMT
 
 class TestMovieWatchProviders200ResponseResultsMT(unittest.TestCase):
     """MovieWatchProviders200ResponseResultsMT unit test stubs"""
@@ -37,21 +37,21 @@ class TestMovieWatchProviders200ResponseResultsMT(unittest.TestCase):
             return MovieWatchProviders200ResponseResultsMT(
                 link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=MT',
                 flatrate = [
-                    openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                         logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                         provider_id = 119, 
                         provider_name = 'Amazon Prime Video', 
                         display_priority = 1, )
                     ],
                 buy = [
-                    openapi_client.models.movie_watch_providers_200_response_results_al_buy_inner.movie_watch_providers_200_response_results_AL_buy_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_al_buy_inner.movie_watch_providers_200_response_results_AL_buy_inner(
                         logo_path = '/5GEbAhFW2S5T8zVc1MNvz00pIzM.jpg', 
                         provider_id = 35, 
                         provider_name = 'Rakuten TV', 
                         display_priority = 9, )
                     ],
                 rent = [
-                    openapi_client.models.movie_watch_providers_200_response_results_al_buy_inner.movie_watch_providers_200_response_results_AL_buy_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_al_buy_inner.movie_watch_providers_200_response_results_AL_buy_inner(
                         logo_path = '/5GEbAhFW2S5T8zVc1MNvz00pIzM.jpg', 
                         provider_id = 35, 
                         provider_name = 'Rakuten TV', 

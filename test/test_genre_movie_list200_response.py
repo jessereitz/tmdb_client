@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.genre_movie_list200_response import GenreMovieList200Response
+from tmdb_client.models.genre_movie_list200_response import GenreMovieList200Response
 
 class TestGenreMovieList200Response(unittest.TestCase):
     """GenreMovieList200Response unit test stubs"""
@@ -36,7 +36,7 @@ class TestGenreMovieList200Response(unittest.TestCase):
         if include_optional:
             return GenreMovieList200Response(
                 genres = [
-                    openapi_client.models.genre_movie_list_200_response_genres_inner.genre_movie_list_200_response_genres_inner(
+                    tmdb_client.models.genre_movie_list_200_response_genres_inner.genre_movie_list_200_response_genres_inner(
                         id = 28, 
                         name = 'Action', )
                     ]

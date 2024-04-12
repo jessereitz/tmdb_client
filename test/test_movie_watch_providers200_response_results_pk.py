@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_watch_providers200_response_results_pk import MovieWatchProviders200ResponseResultsPK
+from tmdb_client.models.movie_watch_providers200_response_results_pk import MovieWatchProviders200ResponseResultsPK
 
 class TestMovieWatchProviders200ResponseResultsPK(unittest.TestCase):
     """MovieWatchProviders200ResponseResultsPK unit test stubs"""
@@ -37,7 +37,7 @@ class TestMovieWatchProviders200ResponseResultsPK(unittest.TestCase):
             return MovieWatchProviders200ResponseResultsPK(
                 link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=PK',
                 flatrate = [
-                    openapi_client.models.movie_watch_providers_200_response_results_pk_flatrate_inner.movie_watch_providers_200_response_results_PK_flatrate_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_pk_flatrate_inner.movie_watch_providers_200_response_results_PK_flatrate_inner(
                         logo_path = '/t2yyOv40HZeVlLjYsCsPHnWLk4W.jpg', 
                         provider_id = 8, 
                         provider_name = 'Netflix', 

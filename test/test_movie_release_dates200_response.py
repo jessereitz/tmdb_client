@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_release_dates200_response import MovieReleaseDates200Response
+from tmdb_client.models.movie_release_dates200_response import MovieReleaseDates200Response
 
 class TestMovieReleaseDates200Response(unittest.TestCase):
     """MovieReleaseDates200Response unit test stubs"""
@@ -37,10 +37,10 @@ class TestMovieReleaseDates200Response(unittest.TestCase):
             return MovieReleaseDates200Response(
                 id = 550,
                 results = [
-                    openapi_client.models.movie_release_dates_200_response_results_inner.movie_release_dates_200_response_results_inner(
+                    tmdb_client.models.movie_release_dates_200_response_results_inner.movie_release_dates_200_response_results_inner(
                         iso_3166_1 = 'BG', 
                         release_dates = [
-                            openapi_client.models.movie_release_dates_200_response_results_inner_release_dates_inner.movie_release_dates_200_response_results_inner_release_dates_inner(
+                            tmdb_client.models.movie_release_dates_200_response_results_inner_release_dates_inner.movie_release_dates_200_response_results_inner_release_dates_inner(
                                 certification = 'c', 
                                 descriptors = [
                                     ''

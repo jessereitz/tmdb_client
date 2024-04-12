@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_changes200_response_changes_inner_items_inner_value import TvSeriesChanges200ResponseChangesInnerItemsInnerValue
+from tmdb_client.models.tv_series_changes200_response_changes_inner_items_inner_value import TvSeriesChanges200ResponseChangesInnerItemsInnerValue
 
 class TestTvSeriesChanges200ResponseChangesInnerItemsInnerValue(unittest.TestCase):
     """TvSeriesChanges200ResponseChangesInnerItemsInnerValue unit test stubs"""
@@ -35,7 +35,7 @@ class TestTvSeriesChanges200ResponseChangesInnerItemsInnerValue(unittest.TestCas
         model = TvSeriesChanges200ResponseChangesInnerItemsInnerValue()
         if include_optional:
             return TvSeriesChanges200ResponseChangesInnerItemsInnerValue(
-                poster = openapi_client.models.tv_series_changes_200_response_changes_inner_items_inner_value_poster.tv_series_changes_200_response_changes_inner_items_inner_value_poster(
+                poster = tmdb_client.models.tv_series_changes_200_response_changes_inner_items_inner_value_poster.tv_series_changes_200_response_changes_inner_items_inner_value_poster(
                     file_path = '/ouudK6RCNnsbT1CSXrlATXQIQTG.jpg', 
                     iso_639_1 = 'en', )
             )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.credit_details200_response_media import CreditDetails200ResponseMedia
+from tmdb_client.models.credit_details200_response_media import CreditDetails200ResponseMedia
 
 class TestCreditDetails200ResponseMedia(unittest.TestCase):
     """CreditDetails200ResponseMedia unit test stubs"""
@@ -59,7 +59,7 @@ class TestCreditDetails200ResponseMedia(unittest.TestCase):
                     ''
                     ],
                 seasons = [
-                    openapi_client.models.credit_details_200_response_media_seasons_inner.credit_details_200_response_media_seasons_inner(
+                    tmdb_client.models.credit_details_200_response_media_seasons_inner.credit_details_200_response_media_seasons_inner(
                         air_date = '2023-01-15', 
                         episode_count = 9, 
                         id = 144593, 

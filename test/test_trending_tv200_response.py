@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.trending_tv200_response import TrendingTv200Response
+from tmdb_client.models.trending_tv200_response import TrendingTv200Response
 
 class TestTrendingTv200Response(unittest.TestCase):
     """TrendingTv200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestTrendingTv200Response(unittest.TestCase):
             return TrendingTv200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.trending_tv_200_response_results_inner.trending_tv_200_response_results_inner(
+                    tmdb_client.models.trending_tv_200_response_results_inner.trending_tv_200_response_results_inner(
                         adult = False, 
                         backdrop_path = '/8P15FsYcTwQZ4G5rRMd1TKD14Aq.jpg', 
                         id = 103768, 

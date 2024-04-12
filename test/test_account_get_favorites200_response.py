@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.account_get_favorites200_response import AccountGetFavorites200Response
+from tmdb_client.models.account_get_favorites200_response import AccountGetFavorites200Response
 
 class TestAccountGetFavorites200Response(unittest.TestCase):
     """AccountGetFavorites200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestAccountGetFavorites200Response(unittest.TestCase):
             return AccountGetFavorites200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.account_get_favorites_200_response_results_inner.account_get_favorites_200_response_results_inner(
+                    tmdb_client.models.account_get_favorites_200_response_results_inner.account_get_favorites_200_response_results_inner(
                         adult = False, 
                         backdrop_path = '/se5Hxz7PArQZOG3Nx2bpfOhLhtV.jpg', 
                         genre_ids = [

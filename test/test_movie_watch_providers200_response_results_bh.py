@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_watch_providers200_response_results_bh import MovieWatchProviders200ResponseResultsBH
+from tmdb_client.models.movie_watch_providers200_response_results_bh import MovieWatchProviders200ResponseResultsBH
 
 class TestMovieWatchProviders200ResponseResultsBH(unittest.TestCase):
     """MovieWatchProviders200ResponseResultsBH unit test stubs"""
@@ -37,7 +37,7 @@ class TestMovieWatchProviders200ResponseResultsBH(unittest.TestCase):
             return MovieWatchProviders200ResponseResultsBH(
                 link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=BH',
                 buy = [
-                    openapi_client.models.movie_watch_providers_200_response_results_bh_buy_inner.movie_watch_providers_200_response_results_BH_buy_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_bh_buy_inner.movie_watch_providers_200_response_results_BH_buy_inner(
                         logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                         provider_id = 3, 
                         provider_name = 'Google Play Movies', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.network_details200_response import NetworkDetails200Response
+from tmdb_client.models.network_details200_response import NetworkDetails200Response
 
 class TestNetworkDetails200Response(unittest.TestCase):
     """NetworkDetails200Response unit test stubs"""

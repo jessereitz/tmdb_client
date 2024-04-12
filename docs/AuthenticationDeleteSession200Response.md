@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.authentication_delete_session200_response import AuthenticationDeleteSession200Response
+from tmdb_client.models.authentication_delete_session200_response import AuthenticationDeleteSession200Response
 
 # TODO update the JSON string below
 json = "{}"

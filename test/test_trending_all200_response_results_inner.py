@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.trending_all200_response_results_inner import TrendingAll200ResponseResultsInner
+from tmdb_client.models.trending_all200_response_results_inner import TrendingAll200ResponseResultsInner
 
 class TestTrendingAll200ResponseResultsInner(unittest.TestCase):
     """TrendingAll200ResponseResultsInner unit test stubs"""

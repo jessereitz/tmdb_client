@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_alternative_titles200_response_titles_inner import MovieAlternativeTitles200ResponseTitlesInner
+from tmdb_client.models.movie_alternative_titles200_response_titles_inner import MovieAlternativeTitles200ResponseTitlesInner
 
 class TestMovieAlternativeTitles200ResponseTitlesInner(unittest.TestCase):
     """MovieAlternativeTitles200ResponseTitlesInner unit test stubs"""

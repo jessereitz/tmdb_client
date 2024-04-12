@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_airing_today_list200_response import TvSeriesAiringTodayList200Response
+from tmdb_client.models.tv_series_airing_today_list200_response import TvSeriesAiringTodayList200Response
 
 class TestTvSeriesAiringTodayList200Response(unittest.TestCase):
     """TvSeriesAiringTodayList200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvSeriesAiringTodayList200Response(unittest.TestCase):
             return TvSeriesAiringTodayList200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.tv_series_airing_today_list_200_response_results_inner.tv_series_airing_today_list_200_response_results_inner(
+                    tmdb_client.models.tv_series_airing_today_list_200_response_results_inner.tv_series_airing_today_list_200_response_results_inner(
                         backdrop_path = '/mAJ84W6I8I272Da87qplS2Dp9ST.jpg', 
                         first_air_date = '2023-01-23', 
                         genre_ids = [

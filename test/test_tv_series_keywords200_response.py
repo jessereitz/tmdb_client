@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_keywords200_response import TvSeriesKeywords200Response
+from tmdb_client.models.tv_series_keywords200_response import TvSeriesKeywords200Response
 
 class TestTvSeriesKeywords200Response(unittest.TestCase):
     """TvSeriesKeywords200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvSeriesKeywords200Response(unittest.TestCase):
             return TvSeriesKeywords200Response(
                 id = 1399,
                 results = [
-                    openapi_client.models.movie_keywords_200_response_keywords_inner.movie_keywords_200_response_keywords_inner(
+                    tmdb_client.models.movie_keywords_200_response_keywords_inner.movie_keywords_200_response_keywords_inner(
                         id = 818, 
                         name = 'based on novel or book', )
                     ]

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_watch_providers200_response_results_kw import MovieWatchProviders200ResponseResultsKW
+from tmdb_client.models.movie_watch_providers200_response_results_kw import MovieWatchProviders200ResponseResultsKW
 
 class TestMovieWatchProviders200ResponseResultsKW(unittest.TestCase):
     """MovieWatchProviders200ResponseResultsKW unit test stubs"""
@@ -37,14 +37,14 @@ class TestMovieWatchProviders200ResponseResultsKW(unittest.TestCase):
             return MovieWatchProviders200ResponseResultsKW(
                 link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=KW',
                 buy = [
-                    openapi_client.models.movie_watch_providers_200_response_results_bh_buy_inner.movie_watch_providers_200_response_results_BH_buy_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_bh_buy_inner.movie_watch_providers_200_response_results_BH_buy_inner(
                         logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                         provider_id = 3, 
                         provider_name = 'Google Play Movies', 
                         display_priority = 1000, )
                     ],
                 flatrate = [
-                    openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                         logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                         provider_id = 119, 
                         provider_name = 'Amazon Prime Video', 

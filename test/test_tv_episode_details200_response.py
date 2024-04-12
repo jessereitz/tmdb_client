@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_episode_details200_response import TvEpisodeDetails200Response
+from tmdb_client.models.tv_episode_details200_response import TvEpisodeDetails200Response
 
 class TestTvEpisodeDetails200Response(unittest.TestCase):
     """TvEpisodeDetails200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvEpisodeDetails200Response(unittest.TestCase):
             return TvEpisodeDetails200Response(
                 air_date = '2011-04-17',
                 crew = [
-                    openapi_client.models.tv_episode_details_200_response_crew_inner.tv_episode_details_200_response_crew_inner(
+                    tmdb_client.models.tv_episode_details_200_response_crew_inner.tv_episode_details_200_response_crew_inner(
                         department = 'Directing', 
                         job = 'Director', 
                         credit_id = '5256c8a219c2956ff6046e77', 
@@ -52,7 +52,7 @@ class TestTvEpisodeDetails200Response(unittest.TestCase):
                     ],
                 episode_number = 1,
                 guest_stars = [
-                    openapi_client.models.tv_episode_details_200_response_guest_stars_inner.tv_episode_details_200_response_guest_stars_inner(
+                    tmdb_client.models.tv_episode_details_200_response_guest_stars_inner.tv_episode_details_200_response_guest_stars_inner(
                         character = 'Benjen Stark', 
                         credit_id = '5256c8b919c2956ff604836a', 
                         order = 62, 

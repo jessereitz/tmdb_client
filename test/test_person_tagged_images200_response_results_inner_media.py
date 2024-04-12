@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.person_tagged_images200_response_results_inner_media import PersonTaggedImages200ResponseResultsInnerMedia
+from tmdb_client.models.person_tagged_images200_response_results_inner_media import PersonTaggedImages200ResponseResultsInnerMedia
 
 class TestPersonTaggedImages200ResponseResultsInnerMedia(unittest.TestCase):
     """PersonTaggedImages200ResponseResultsInnerMedia unit test stubs"""

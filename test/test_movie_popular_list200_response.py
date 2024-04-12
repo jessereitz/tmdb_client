@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_popular_list200_response import MoviePopularList200Response
+from tmdb_client.models.movie_popular_list200_response import MoviePopularList200Response
 
 class TestMoviePopularList200Response(unittest.TestCase):
     """MoviePopularList200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestMoviePopularList200Response(unittest.TestCase):
             return MoviePopularList200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.movie_popular_list_200_response_results_inner.movie_popular_list_200_response_results_inner(
+                    tmdb_client.models.movie_popular_list_200_response_results_inner.movie_popular_list_200_response_results_inner(
                         adult = False, 
                         backdrop_path = '/gMJngTNfaqCSCqGD4y8lVMZXKDn.jpg', 
                         genre_ids = [

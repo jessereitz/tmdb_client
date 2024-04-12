@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_watch_providers200_response_results_sv import TvSeriesWatchProviders200ResponseResultsSV
+from tmdb_client.models.tv_series_watch_providers200_response_results_sv import TvSeriesWatchProviders200ResponseResultsSV
 
 class TestTvSeriesWatchProviders200ResponseResultsSV(unittest.TestCase):
     """TvSeriesWatchProviders200ResponseResultsSV unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvSeriesWatchProviders200ResponseResultsSV(unittest.TestCase):
             return TvSeriesWatchProviders200ResponseResultsSV(
                 link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/watch?locale=SV',
                 flatrate = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_sv_flatrate_inner.tv_series_watch_providers_200_response_results_SV_flatrate_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_sv_flatrate_inner.tv_series_watch_providers_200_response_results_SV_flatrate_inner(
                         logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                         provider_id = 384, 
                         provider_name = 'HBO Max', 

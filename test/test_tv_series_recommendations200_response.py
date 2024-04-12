@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_recommendations200_response import TvSeriesRecommendations200Response
+from tmdb_client.models.tv_series_recommendations200_response import TvSeriesRecommendations200Response
 
 class TestTvSeriesRecommendations200Response(unittest.TestCase):
     """TvSeriesRecommendations200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvSeriesRecommendations200Response(unittest.TestCase):
             return TvSeriesRecommendations200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.tv_series_recommendations_200_response_results_inner.tv_series_recommendations_200_response_results_inner(
+                    tmdb_client.models.tv_series_recommendations_200_response_results_inner.tv_series_recommendations_200_response_results_inner(
                         adult = False, 
                         backdrop_path = '/bsNm9z2TJfe0WO3RedPGWQ8mG1X.jpg', 
                         id = 1396, 

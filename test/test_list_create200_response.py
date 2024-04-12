@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.list_create200_response import ListCreate200Response
+from tmdb_client.models.list_create200_response import ListCreate200Response
 
 class TestListCreate200Response(unittest.TestCase):
     """ListCreate200Response unit test stubs"""

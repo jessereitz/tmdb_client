@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.review_details200_response_author_details import ReviewDetails200ResponseAuthorDetails
+from tmdb_client.models.review_details200_response_author_details import ReviewDetails200ResponseAuthorDetails
 
 class TestReviewDetails200ResponseAuthorDetails(unittest.TestCase):
     """ReviewDetails200ResponseAuthorDetails unit test stubs"""

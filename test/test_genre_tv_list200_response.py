@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.genre_tv_list200_response import GenreTvList200Response
+from tmdb_client.models.genre_tv_list200_response import GenreTvList200Response
 
 class TestGenreTvList200Response(unittest.TestCase):
     """GenreTvList200Response unit test stubs"""
@@ -36,7 +36,7 @@ class TestGenreTvList200Response(unittest.TestCase):
         if include_optional:
             return GenreTvList200Response(
                 genres = [
-                    openapi_client.models.genre_tv_list_200_response_genres_inner.genre_tv_list_200_response_genres_inner(
+                    tmdb_client.models.genre_tv_list_200_response_genres_inner.genre_tv_list_200_response_genres_inner(
                         id = 10759, 
                         name = 'Action & Adventure', )
                     ]

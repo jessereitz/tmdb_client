@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.search_company200_response import SearchCompany200Response
+from tmdb_client.models.search_company200_response import SearchCompany200Response
 
 class TestSearchCompany200Response(unittest.TestCase):
     """SearchCompany200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestSearchCompany200Response(unittest.TestCase):
             return SearchCompany200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.search_company_200_response_results_inner.search_company_200_response_results_inner(
+                    tmdb_client.models.search_company_200_response_results_inner.search_company_200_response_results_inner(
                         id = 3268, 
                         logo_path = '/tuomPhY2UtuPTqqFnKMVHvSb724.png', 
                         name = 'HBO', 

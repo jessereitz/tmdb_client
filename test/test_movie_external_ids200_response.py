@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_external_ids200_response import MovieExternalIds200Response
+from tmdb_client.models.movie_external_ids200_response import MovieExternalIds200Response
 
 class TestMovieExternalIds200Response(unittest.TestCase):
     """MovieExternalIds200Response unit test stubs"""

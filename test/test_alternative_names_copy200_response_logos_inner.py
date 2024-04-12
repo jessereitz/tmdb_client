@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.alternative_names_copy200_response_logos_inner import AlternativeNamesCopy200ResponseLogosInner
+from tmdb_client.models.alternative_names_copy200_response_logos_inner import AlternativeNamesCopy200ResponseLogosInner
 
 class TestAlternativeNamesCopy200ResponseLogosInner(unittest.TestCase):
     """AlternativeNamesCopy200ResponseLogosInner unit test stubs"""

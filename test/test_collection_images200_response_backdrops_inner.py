@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.collection_images200_response_backdrops_inner import CollectionImages200ResponseBackdropsInner
+from tmdb_client.models.collection_images200_response_backdrops_inner import CollectionImages200ResponseBackdropsInner
 
 class TestCollectionImages200ResponseBackdropsInner(unittest.TestCase):
     """CollectionImages200ResponseBackdropsInner unit test stubs"""

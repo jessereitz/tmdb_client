@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_top_rated_list200_response import MovieTopRatedList200Response
+from tmdb_client.models.movie_top_rated_list200_response import MovieTopRatedList200Response
 
 class TestMovieTopRatedList200Response(unittest.TestCase):
     """MovieTopRatedList200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestMovieTopRatedList200Response(unittest.TestCase):
             return MovieTopRatedList200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.movie_top_rated_list_200_response_results_inner.movie_top_rated_list_200_response_results_inner(
+                    tmdb_client.models.movie_top_rated_list_200_response_results_inner.movie_top_rated_list_200_response_results_inner(
                         adult = False, 
                         backdrop_path = '/tmU7GeKVybMWFButWEGl2M4GeiP.jpg', 
                         genre_ids = [

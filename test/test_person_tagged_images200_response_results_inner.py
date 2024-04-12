@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.person_tagged_images200_response_results_inner import PersonTaggedImages200ResponseResultsInner
+from tmdb_client.models.person_tagged_images200_response_results_inner import PersonTaggedImages200ResponseResultsInner
 
 class TestPersonTaggedImages200ResponseResultsInner(unittest.TestCase):
     """PersonTaggedImages200ResponseResultsInner unit test stubs"""
@@ -44,7 +44,7 @@ class TestPersonTaggedImages200ResponseResultsInner(unittest.TestCase):
                 vote_count = 7,
                 width = 1000,
                 image_type = 'poster',
-                media = openapi_client.models.person_tagged_images_200_response_results_inner_media.person_tagged_images_200_response_results_inner_media(
+                media = tmdb_client.models.person_tagged_images_200_response_results_inner_media.person_tagged_images_200_response_results_inner_media(
                     adult = False, 
                     backdrop_path = '/bdD39MpSVhKjxarTxLSfX6baoMP.jpg', 
                     id = 857, 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_aggregate_credits200_response_cast_inner import TvSeriesAggregateCredits200ResponseCastInner
+from tmdb_client.models.tv_series_aggregate_credits200_response_cast_inner import TvSeriesAggregateCredits200ResponseCastInner
 
 class TestTvSeriesAggregateCredits200ResponseCastInner(unittest.TestCase):
     """TvSeriesAggregateCredits200ResponseCastInner unit test stubs"""
@@ -44,7 +44,7 @@ class TestTvSeriesAggregateCredits200ResponseCastInner(unittest.TestCase):
                 popularity = 42.737,
                 profile_path = '/u59kTmNHXzaGZqokivxLPiBVIML.jpg',
                 roles = [
-                    openapi_client.models.tv_series_aggregate_credits_200_response_cast_inner_roles_inner.tv_series_aggregate_credits_200_response_cast_inner_roles_inner(
+                    tmdb_client.models.tv_series_aggregate_credits_200_response_cast_inner_roles_inner.tv_series_aggregate_credits_200_response_cast_inner_roles_inner(
                         credit_id = '5256c8af19c2956ff60479f6', 
                         character = 'Daenerys Targaryen', 
                         episode_count = 78, )

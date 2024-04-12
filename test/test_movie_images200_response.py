@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_images200_response import MovieImages200Response
+from tmdb_client.models.movie_images200_response import MovieImages200Response
 
 class TestMovieImages200Response(unittest.TestCase):
     """MovieImages200Response unit test stubs"""
@@ -36,7 +36,7 @@ class TestMovieImages200Response(unittest.TestCase):
         if include_optional:
             return MovieImages200Response(
                 backdrops = [
-                    openapi_client.models.movie_images_200_response_backdrops_inner.movie_images_200_response_backdrops_inner(
+                    tmdb_client.models.movie_images_200_response_backdrops_inner.movie_images_200_response_backdrops_inner(
                         aspect_ratio = 1.778, 
                         height = 800, 
                         iso_639_1 = null, 
@@ -47,7 +47,7 @@ class TestMovieImages200Response(unittest.TestCase):
                     ],
                 id = 550,
                 logos = [
-                    openapi_client.models.movie_images_200_response_logos_inner.movie_images_200_response_logos_inner(
+                    tmdb_client.models.movie_images_200_response_logos_inner.movie_images_200_response_logos_inner(
                         aspect_ratio = 5.203, 
                         height = 79, 
                         iso_639_1 = 'he', 
@@ -57,7 +57,7 @@ class TestMovieImages200Response(unittest.TestCase):
                         width = 411, )
                     ],
                 posters = [
-                    openapi_client.models.movie_images_200_response_posters_inner.movie_images_200_response_posters_inner(
+                    tmdb_client.models.movie_images_200_response_posters_inner.movie_images_200_response_posters_inner(
                         aspect_ratio = 0.667, 
                         height = 900, 
                         iso_639_1 = 'pt', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_add_rating_request import MovieAddRatingRequest
+from tmdb_client.models.movie_add_rating_request import MovieAddRatingRequest
 
 class TestMovieAddRatingRequest(unittest.TestCase):
     """MovieAddRatingRequest unit test stubs"""

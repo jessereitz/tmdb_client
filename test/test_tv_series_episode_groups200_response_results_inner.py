@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_episode_groups200_response_results_inner import TvSeriesEpisodeGroups200ResponseResultsInner
+from tmdb_client.models.tv_series_episode_groups200_response_results_inner import TvSeriesEpisodeGroups200ResponseResultsInner
 
 class TestTvSeriesEpisodeGroups200ResponseResultsInner(unittest.TestCase):
     """TvSeriesEpisodeGroups200ResponseResultsInner unit test stubs"""
@@ -40,7 +40,7 @@ class TestTvSeriesEpisodeGroups200ResponseResultsInner(unittest.TestCase):
                 group_count = 9,
                 id = '5e9077d2e640d600151f32bd',
                 name = 'Aired Order',
-                network = openapi_client.models.tv_series_details_200_response_networks_inner.tv_series_details_200_response_networks_inner(
+                network = tmdb_client.models.tv_series_details_200_response_networks_inner.tv_series_details_200_response_networks_inner(
                     id = 49, 
                     logo_path = '/tuomPhY2UtuPTqqFnKMVHvSb724.png', 
                     name = 'HBO', 

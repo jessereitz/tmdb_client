@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_translations200_response_translations_inner_data import MovieTranslations200ResponseTranslationsInnerData
+from tmdb_client.models.movie_translations200_response_translations_inner_data import MovieTranslations200ResponseTranslationsInnerData
 
 class TestMovieTranslations200ResponseTranslationsInnerData(unittest.TestCase):
     """MovieTranslations200ResponseTranslationsInnerData unit test stubs"""

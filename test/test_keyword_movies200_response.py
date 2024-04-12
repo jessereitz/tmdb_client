@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.keyword_movies200_response import KeywordMovies200Response
+from tmdb_client.models.keyword_movies200_response import KeywordMovies200Response
 
 class TestKeywordMovies200Response(unittest.TestCase):
     """KeywordMovies200Response unit test stubs"""
@@ -38,7 +38,7 @@ class TestKeywordMovies200Response(unittest.TestCase):
                 id = 1701,
                 page = 1,
                 results = [
-                    openapi_client.models.keyword_movies_200_response_results_inner.keyword_movies_200_response_results_inner(
+                    tmdb_client.models.keyword_movies_200_response_results_inner.keyword_movies_200_response_results_inner(
                         adult = False, 
                         backdrop_path = '/3CxUndGhUcZdt1Zggjdb2HkLLQX.jpg', 
                         genre_ids = [

@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.account_rated_movies200_response import AccountRatedMovies200Response
+from tmdb_client.models.account_rated_movies200_response import AccountRatedMovies200Response
 
 # TODO update the JSON string below
 json = "{}"

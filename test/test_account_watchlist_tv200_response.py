@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.account_watchlist_tv200_response import AccountWatchlistTv200Response
+from tmdb_client.models.account_watchlist_tv200_response import AccountWatchlistTv200Response
 
 class TestAccountWatchlistTv200Response(unittest.TestCase):
     """AccountWatchlistTv200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestAccountWatchlistTv200Response(unittest.TestCase):
             return AccountWatchlistTv200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.account_watchlist_tv_200_response_results_inner.account_watchlist_tv_200_response_results_inner(
+                    tmdb_client.models.account_watchlist_tv_200_response_results_inner.account_watchlist_tv_200_response_results_inner(
                         adult = False, 
                         backdrop_path = '/7phlGHRupo38EnuwmkAHdNUqov3.jpg', 
                         genre_ids = [

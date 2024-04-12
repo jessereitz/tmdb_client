@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.collection_details200_response_parts_inner import CollectionDetails200ResponsePartsInner
+from tmdb_client.models.collection_details200_response_parts_inner import CollectionDetails200ResponsePartsInner
 
 class TestCollectionDetails200ResponsePartsInner(unittest.TestCase):
     """CollectionDetails200ResponsePartsInner unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.guest_session_rated_tv200_response_results_inner import GuestSessionRatedTv200ResponseResultsInner
+from tmdb_client.models.guest_session_rated_tv200_response_results_inner import GuestSessionRatedTv200ResponseResultsInner
 
 class TestGuestSessionRatedTv200ResponseResultsInner(unittest.TestCase):
     """GuestSessionRatedTv200ResponseResultsInner unit test stubs"""

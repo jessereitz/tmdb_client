@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_watch_providers200_response_results_ie import TvSeriesWatchProviders200ResponseResultsIE
+from tmdb_client.models.tv_series_watch_providers200_response_results_ie import TvSeriesWatchProviders200ResponseResultsIE
 
 class TestTvSeriesWatchProviders200ResponseResultsIE(unittest.TestCase):
     """TvSeriesWatchProviders200ResponseResultsIE unit test stubs"""
@@ -37,14 +37,14 @@ class TestTvSeriesWatchProviders200ResponseResultsIE(unittest.TestCase):
             return TvSeriesWatchProviders200ResponseResultsIE(
                 link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/watch?locale=IE',
                 flatrate = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_ie_flatrate_inner.tv_series_watch_providers_200_response_results_IE_flatrate_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_ie_flatrate_inner.tv_series_watch_providers_200_response_results_IE_flatrate_inner(
                         logo_path = '/fBHHXKC34ffxAsQvDe0ZJbvmTEQ.jpg', 
                         provider_id = 29, 
                         provider_name = 'Sky Go', 
                         display_priority = 8, )
                     ],
                 buy = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_ie_buy_inner.tv_series_watch_providers_200_response_results_IE_buy_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_ie_buy_inner.tv_series_watch_providers_200_response_results_IE_buy_inner(
                         logo_path = '/2pCbao1J9s0DMak2KKnEzmzHni8.jpg', 
                         provider_id = 130, 
                         provider_name = 'Sky Store', 

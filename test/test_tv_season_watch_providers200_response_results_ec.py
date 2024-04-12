@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_season_watch_providers200_response_results_ec import TvSeasonWatchProviders200ResponseResultsEC
+from tmdb_client.models.tv_season_watch_providers200_response_results_ec import TvSeasonWatchProviders200ResponseResultsEC
 
 class TestTvSeasonWatchProviders200ResponseResultsEC(unittest.TestCase):
     """TvSeasonWatchProviders200ResponseResultsEC unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvSeasonWatchProviders200ResponseResultsEC(unittest.TestCase):
             return TvSeasonWatchProviders200ResponseResultsEC(
                 link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=EC',
                 flatrate = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_ec_flatrate_inner.tv_series_watch_providers_200_response_results_EC_flatrate_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_ec_flatrate_inner.tv_series_watch_providers_200_response_results_EC_flatrate_inner(
                         logo_path = '/cDzkhgvozSr4GW2aRdV22uDuFpw.jpg', 
                         provider_id = 339, 
                         provider_name = 'Movistar Play', 

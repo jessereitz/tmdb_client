@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_episode_translations200_response import TvEpisodeTranslations200Response
+from tmdb_client.models.tv_episode_translations200_response import TvEpisodeTranslations200Response
 
 class TestTvEpisodeTranslations200Response(unittest.TestCase):
     """TvEpisodeTranslations200Response unit test stubs"""
@@ -37,12 +37,12 @@ class TestTvEpisodeTranslations200Response(unittest.TestCase):
             return TvEpisodeTranslations200Response(
                 id = 63056,
                 translations = [
-                    openapi_client.models.tv_episode_translations_200_response_translations_inner.tv_episode_translations_200_response_translations_inner(
+                    tmdb_client.models.tv_episode_translations_200_response_translations_inner.tv_episode_translations_200_response_translations_inner(
                         iso_3166_1 = 'SA', 
                         iso_639_1 = 'ar', 
                         name = 'العربية', 
                         english_name = 'Arabic', 
-                        data = openapi_client.models.tv_episode_translations_200_response_translations_inner_data.tv_episode_translations_200_response_translations_inner_data(
+                        data = tmdb_client.models.tv_episode_translations_200_response_translations_inner_data.tv_episode_translations_200_response_translations_inner_data(
                             name = '', 
                             overview = 'خلف باب واسع من الجليد في شمالي وستيروس هناك شيء يحدث. تتلقى عائلة ستارك التي من وينترفيل زيارة من العائلة المالكة، بينما يشكل أمير عائلة تارغارين المنفي تحالفاً جديداً للسيطرة على العرش من جديد.', ), )
                     ]

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_screened_theatrically200_response import TvSeriesScreenedTheatrically200Response
+from tmdb_client.models.tv_series_screened_theatrically200_response import TvSeriesScreenedTheatrically200Response
 
 class TestTvSeriesScreenedTheatrically200Response(unittest.TestCase):
     """TvSeriesScreenedTheatrically200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvSeriesScreenedTheatrically200Response(unittest.TestCase):
             return TvSeriesScreenedTheatrically200Response(
                 id = 1399,
                 results = [
-                    openapi_client.models.tv_series_screened_theatrically_200_response_results_inner.tv_series_screened_theatrically_200_response_results_inner(
+                    tmdb_client.models.tv_series_screened_theatrically_200_response_results_inner.tv_series_screened_theatrically_200_response_results_inner(
                         id = 1159054, 
                         episode_number = 10, 
                         season_number = 5, )

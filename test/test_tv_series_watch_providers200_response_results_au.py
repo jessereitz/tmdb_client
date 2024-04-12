@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_watch_providers200_response_results_au import TvSeriesWatchProviders200ResponseResultsAU
+from tmdb_client.models.tv_series_watch_providers200_response_results_au import TvSeriesWatchProviders200ResponseResultsAU
 
 class TestTvSeriesWatchProviders200ResponseResultsAU(unittest.TestCase):
     """TvSeriesWatchProviders200ResponseResultsAU unit test stubs"""
@@ -37,14 +37,14 @@ class TestTvSeriesWatchProviders200ResponseResultsAU(unittest.TestCase):
             return TvSeriesWatchProviders200ResponseResultsAU(
                 link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/watch?locale=AU',
                 flatrate = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_au_flatrate_inner.tv_series_watch_providers_200_response_results_AU_flatrate_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_au_flatrate_inner.tv_series_watch_providers_200_response_results_AU_flatrate_inner(
                         logo_path = '/d3ixI1no0EpTj2i7u0Sd2DBXVlG.jpg', 
                         provider_id = 385, 
                         provider_name = 'BINGE', 
                         display_priority = 3, )
                     ],
                 buy = [
-                    openapi_client.models.movie_watch_providers_200_response_results_au_buy_inner.movie_watch_providers_200_response_results_AU_buy_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_au_buy_inner.movie_watch_providers_200_response_results_AU_buy_inner(
                         logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                         provider_id = 2, 
                         provider_name = 'Apple TV', 

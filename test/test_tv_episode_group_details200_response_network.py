@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_episode_group_details200_response_network import TvEpisodeGroupDetails200ResponseNetwork
+from tmdb_client.models.tv_episode_group_details200_response_network import TvEpisodeGroupDetails200ResponseNetwork
 
 class TestTvEpisodeGroupDetails200ResponseNetwork(unittest.TestCase):
     """TvEpisodeGroupDetails200ResponseNetwork unit test stubs"""

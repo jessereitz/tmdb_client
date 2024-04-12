@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_season_watch_providers200_response_results_jp import TvSeasonWatchProviders200ResponseResultsJP
+from tmdb_client.models.tv_season_watch_providers200_response_results_jp import TvSeasonWatchProviders200ResponseResultsJP
 
 class TestTvSeasonWatchProviders200ResponseResultsJP(unittest.TestCase):
     """TvSeasonWatchProviders200ResponseResultsJP unit test stubs"""
@@ -37,21 +37,21 @@ class TestTvSeasonWatchProviders200ResponseResultsJP(unittest.TestCase):
             return TvSeasonWatchProviders200ResponseResultsJP(
                 link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=JP',
                 buy = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_jp_buy_inner.tv_series_watch_providers_200_response_results_JP_buy_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_jp_buy_inner.tv_series_watch_providers_200_response_results_JP_buy_inner(
                         logo_path = '/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg', 
                         provider_id = 10, 
                         provider_name = 'Amazon Video', 
                         display_priority = 6, )
                     ],
                 flatrate = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_jp_flatrate_inner.tv_series_watch_providers_200_response_results_JP_flatrate_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_jp_flatrate_inner.tv_series_watch_providers_200_response_results_JP_flatrate_inner(
                         logo_path = '/npg1OiBidQSndMsBZwgEPOYU6Jq.jpg', 
                         provider_id = 84, 
                         provider_name = 'U-NEXT', 
                         display_priority = 4, )
                     ],
                 rent = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_jp_buy_inner.tv_series_watch_providers_200_response_results_JP_buy_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_jp_buy_inner.tv_series_watch_providers_200_response_results_JP_buy_inner(
                         logo_path = '/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg', 
                         provider_id = 10, 
                         provider_name = 'Amazon Video', 

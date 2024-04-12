@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_changes200_response import MovieChanges200Response
+from tmdb_client.models.movie_changes200_response import MovieChanges200Response
 
 class TestMovieChanges200Response(unittest.TestCase):
     """MovieChanges200Response unit test stubs"""
@@ -36,17 +36,17 @@ class TestMovieChanges200Response(unittest.TestCase):
         if include_optional:
             return MovieChanges200Response(
                 changes = [
-                    openapi_client.models.movie_changes_200_response_changes_inner.movie_changes_200_response_changes_inner(
+                    tmdb_client.models.movie_changes_200_response_changes_inner.movie_changes_200_response_changes_inner(
                         key = 'images', 
                         items = [
-                            openapi_client.models.movie_changes_200_response_changes_inner_items_inner.movie_changes_200_response_changes_inner_items_inner(
+                            tmdb_client.models.movie_changes_200_response_changes_inner_items_inner.movie_changes_200_response_changes_inner_items_inner(
                                 id = '643197b96dea3a00d4377270', 
                                 action = 'added', 
                                 time = '2023-04-08 16:35:05 UTC', 
                                 iso_639_1 = '', 
                                 iso_3166_1 = '', 
-                                value = openapi_client.models.movie_changes_200_response_changes_inner_items_inner_value.movie_changes_200_response_changes_inner_items_inner_value(
-                                    poster = openapi_client.models.movie_changes_200_response_changes_inner_items_inner_value_poster.movie_changes_200_response_changes_inner_items_inner_value_poster(
+                                value = tmdb_client.models.movie_changes_200_response_changes_inner_items_inner_value.movie_changes_200_response_changes_inner_items_inner_value(
+                                    poster = tmdb_client.models.movie_changes_200_response_changes_inner_items_inner_value_poster.movie_changes_200_response_changes_inner_items_inner_value_poster(
                                         file_path = '/s9ZrHprviFCx3azfWNBtt1LPSnL.jpg', ), ), )
                             ], )
                     ]

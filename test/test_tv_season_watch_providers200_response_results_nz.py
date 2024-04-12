@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_season_watch_providers200_response_results_nz import TvSeasonWatchProviders200ResponseResultsNZ
+from tmdb_client.models.tv_season_watch_providers200_response_results_nz import TvSeasonWatchProviders200ResponseResultsNZ
 
 class TestTvSeasonWatchProviders200ResponseResultsNZ(unittest.TestCase):
     """TvSeasonWatchProviders200ResponseResultsNZ unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvSeasonWatchProviders200ResponseResultsNZ(unittest.TestCase):
             return TvSeasonWatchProviders200ResponseResultsNZ(
                 link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=NZ',
                 flatrate = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_nz_flatrate_inner.tv_series_watch_providers_200_response_results_NZ_flatrate_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_nz_flatrate_inner.tv_series_watch_providers_200_response_results_NZ_flatrate_inner(
                         logo_path = '/od4YNSSLgOP3p8EtQTnEYfrPa77.jpg', 
                         provider_id = 273, 
                         provider_name = 'Neon TV', 

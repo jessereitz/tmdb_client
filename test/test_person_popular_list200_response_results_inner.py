@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.person_popular_list200_response_results_inner import PersonPopularList200ResponseResultsInner
+from tmdb_client.models.person_popular_list200_response_results_inner import PersonPopularList200ResponseResultsInner
 
 class TestPersonPopularList200ResponseResultsInner(unittest.TestCase):
     """PersonPopularList200ResponseResultsInner unit test stubs"""
@@ -39,7 +39,7 @@ class TestPersonPopularList200ResponseResultsInner(unittest.TestCase):
                 gender = 1,
                 id = 224513,
                 known_for = [
-                    openapi_client.models.person_popular_list_200_response_results_inner_known_for_inner.person_popular_list_200_response_results_inner_known_for_inner(
+                    tmdb_client.models.person_popular_list_200_response_results_inner_known_for_inner.person_popular_list_200_response_results_inner_known_for_inner(
                         adult = False, 
                         backdrop_path = '/ilRyazdMJwN05exqhwK4tMKBYZs.jpg', 
                         genre_ids = [

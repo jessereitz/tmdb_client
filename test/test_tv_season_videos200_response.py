@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_season_videos200_response import TvSeasonVideos200Response
+from tmdb_client.models.tv_season_videos200_response import TvSeasonVideos200Response
 
 class TestTvSeasonVideos200Response(unittest.TestCase):
     """TvSeasonVideos200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvSeasonVideos200Response(unittest.TestCase):
             return TvSeasonVideos200Response(
                 id = 3624,
                 results = [
-                    openapi_client.models.tv_season_videos_200_response_results_inner.tv_season_videos_200_response_results_inner(
+                    tmdb_client.models.tv_season_videos_200_response_results_inner.tv_season_videos_200_response_results_inner(
                         iso_639_1 = 'en', 
                         iso_3166_1 = 'US', 
                         name = 'Game Of Thrones - Season 1 Recap - Official HBO UK', 

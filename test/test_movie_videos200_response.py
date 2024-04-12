@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_videos200_response import MovieVideos200Response
+from tmdb_client.models.movie_videos200_response import MovieVideos200Response
 
 class TestMovieVideos200Response(unittest.TestCase):
     """MovieVideos200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestMovieVideos200Response(unittest.TestCase):
             return MovieVideos200Response(
                 id = 550,
                 results = [
-                    openapi_client.models.movie_videos_200_response_results_inner.movie_videos_200_response_results_inner(
+                    tmdb_client.models.movie_videos_200_response_results_inner.movie_videos_200_response_results_inner(
                         iso_639_1 = 'en', 
                         iso_3166_1 = 'US', 
                         name = 'Fight Club (1999) Trailer - Starring Brad Pitt, Edward Norton, Helena Bonham Carter', 

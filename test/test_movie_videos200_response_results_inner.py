@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_videos200_response_results_inner import MovieVideos200ResponseResultsInner
+from tmdb_client.models.movie_videos200_response_results_inner import MovieVideos200ResponseResultsInner
 
 class TestMovieVideos200ResponseResultsInner(unittest.TestCase):
     """MovieVideos200ResponseResultsInner unit test stubs"""

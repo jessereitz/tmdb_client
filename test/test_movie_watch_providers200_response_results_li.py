@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_watch_providers200_response_results_li import MovieWatchProviders200ResponseResultsLI
+from tmdb_client.models.movie_watch_providers200_response_results_li import MovieWatchProviders200ResponseResultsLI
 
 class TestMovieWatchProviders200ResponseResultsLI(unittest.TestCase):
     """MovieWatchProviders200ResponseResultsLI unit test stubs"""
@@ -37,7 +37,7 @@ class TestMovieWatchProviders200ResponseResultsLI(unittest.TestCase):
             return MovieWatchProviders200ResponseResultsLI(
                 link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=LI',
                 flatrate = [
-                    openapi_client.models.movie_watch_providers_200_response_results_li_flatrate_inner.movie_watch_providers_200_response_results_LI_flatrate_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_li_flatrate_inner.movie_watch_providers_200_response_results_LI_flatrate_inner(
                         logo_path = '/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg', 
                         provider_id = 337, 
                         provider_name = 'Disney Plus', 

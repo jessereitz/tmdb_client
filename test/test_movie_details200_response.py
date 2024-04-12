@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_details200_response import MovieDetails200Response
+from tmdb_client.models.movie_details200_response import MovieDetails200Response
 
 class TestMovieDetails200Response(unittest.TestCase):
     """MovieDetails200Response unit test stubs"""
@@ -40,7 +40,7 @@ class TestMovieDetails200Response(unittest.TestCase):
                 belongs_to_collection = None,
                 budget = 63000000,
                 genres = [
-                    openapi_client.models.movie_details_200_response_genres_inner.movie_details_200_response_genres_inner(
+                    tmdb_client.models.movie_details_200_response_genres_inner.movie_details_200_response_genres_inner(
                         id = 18, 
                         name = 'Drama', )
                     ],
@@ -53,14 +53,14 @@ class TestMovieDetails200Response(unittest.TestCase):
                 popularity = 61.416,
                 poster_path = '/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg',
                 production_companies = [
-                    openapi_client.models.movie_details_200_response_production_companies_inner.movie_details_200_response_production_companies_inner(
+                    tmdb_client.models.movie_details_200_response_production_companies_inner.movie_details_200_response_production_companies_inner(
                         id = 508, 
                         logo_path = '/7cxRWzi4LsVm4Utfpr1hfARNurT.png', 
                         name = 'Regency Enterprises', 
                         origin_country = 'US', )
                     ],
                 production_countries = [
-                    openapi_client.models.movie_details_200_response_production_countries_inner.movie_details_200_response_production_countries_inner(
+                    tmdb_client.models.movie_details_200_response_production_countries_inner.movie_details_200_response_production_countries_inner(
                         iso_3166_1 = 'US', 
                         name = 'United States of America', )
                     ],
@@ -68,7 +68,7 @@ class TestMovieDetails200Response(unittest.TestCase):
                 revenue = 100853753,
                 runtime = 139,
                 spoken_languages = [
-                    openapi_client.models.movie_details_200_response_spoken_languages_inner.movie_details_200_response_spoken_languages_inner(
+                    tmdb_client.models.movie_details_200_response_spoken_languages_inner.movie_details_200_response_spoken_languages_inner(
                         english_name = 'English', 
                         iso_639_1 = 'en', 
                         name = 'English', )

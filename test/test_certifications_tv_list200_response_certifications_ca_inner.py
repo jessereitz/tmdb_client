@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.certifications_tv_list200_response_certifications_ca_inner import CertificationsTvList200ResponseCertificationsCAInner
+from tmdb_client.models.certifications_tv_list200_response_certifications_ca_inner import CertificationsTvList200ResponseCertificationsCAInner
 
 class TestCertificationsTvList200ResponseCertificationsCAInner(unittest.TestCase):
     """CertificationsTvList200ResponseCertificationsCAInner unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.account_rated_tv200_response import AccountRatedTv200Response
+from tmdb_client.models.account_rated_tv200_response import AccountRatedTv200Response
 
 class TestAccountRatedTv200Response(unittest.TestCase):
     """AccountRatedTv200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestAccountRatedTv200Response(unittest.TestCase):
             return AccountRatedTv200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.account_rated_tv_200_response_results_inner.account_rated_tv_200_response_results_inner(
+                    tmdb_client.models.account_rated_tv_200_response_results_inner.account_rated_tv_200_response_results_inner(
                         adult = False, 
                         backdrop_path = '/2yZXtM2Kky1Sy0kachbDlwybl3y.jpg', 
                         genre_ids = [

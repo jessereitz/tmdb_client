@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_watch_providers200_response_results_ca import MovieWatchProviders200ResponseResultsCA
+from tmdb_client.models.movie_watch_providers200_response_results_ca import MovieWatchProviders200ResponseResultsCA
 
 class TestMovieWatchProviders200ResponseResultsCA(unittest.TestCase):
     """MovieWatchProviders200ResponseResultsCA unit test stubs"""
@@ -37,21 +37,21 @@ class TestMovieWatchProviders200ResponseResultsCA(unittest.TestCase):
             return MovieWatchProviders200ResponseResultsCA(
                 link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=CA',
                 rent = [
-                    openapi_client.models.movie_watch_providers_200_response_results_ca_rent_inner.movie_watch_providers_200_response_results_CA_rent_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_ca_rent_inner.movie_watch_providers_200_response_results_CA_rent_inner(
                         logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                         provider_id = 3, 
                         provider_name = 'Google Play Movies', 
                         display_priority = 8, )
                     ],
                 buy = [
-                    openapi_client.models.movie_watch_providers_200_response_results_be_rent_inner.movie_watch_providers_200_response_results_BE_rent_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_be_rent_inner.movie_watch_providers_200_response_results_BE_rent_inner(
                         logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                         provider_id = 2, 
                         provider_name = 'Apple TV', 
                         display_priority = 6, )
                     ],
                 flatrate = [
-                    openapi_client.models.movie_watch_providers_200_response_results_ca_flatrate_inner.movie_watch_providers_200_response_results_CA_flatrate_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_ca_flatrate_inner.movie_watch_providers_200_response_results_CA_flatrate_inner(
                         logo_path = '/sB5vHrmYmliwUvBwZe8HpXo9r8m.jpg', 
                         provider_id = 305, 
                         provider_name = 'Crave Starz', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_watch_providers200_response_results import MovieWatchProviders200ResponseResults
+from tmdb_client.models.movie_watch_providers200_response_results import MovieWatchProviders200ResponseResults
 
 class TestMovieWatchProviders200ResponseResults(unittest.TestCase):
     """MovieWatchProviders200ResponseResults unit test stubs"""
@@ -35,1577 +35,1577 @@ class TestMovieWatchProviders200ResponseResults(unittest.TestCase):
         model = MovieWatchProviders200ResponseResults()
         if include_optional:
             return MovieWatchProviders200ResponseResults(
-                ae = openapi_client.models.movie_watch_providers_200_response_results_ae.movie_watch_providers_200_response_results_AE(
+                ae = tmdb_client.models.movie_watch_providers_200_response_results_ae.movie_watch_providers_200_response_results_AE(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=AE', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ae_flatrate_inner.movie_watch_providers_200_response_results_AE_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ae_flatrate_inner.movie_watch_providers_200_response_results_AE_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 12, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ae_rent_inner.movie_watch_providers_200_response_results_AE_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ae_rent_inner.movie_watch_providers_200_response_results_AE_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 1, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ae_rent_inner.movie_watch_providers_200_response_results_AE_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ae_rent_inner.movie_watch_providers_200_response_results_AE_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 1, )
                         ], ),
-                al = openapi_client.models.movie_watch_providers_200_response_results_al.movie_watch_providers_200_response_results_AL(
+                al = tmdb_client.models.movie_watch_providers_200_response_results_al.movie_watch_providers_200_response_results_AL(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=AL', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_al_buy_inner.movie_watch_providers_200_response_results_AL_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_al_buy_inner.movie_watch_providers_200_response_results_AL_buy_inner(
                             logo_path = '/5GEbAhFW2S5T8zVc1MNvz00pIzM.jpg', 
                             provider_id = 35, 
                             provider_name = 'Rakuten TV', 
                             display_priority = 9, )
                         ], ),
-                ar = openapi_client.models.movie_watch_providers_200_response_results_ar.movie_watch_providers_200_response_results_AR(
+                ar = tmdb_client.models.movie_watch_providers_200_response_results_ar.movie_watch_providers_200_response_results_AR(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=AR', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ar_buy_inner.movie_watch_providers_200_response_results_AR_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ar_buy_inner.movie_watch_providers_200_response_results_AR_buy_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 6, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ar_flatrate_inner.movie_watch_providers_200_response_results_AR_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ar_flatrate_inner.movie_watch_providers_200_response_results_AR_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 2, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ar_buy_inner.movie_watch_providers_200_response_results_AR_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ar_buy_inner.movie_watch_providers_200_response_results_AR_buy_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 6, )
                         ], ),
-                at = openapi_client.models.movie_watch_providers_200_response_results_at.movie_watch_providers_200_response_results_AT(
+                at = tmdb_client.models.movie_watch_providers_200_response_results_at.movie_watch_providers_200_response_results_AT(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=AT', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_at_flatrate_inner.movie_watch_providers_200_response_results_AT_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_at_flatrate_inner.movie_watch_providers_200_response_results_AT_flatrate_inner(
                             logo_path = '/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg', 
                             provider_id = 337, 
                             provider_name = 'Disney Plus', 
                             display_priority = 2, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_at_buy_inner.movie_watch_providers_200_response_results_AT_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_at_buy_inner.movie_watch_providers_200_response_results_AT_buy_inner(
                             logo_path = '/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg', 
                             provider_id = 10, 
                             provider_name = 'Amazon Video', 
                             display_priority = 3, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_at_buy_inner.movie_watch_providers_200_response_results_AT_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_at_buy_inner.movie_watch_providers_200_response_results_AT_buy_inner(
                             logo_path = '/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg', 
                             provider_id = 10, 
                             provider_name = 'Amazon Video', 
                             display_priority = 3, )
                         ], ),
-                au = openapi_client.models.movie_watch_providers_200_response_results_au.movie_watch_providers_200_response_results_AU(
+                au = tmdb_client.models.movie_watch_providers_200_response_results_au.movie_watch_providers_200_response_results_AU(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=AU', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_buy_inner.movie_watch_providers_200_response_results_AU_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_buy_inner.movie_watch_providers_200_response_results_AU_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 10, )
                         ], ),
-                ba = openapi_client.models.movie_watch_providers_200_response_results_ba.movie_watch_providers_200_response_results_BA(
+                ba = tmdb_client.models.movie_watch_providers_200_response_results_ba.movie_watch_providers_200_response_results_BA(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=BA', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_al_buy_inner.movie_watch_providers_200_response_results_AL_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_al_buy_inner.movie_watch_providers_200_response_results_AL_buy_inner(
                             logo_path = '/5GEbAhFW2S5T8zVc1MNvz00pIzM.jpg', 
                             provider_id = 35, 
                             provider_name = 'Rakuten TV', 
                             display_priority = 9, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                bb = openapi_client.models.movie_watch_providers_200_response_results_bb.movie_watch_providers_200_response_results_BB(
+                bb = tmdb_client.models.movie_watch_providers_200_response_results_bb.movie_watch_providers_200_response_results_BB(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=BB', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bb_flatrate_inner.movie_watch_providers_200_response_results_BB_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bb_flatrate_inner.movie_watch_providers_200_response_results_BB_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 28, )
                         ], ),
-                be = openapi_client.models.movie_watch_providers_200_response_results_be.movie_watch_providers_200_response_results_BE(
+                be = tmdb_client.models.movie_watch_providers_200_response_results_be.movie_watch_providers_200_response_results_BE(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=BE', 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_be_rent_inner.movie_watch_providers_200_response_results_BE_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_be_rent_inner.movie_watch_providers_200_response_results_BE_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 6, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_be_flatrate_inner.movie_watch_providers_200_response_results_BE_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_be_flatrate_inner.movie_watch_providers_200_response_results_BE_flatrate_inner(
                             logo_path = '/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg', 
                             provider_id = 337, 
                             provider_name = 'Disney Plus', 
                             display_priority = 1, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_be_rent_inner.movie_watch_providers_200_response_results_BE_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_be_rent_inner.movie_watch_providers_200_response_results_BE_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 6, )
                         ], ),
-                bg = openapi_client.models.movie_watch_providers_200_response_results_bg.movie_watch_providers_200_response_results_BG(
+                bg = tmdb_client.models.movie_watch_providers_200_response_results_bg.movie_watch_providers_200_response_results_BG(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=BG', 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bg_rent_inner.movie_watch_providers_200_response_results_BG_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bg_rent_inner.movie_watch_providers_200_response_results_BG_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 2, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bg_rent_inner.movie_watch_providers_200_response_results_BG_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bg_rent_inner.movie_watch_providers_200_response_results_BG_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 2, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                bh = openapi_client.models.movie_watch_providers_200_response_results_bh.movie_watch_providers_200_response_results_BH(
+                bh = tmdb_client.models.movie_watch_providers_200_response_results_bh.movie_watch_providers_200_response_results_BH(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=BH', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bh_buy_inner.movie_watch_providers_200_response_results_BH_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bh_buy_inner.movie_watch_providers_200_response_results_BH_buy_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 1000, )
                         ], ),
-                bo = openapi_client.models.movie_watch_providers_200_response_results_bo.movie_watch_providers_200_response_results_BO(
+                bo = tmdb_client.models.movie_watch_providers_200_response_results_bo.movie_watch_providers_200_response_results_BO(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=BO', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                br = openapi_client.models.movie_watch_providers_200_response_results_br.movie_watch_providers_200_response_results_BR(
+                br = tmdb_client.models.movie_watch_providers_200_response_results_br.movie_watch_providers_200_response_results_BR(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=BR', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ar_flatrate_inner.movie_watch_providers_200_response_results_AR_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ar_flatrate_inner.movie_watch_providers_200_response_results_AR_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 2, )
                         ], ),
-                bs = openapi_client.models.movie_watch_providers_200_response_results_bs.movie_watch_providers_200_response_results_BS(
+                bs = tmdb_client.models.movie_watch_providers_200_response_results_bs.movie_watch_providers_200_response_results_BS(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=BS', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bb_flatrate_inner.movie_watch_providers_200_response_results_BB_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bb_flatrate_inner.movie_watch_providers_200_response_results_BB_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 28, )
                         ], ),
-                ca = openapi_client.models.movie_watch_providers_200_response_results_ca.movie_watch_providers_200_response_results_CA(
+                ca = tmdb_client.models.movie_watch_providers_200_response_results_ca.movie_watch_providers_200_response_results_CA(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=CA', 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ca_rent_inner.movie_watch_providers_200_response_results_CA_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ca_rent_inner.movie_watch_providers_200_response_results_CA_rent_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 8, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_be_rent_inner.movie_watch_providers_200_response_results_BE_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_be_rent_inner.movie_watch_providers_200_response_results_BE_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 6, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ca_flatrate_inner.movie_watch_providers_200_response_results_CA_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ca_flatrate_inner.movie_watch_providers_200_response_results_CA_flatrate_inner(
                             logo_path = '/sB5vHrmYmliwUvBwZe8HpXo9r8m.jpg', 
                             provider_id = 305, 
                             provider_name = 'Crave Starz', 
                             display_priority = 5, )
                         ], ),
-                ch = openapi_client.models.movie_watch_providers_200_response_results_ch.movie_watch_providers_200_response_results_CH(
+                ch = tmdb_client.models.movie_watch_providers_200_response_results_ch.movie_watch_providers_200_response_results_CH(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=CH', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ch_buy_inner.movie_watch_providers_200_response_results_CH_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ch_buy_inner.movie_watch_providers_200_response_results_CH_buy_inner(
                             logo_path = '/rVOOhp6V8FheEAKtFAJMLMbnaMZ.jpg', 
                             provider_id = 150, 
                             provider_name = 'blue TV', 
                             display_priority = 3, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ch_buy_inner.movie_watch_providers_200_response_results_CH_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ch_buy_inner.movie_watch_providers_200_response_results_CH_buy_inner(
                             logo_path = '/rVOOhp6V8FheEAKtFAJMLMbnaMZ.jpg', 
                             provider_id = 150, 
                             provider_name = 'blue TV', 
                             display_priority = 3, )
                         ], ),
-                cl = openapi_client.models.movie_watch_providers_200_response_results_cl.movie_watch_providers_200_response_results_CL(
+                cl = tmdb_client.models.movie_watch_providers_200_response_results_cl.movie_watch_providers_200_response_results_CL(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=CL', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_cl_buy_inner.movie_watch_providers_200_response_results_CL_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_cl_buy_inner.movie_watch_providers_200_response_results_CL_buy_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 4, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ar_flatrate_inner.movie_watch_providers_200_response_results_AR_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ar_flatrate_inner.movie_watch_providers_200_response_results_AR_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 2, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_cl_buy_inner.movie_watch_providers_200_response_results_CL_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_cl_buy_inner.movie_watch_providers_200_response_results_CL_buy_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 4, )
                         ], ),
-                co = openapi_client.models.movie_watch_providers_200_response_results_co.movie_watch_providers_200_response_results_CO(
+                co = tmdb_client.models.movie_watch_providers_200_response_results_co.movie_watch_providers_200_response_results_CO(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=CO', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_co_buy_inner.movie_watch_providers_200_response_results_CO_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_co_buy_inner.movie_watch_providers_200_response_results_CO_buy_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 3, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ar_flatrate_inner.movie_watch_providers_200_response_results_AR_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ar_flatrate_inner.movie_watch_providers_200_response_results_AR_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 2, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_co_buy_inner.movie_watch_providers_200_response_results_CO_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_co_buy_inner.movie_watch_providers_200_response_results_CO_buy_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 3, )
                         ], ),
-                cr = openapi_client.models.movie_watch_providers_200_response_results_cr.movie_watch_providers_200_response_results_CR(
+                cr = tmdb_client.models.movie_watch_providers_200_response_results_cr.movie_watch_providers_200_response_results_CR(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=CR', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                cv = openapi_client.models.movie_watch_providers_200_response_results_cv.movie_watch_providers_200_response_results_CV(
+                cv = tmdb_client.models.movie_watch_providers_200_response_results_cv.movie_watch_providers_200_response_results_CV(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=CV', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_cv_buy_inner.movie_watch_providers_200_response_results_CV_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_cv_buy_inner.movie_watch_providers_200_response_results_CV_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 13, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_cv_buy_inner.movie_watch_providers_200_response_results_CV_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_cv_buy_inner.movie_watch_providers_200_response_results_CV_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 13, )
                         ], ),
-                cz = openapi_client.models.movie_watch_providers_200_response_results_cz.movie_watch_providers_200_response_results_CZ(
+                cz = tmdb_client.models.movie_watch_providers_200_response_results_cz.movie_watch_providers_200_response_results_CZ(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=CZ', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_cz_rent_inner.movie_watch_providers_200_response_results_CZ_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_cz_rent_inner.movie_watch_providers_200_response_results_CZ_rent_inner(
                             logo_path = '/wTF37o4jOkQfjnWe41gmeuASYZA.jpg', 
                             provider_id = 308, 
                             provider_name = 'O2 TV', 
                             display_priority = 2, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_cz_buy_inner.movie_watch_providers_200_response_results_CZ_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_cz_buy_inner.movie_watch_providers_200_response_results_CZ_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 3, )
                         ], ),
-                de = openapi_client.models.movie_watch_providers_200_response_results_de.movie_watch_providers_200_response_results_DE(
+                de = tmdb_client.models.movie_watch_providers_200_response_results_de.movie_watch_providers_200_response_results_DE(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=DE', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_at_flatrate_inner.movie_watch_providers_200_response_results_AT_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_at_flatrate_inner.movie_watch_providers_200_response_results_AT_flatrate_inner(
                             logo_path = '/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg', 
                             provider_id = 337, 
                             provider_name = 'Disney Plus', 
                             display_priority = 2, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 4, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 4, )
                         ], ),
-                dk = openapi_client.models.movie_watch_providers_200_response_results_dk.movie_watch_providers_200_response_results_DK(
+                dk = tmdb_client.models.movie_watch_providers_200_response_results_dk.movie_watch_providers_200_response_results_DK(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=DK', 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_dk_rent_inner.movie_watch_providers_200_response_results_DK_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_dk_rent_inner.movie_watch_providers_200_response_results_DK_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 7, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_be_flatrate_inner.movie_watch_providers_200_response_results_BE_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_be_flatrate_inner.movie_watch_providers_200_response_results_BE_flatrate_inner(
                             logo_path = '/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg', 
                             provider_id = 337, 
                             provider_name = 'Disney Plus', 
                             display_priority = 1, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_dk_rent_inner.movie_watch_providers_200_response_results_DK_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_dk_rent_inner.movie_watch_providers_200_response_results_DK_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 7, )
                         ], ),
-                do = openapi_client.models.movie_watch_providers_200_response_results_do.movie_watch_providers_200_response_results_DO(
+                do = tmdb_client.models.movie_watch_providers_200_response_results_do.movie_watch_providers_200_response_results_DO(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=DO', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                ec = openapi_client.models.movie_watch_providers_200_response_results_ec.movie_watch_providers_200_response_results_EC(
+                ec = tmdb_client.models.movie_watch_providers_200_response_results_ec.movie_watch_providers_200_response_results_EC(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=EC', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ec_buy_inner.movie_watch_providers_200_response_results_EC_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ec_buy_inner.movie_watch_providers_200_response_results_EC_buy_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 11, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ar_flatrate_inner.movie_watch_providers_200_response_results_AR_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ar_flatrate_inner.movie_watch_providers_200_response_results_AR_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 2, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ec_buy_inner.movie_watch_providers_200_response_results_EC_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ec_buy_inner.movie_watch_providers_200_response_results_EC_buy_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 11, )
                         ], ),
-                ee = openapi_client.models.movie_watch_providers_200_response_results_ee.movie_watch_providers_200_response_results_EE(
+                ee = tmdb_client.models.movie_watch_providers_200_response_results_ee.movie_watch_providers_200_response_results_EE(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=EE', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_cz_buy_inner.movie_watch_providers_200_response_results_CZ_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_cz_buy_inner.movie_watch_providers_200_response_results_CZ_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 3, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_cl_buy_inner.movie_watch_providers_200_response_results_CL_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_cl_buy_inner.movie_watch_providers_200_response_results_CL_buy_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 4, )
                         ], ),
-                eg = openapi_client.models.movie_watch_providers_200_response_results_eg.movie_watch_providers_200_response_results_EG(
+                eg = tmdb_client.models.movie_watch_providers_200_response_results_eg.movie_watch_providers_200_response_results_EG(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=EG', 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bg_rent_inner.movie_watch_providers_200_response_results_BG_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bg_rent_inner.movie_watch_providers_200_response_results_BG_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 2, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bg_rent_inner.movie_watch_providers_200_response_results_BG_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bg_rent_inner.movie_watch_providers_200_response_results_BG_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 2, )
                         ], ),
-                es = openapi_client.models.movie_watch_providers_200_response_results_es.movie_watch_providers_200_response_results_ES(
+                es = tmdb_client.models.movie_watch_providers_200_response_results_es.movie_watch_providers_200_response_results_ES(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=ES', 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 4, )
                         ], 
                     ads = [
-                        openapi_client.models.movie_watch_providers_200_response_results_es_ads_inner.movie_watch_providers_200_response_results_ES_ads_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_es_ads_inner.movie_watch_providers_200_response_results_ES_ads_inner(
                             logo_path = '/5GEbAhFW2S5T8zVc1MNvz00pIzM.jpg', 
                             provider_id = 35, 
                             provider_name = 'Rakuten TV', 
                             display_priority = 11, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 4, )
                         ], ),
-                fi = openapi_client.models.movie_watch_providers_200_response_results_fi.movie_watch_providers_200_response_results_FI(
+                fi = tmdb_client.models.movie_watch_providers_200_response_results_fi.movie_watch_providers_200_response_results_FI(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=FI', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_be_flatrate_inner.movie_watch_providers_200_response_results_BE_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_be_flatrate_inner.movie_watch_providers_200_response_results_BE_flatrate_inner(
                             logo_path = '/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg', 
                             provider_id = 337, 
                             provider_name = 'Disney Plus', 
                             display_priority = 1, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_buy_inner.movie_watch_providers_200_response_results_AU_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_buy_inner.movie_watch_providers_200_response_results_AU_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 10, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_buy_inner.movie_watch_providers_200_response_results_AU_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_buy_inner.movie_watch_providers_200_response_results_AU_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 10, )
                         ], ),
-                fj = openapi_client.models.movie_watch_providers_200_response_results_fj.movie_watch_providers_200_response_results_FJ(
+                fj = tmdb_client.models.movie_watch_providers_200_response_results_fj.movie_watch_providers_200_response_results_FJ(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=FJ', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bh_buy_inner.movie_watch_providers_200_response_results_BH_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bh_buy_inner.movie_watch_providers_200_response_results_BH_buy_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 1000, )
                         ], ),
-                fr = openapi_client.models.movie_watch_providers_200_response_results_fr.movie_watch_providers_200_response_results_FR(
+                fr = tmdb_client.models.movie_watch_providers_200_response_results_fr.movie_watch_providers_200_response_results_FR(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=FR', 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_fr_rent_inner.movie_watch_providers_200_response_results_FR_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_fr_rent_inner.movie_watch_providers_200_response_results_FR_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 5, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_fr_rent_inner.movie_watch_providers_200_response_results_FR_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_fr_rent_inner.movie_watch_providers_200_response_results_FR_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 5, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                gb = openapi_client.models.movie_watch_providers_200_response_results_gb.movie_watch_providers_200_response_results_GB(
+                gb = tmdb_client.models.movie_watch_providers_200_response_results_gb.movie_watch_providers_200_response_results_GB(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=GB', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_be_flatrate_inner.movie_watch_providers_200_response_results_BE_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_be_flatrate_inner.movie_watch_providers_200_response_results_BE_flatrate_inner(
                             logo_path = '/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg', 
                             provider_id = 337, 
                             provider_name = 'Disney Plus', 
                             display_priority = 1, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_gb_buy_inner.movie_watch_providers_200_response_results_GB_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_gb_buy_inner.movie_watch_providers_200_response_results_GB_buy_inner(
                             logo_path = '/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg', 
                             provider_id = 10, 
                             provider_name = 'Amazon Video', 
                             display_priority = 4, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_gb_buy_inner.movie_watch_providers_200_response_results_GB_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_gb_buy_inner.movie_watch_providers_200_response_results_GB_buy_inner(
                             logo_path = '/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg', 
                             provider_id = 10, 
                             provider_name = 'Amazon Video', 
                             display_priority = 4, )
                         ], ),
-                gf = openapi_client.models.movie_watch_providers_200_response_results_gf.movie_watch_providers_200_response_results_GF(
+                gf = tmdb_client.models.movie_watch_providers_200_response_results_gf.movie_watch_providers_200_response_results_GF(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=GF', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_gf_flatrate_inner.movie_watch_providers_200_response_results_GF_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_gf_flatrate_inner.movie_watch_providers_200_response_results_GF_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 30, )
                         ], ),
-                gi = openapi_client.models.movie_watch_providers_200_response_results_gi.movie_watch_providers_200_response_results_GI(
+                gi = tmdb_client.models.movie_watch_providers_200_response_results_gi.movie_watch_providers_200_response_results_GI(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=GI', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                gr = openapi_client.models.movie_watch_providers_200_response_results_gr.movie_watch_providers_200_response_results_GR(
+                gr = tmdb_client.models.movie_watch_providers_200_response_results_gr.movie_watch_providers_200_response_results_GR(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=GR', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bg_rent_inner.movie_watch_providers_200_response_results_BG_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bg_rent_inner.movie_watch_providers_200_response_results_BG_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 2, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bg_rent_inner.movie_watch_providers_200_response_results_BG_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bg_rent_inner.movie_watch_providers_200_response_results_BG_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 2, )
                         ], ),
-                gt = openapi_client.models.movie_watch_providers_200_response_results_gt.movie_watch_providers_200_response_results_GT(
+                gt = tmdb_client.models.movie_watch_providers_200_response_results_gt.movie_watch_providers_200_response_results_GT(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=GT', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                hk = openapi_client.models.movie_watch_providers_200_response_results_hk.movie_watch_providers_200_response_results_HK(
+                hk = tmdb_client.models.movie_watch_providers_200_response_results_hk.movie_watch_providers_200_response_results_HK(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=HK', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_hk_flatrate_inner.movie_watch_providers_200_response_results_HK_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_hk_flatrate_inner.movie_watch_providers_200_response_results_HK_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 7, )
                         ], ),
-                hn = openapi_client.models.movie_watch_providers_200_response_results_hn.movie_watch_providers_200_response_results_HN(
+                hn = tmdb_client.models.movie_watch_providers_200_response_results_hn.movie_watch_providers_200_response_results_HN(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=HN', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                hr = openapi_client.models.movie_watch_providers_200_response_results_hr.movie_watch_providers_200_response_results_HR(
+                hr = tmdb_client.models.movie_watch_providers_200_response_results_hr.movie_watch_providers_200_response_results_HR(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=HR', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_co_buy_inner.movie_watch_providers_200_response_results_CO_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_co_buy_inner.movie_watch_providers_200_response_results_CO_buy_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 3, )
                         ], 
                     ads = [
-                        openapi_client.models.movie_watch_providers_200_response_results_hr_ads_inner.movie_watch_providers_200_response_results_HR_ads_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_hr_ads_inner.movie_watch_providers_200_response_results_HR_ads_inner(
                             logo_path = '/xrHrIraInfRXnrz1zHhY1tXJowg.jpg', 
                             provider_id = 572, 
                             provider_name = 'RTL Play', 
                             display_priority = 30, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                hu = openapi_client.models.movie_watch_providers_200_response_results_hu.movie_watch_providers_200_response_results_HU(
+                hu = tmdb_client.models.movie_watch_providers_200_response_results_hu.movie_watch_providers_200_response_results_HU(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=HU', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ar_flatrate_inner.movie_watch_providers_200_response_results_AR_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ar_flatrate_inner.movie_watch_providers_200_response_results_AR_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 2, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_cz_buy_inner.movie_watch_providers_200_response_results_CZ_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_cz_buy_inner.movie_watch_providers_200_response_results_CZ_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 3, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_cz_buy_inner.movie_watch_providers_200_response_results_CZ_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_cz_buy_inner.movie_watch_providers_200_response_results_CZ_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 3, )
                         ], ),
-                id = openapi_client.models.movie_watch_providers_200_response_results_id.movie_watch_providers_200_response_results_ID(
+                id = tmdb_client.models.movie_watch_providers_200_response_results_id.movie_watch_providers_200_response_results_ID(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=ID', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_id_flatrate_inner.movie_watch_providers_200_response_results_ID_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_id_flatrate_inner.movie_watch_providers_200_response_results_ID_flatrate_inner(
                             logo_path = '/7Fl8ylPDclt3ZYgNbW2t7rbZE9I.jpg', 
                             provider_id = 122, 
                             provider_name = 'Hotstar', 
                             display_priority = 3, )
                         ], ),
-                ie = openapi_client.models.movie_watch_providers_200_response_results_ie.movie_watch_providers_200_response_results_IE(
+                ie = tmdb_client.models.movie_watch_providers_200_response_results_ie.movie_watch_providers_200_response_results_IE(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=IE', 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 4, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 4, )
                         ], ),
-                il = openapi_client.models.movie_watch_providers_200_response_results_il.movie_watch_providers_200_response_results_IL(
+                il = tmdb_client.models.movie_watch_providers_200_response_results_il.movie_watch_providers_200_response_results_IL(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=IL', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_il_buy_inner.movie_watch_providers_200_response_results_IL_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_il_buy_inner.movie_watch_providers_200_response_results_IL_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 28, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                var_in = openapi_client.models.movie_watch_providers_200_response_results_in.movie_watch_providers_200_response_results_IN(
+                var_in = tmdb_client.models.movie_watch_providers_200_response_results_in.movie_watch_providers_200_response_results_IN(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=IN', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_in_rent_inner.movie_watch_providers_200_response_results_IN_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_in_rent_inner.movie_watch_providers_200_response_results_IN_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 8, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_in_rent_inner.movie_watch_providers_200_response_results_IN_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_in_rent_inner.movie_watch_providers_200_response_results_IN_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 8, )
                         ], ),
-                iq = openapi_client.models.movie_watch_providers_200_response_results_iq.movie_watch_providers_200_response_results_IQ(
+                iq = tmdb_client.models.movie_watch_providers_200_response_results_iq.movie_watch_providers_200_response_results_IQ(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=IQ', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                var_is = openapi_client.models.movie_watch_providers_200_response_results_is.movie_watch_providers_200_response_results_IS(
+                var_is = tmdb_client.models.movie_watch_providers_200_response_results_is.movie_watch_providers_200_response_results_IS(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=IS', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_cl_buy_inner.movie_watch_providers_200_response_results_CL_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_cl_buy_inner.movie_watch_providers_200_response_results_CL_buy_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 4, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_be_flatrate_inner.movie_watch_providers_200_response_results_BE_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_be_flatrate_inner.movie_watch_providers_200_response_results_BE_flatrate_inner(
                             logo_path = '/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg', 
                             provider_id = 337, 
                             provider_name = 'Disney Plus', 
                             display_priority = 1, )
                         ], ),
-                it = openapi_client.models.movie_watch_providers_200_response_results_it.movie_watch_providers_200_response_results_IT(
+                it = tmdb_client.models.movie_watch_providers_200_response_results_it.movie_watch_providers_200_response_results_IT(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=IT', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_it_buy_inner.movie_watch_providers_200_response_results_IT_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_it_buy_inner.movie_watch_providers_200_response_results_IT_buy_inner(
                             logo_path = '/5GEbAhFW2S5T8zVc1MNvz00pIzM.jpg', 
                             provider_id = 35, 
                             provider_name = 'Rakuten TV', 
                             display_priority = 3, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_it_buy_inner.movie_watch_providers_200_response_results_IT_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_it_buy_inner.movie_watch_providers_200_response_results_IT_buy_inner(
                             logo_path = '/5GEbAhFW2S5T8zVc1MNvz00pIzM.jpg', 
                             provider_id = 35, 
                             provider_name = 'Rakuten TV', 
                             display_priority = 3, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                jm = openapi_client.models.movie_watch_providers_200_response_results_jm.movie_watch_providers_200_response_results_JM(
+                jm = tmdb_client.models.movie_watch_providers_200_response_results_jm.movie_watch_providers_200_response_results_JM(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=JM', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_jm_flatrate_inner.movie_watch_providers_200_response_results_JM_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_jm_flatrate_inner.movie_watch_providers_200_response_results_JM_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 27, )
                         ], ),
-                jo = openapi_client.models.movie_watch_providers_200_response_results_jo.movie_watch_providers_200_response_results_JO(
+                jo = tmdb_client.models.movie_watch_providers_200_response_results_jo.movie_watch_providers_200_response_results_JO(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=JO', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bh_buy_inner.movie_watch_providers_200_response_results_BH_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bh_buy_inner.movie_watch_providers_200_response_results_BH_buy_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 1000, )
                         ], ),
-                jp = openapi_client.models.movie_watch_providers_200_response_results_jp.movie_watch_providers_200_response_results_JP(
+                jp = tmdb_client.models.movie_watch_providers_200_response_results_jp.movie_watch_providers_200_response_results_JP(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=JP', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_jp_flatrate_inner.movie_watch_providers_200_response_results_JP_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_jp_flatrate_inner.movie_watch_providers_200_response_results_JP_flatrate_inner(
                             logo_path = '/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg', 
                             provider_id = 337, 
                             provider_name = 'Disney Plus', 
                             display_priority = 3, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_jp_rent_inner.movie_watch_providers_200_response_results_JP_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_jp_rent_inner.movie_watch_providers_200_response_results_JP_rent_inner(
                             logo_path = '/g8jqHtXJsMlc8B1Gb0Rt8AvUJMn.jpg', 
                             provider_id = 85, 
                             provider_name = 'dTV', 
                             display_priority = 2, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_dk_rent_inner.movie_watch_providers_200_response_results_DK_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_dk_rent_inner.movie_watch_providers_200_response_results_DK_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 7, )
                         ], ),
-                kr = openapi_client.models.movie_watch_providers_200_response_results_kr.movie_watch_providers_200_response_results_KR(
+                kr = tmdb_client.models.movie_watch_providers_200_response_results_kr.movie_watch_providers_200_response_results_KR(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=KR', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_kr_buy_inner.movie_watch_providers_200_response_results_KR_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_kr_buy_inner.movie_watch_providers_200_response_results_KR_buy_inner(
                             logo_path = '/2ioan5BX5L9tz4fIGU93blTeFhv.jpg', 
                             provider_id = 356, 
                             provider_name = 'wavve', 
                             display_priority = 3, )
                         ], ),
-                kw = openapi_client.models.movie_watch_providers_200_response_results_kw.movie_watch_providers_200_response_results_KW(
+                kw = tmdb_client.models.movie_watch_providers_200_response_results_kw.movie_watch_providers_200_response_results_KW(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=KW', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bh_buy_inner.movie_watch_providers_200_response_results_BH_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bh_buy_inner.movie_watch_providers_200_response_results_BH_buy_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 1000, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                lb = openapi_client.models.movie_watch_providers_200_response_results_lb.movie_watch_providers_200_response_results_LB(
+                lb = tmdb_client.models.movie_watch_providers_200_response_results_lb.movie_watch_providers_200_response_results_LB(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=LB', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bh_buy_inner.movie_watch_providers_200_response_results_BH_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bh_buy_inner.movie_watch_providers_200_response_results_BH_buy_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 1000, )
                         ], ),
-                li = openapi_client.models.movie_watch_providers_200_response_results_li.movie_watch_providers_200_response_results_LI(
+                li = tmdb_client.models.movie_watch_providers_200_response_results_li.movie_watch_providers_200_response_results_LI(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=LI', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_li_flatrate_inner.movie_watch_providers_200_response_results_LI_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_li_flatrate_inner.movie_watch_providers_200_response_results_LI_flatrate_inner(
                             logo_path = '/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg', 
                             provider_id = 337, 
                             provider_name = 'Disney Plus', 
                             display_priority = 30, )
                         ], ),
-                lt = openapi_client.models.movie_watch_providers_200_response_results_lt.movie_watch_providers_200_response_results_LT(
+                lt = tmdb_client.models.movie_watch_providers_200_response_results_lt.movie_watch_providers_200_response_results_LT(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=LT', 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_lt_rent_inner.movie_watch_providers_200_response_results_LT_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_lt_rent_inner.movie_watch_providers_200_response_results_LT_rent_inner(
                             logo_path = '/xTVM8uXT9QocigQ07LE7Irc65W2.jpg', 
                             provider_id = 553, 
                             provider_name = 'Telia Play', 
                             display_priority = 15, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_cz_buy_inner.movie_watch_providers_200_response_results_CZ_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_cz_buy_inner.movie_watch_providers_200_response_results_CZ_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 3, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                lv = openapi_client.models.movie_watch_providers_200_response_results_lv.movie_watch_providers_200_response_results_LV(
+                lv = tmdb_client.models.movie_watch_providers_200_response_results_lv.movie_watch_providers_200_response_results_LV(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=LV', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_cz_buy_inner.movie_watch_providers_200_response_results_CZ_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_cz_buy_inner.movie_watch_providers_200_response_results_CZ_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 3, )
                         ], ),
-                md = openapi_client.models.movie_watch_providers_200_response_results_md.movie_watch_providers_200_response_results_MD(
+                md = tmdb_client.models.movie_watch_providers_200_response_results_md.movie_watch_providers_200_response_results_MD(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=MD', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bh_buy_inner.movie_watch_providers_200_response_results_BH_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bh_buy_inner.movie_watch_providers_200_response_results_BH_buy_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 1000, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_md_flatrate_inner.movie_watch_providers_200_response_results_MD_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_md_flatrate_inner.movie_watch_providers_200_response_results_MD_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 26, )
                         ], ),
-                mk = openapi_client.models.movie_watch_providers_200_response_results_mk.movie_watch_providers_200_response_results_MK(
+                mk = tmdb_client.models.movie_watch_providers_200_response_results_mk.movie_watch_providers_200_response_results_MK(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=MK', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_mk_flatrate_inner.movie_watch_providers_200_response_results_MK_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_mk_flatrate_inner.movie_watch_providers_200_response_results_MK_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 29, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_al_buy_inner.movie_watch_providers_200_response_results_AL_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_al_buy_inner.movie_watch_providers_200_response_results_AL_buy_inner(
                             logo_path = '/5GEbAhFW2S5T8zVc1MNvz00pIzM.jpg', 
                             provider_id = 35, 
                             provider_name = 'Rakuten TV', 
                             display_priority = 9, )
                         ], ),
-                mt = openapi_client.models.movie_watch_providers_200_response_results_mt.movie_watch_providers_200_response_results_MT(
+                mt = tmdb_client.models.movie_watch_providers_200_response_results_mt.movie_watch_providers_200_response_results_MT(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=MT', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_al_buy_inner.movie_watch_providers_200_response_results_AL_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_al_buy_inner.movie_watch_providers_200_response_results_AL_buy_inner(
                             logo_path = '/5GEbAhFW2S5T8zVc1MNvz00pIzM.jpg', 
                             provider_id = 35, 
                             provider_name = 'Rakuten TV', 
                             display_priority = 9, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_al_buy_inner.movie_watch_providers_200_response_results_AL_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_al_buy_inner.movie_watch_providers_200_response_results_AL_buy_inner(
                             logo_path = '/5GEbAhFW2S5T8zVc1MNvz00pIzM.jpg', 
                             provider_id = 35, 
                             provider_name = 'Rakuten TV', 
                             display_priority = 9, )
                         ], ),
-                mu = openapi_client.models.movie_watch_providers_200_response_results_mu.movie_watch_providers_200_response_results_MU(
+                mu = tmdb_client.models.movie_watch_providers_200_response_results_mu.movie_watch_providers_200_response_results_MU(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=MU', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_mu_buy_inner.movie_watch_providers_200_response_results_MU_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_mu_buy_inner.movie_watch_providers_200_response_results_MU_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 15, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_mu_buy_inner.movie_watch_providers_200_response_results_MU_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_mu_buy_inner.movie_watch_providers_200_response_results_MU_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 15, )
                         ], ),
-                mx = openapi_client.models.movie_watch_providers_200_response_results_mx.movie_watch_providers_200_response_results_MX(
+                mx = tmdb_client.models.movie_watch_providers_200_response_results_mx.movie_watch_providers_200_response_results_MX(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=MX', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                my = openapi_client.models.movie_watch_providers_200_response_results_my.movie_watch_providers_200_response_results_MY(
+                my = tmdb_client.models.movie_watch_providers_200_response_results_my.movie_watch_providers_200_response_results_MY(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=MY', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_my_flatrate_inner.movie_watch_providers_200_response_results_MY_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_my_flatrate_inner.movie_watch_providers_200_response_results_MY_flatrate_inner(
                             logo_path = '/7Fl8ylPDclt3ZYgNbW2t7rbZE9I.jpg', 
                             provider_id = 122, 
                             provider_name = 'Hotstar', 
                             display_priority = 0, )
                         ], ),
-                mz = openapi_client.models.movie_watch_providers_200_response_results_mz.movie_watch_providers_200_response_results_MZ(
+                mz = tmdb_client.models.movie_watch_providers_200_response_results_mz.movie_watch_providers_200_response_results_MZ(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=MZ', 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_mz_rent_inner.movie_watch_providers_200_response_results_MZ_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_mz_rent_inner.movie_watch_providers_200_response_results_MZ_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 16, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_mz_rent_inner.movie_watch_providers_200_response_results_MZ_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_mz_rent_inner.movie_watch_providers_200_response_results_MZ_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 16, )
                         ], ),
-                nl = openapi_client.models.movie_watch_providers_200_response_results_nl.movie_watch_providers_200_response_results_NL(
+                nl = tmdb_client.models.movie_watch_providers_200_response_results_nl.movie_watch_providers_200_response_results_NL(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=NL', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_nl_buy_inner.movie_watch_providers_200_response_results_NL_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_nl_buy_inner.movie_watch_providers_200_response_results_NL_buy_inner(
                             logo_path = '/llmnYOyknekZsXtkCaazKjhTLvG.jpg', 
                             provider_id = 71, 
                             provider_name = 'Pathé Thuis', 
                             display_priority = 7, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_nl_buy_inner.movie_watch_providers_200_response_results_NL_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_nl_buy_inner.movie_watch_providers_200_response_results_NL_buy_inner(
                             logo_path = '/llmnYOyknekZsXtkCaazKjhTLvG.jpg', 
                             provider_id = 71, 
                             provider_name = 'Pathé Thuis', 
                             display_priority = 7, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_be_flatrate_inner.movie_watch_providers_200_response_results_BE_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_be_flatrate_inner.movie_watch_providers_200_response_results_BE_flatrate_inner(
                             logo_path = '/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg', 
                             provider_id = 337, 
                             provider_name = 'Disney Plus', 
                             display_priority = 1, )
                         ], ),
-                no = openapi_client.models.movie_watch_providers_200_response_results_no.movie_watch_providers_200_response_results_NO(
+                no = tmdb_client.models.movie_watch_providers_200_response_results_no.movie_watch_providers_200_response_results_NO(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=NO', 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_be_rent_inner.movie_watch_providers_200_response_results_BE_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_be_rent_inner.movie_watch_providers_200_response_results_BE_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 6, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_be_rent_inner.movie_watch_providers_200_response_results_BE_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_be_rent_inner.movie_watch_providers_200_response_results_BE_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 6, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_be_flatrate_inner.movie_watch_providers_200_response_results_BE_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_be_flatrate_inner.movie_watch_providers_200_response_results_BE_flatrate_inner(
                             logo_path = '/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg', 
                             provider_id = 337, 
                             provider_name = 'Disney Plus', 
                             display_priority = 1, )
                         ], ),
-                nz = openapi_client.models.movie_watch_providers_200_response_results_nz.movie_watch_providers_200_response_results_NZ(
+                nz = tmdb_client.models.movie_watch_providers_200_response_results_nz.movie_watch_providers_200_response_results_NZ(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=NZ', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 4, )
                         ], ),
-                om = openapi_client.models.movie_watch_providers_200_response_results_om.movie_watch_providers_200_response_results_OM(
+                om = tmdb_client.models.movie_watch_providers_200_response_results_om.movie_watch_providers_200_response_results_OM(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=OM', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bh_buy_inner.movie_watch_providers_200_response_results_BH_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bh_buy_inner.movie_watch_providers_200_response_results_BH_buy_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 1000, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bh_buy_inner.movie_watch_providers_200_response_results_BH_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bh_buy_inner.movie_watch_providers_200_response_results_BH_buy_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 1000, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                pa = openapi_client.models.movie_watch_providers_200_response_results_pa.movie_watch_providers_200_response_results_PA(
+                pa = tmdb_client.models.movie_watch_providers_200_response_results_pa.movie_watch_providers_200_response_results_PA(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=PA', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                pe = openapi_client.models.movie_watch_providers_200_response_results_pe.movie_watch_providers_200_response_results_PE(
+                pe = tmdb_client.models.movie_watch_providers_200_response_results_pe.movie_watch_providers_200_response_results_PE(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=PE', 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_pe_rent_inner.movie_watch_providers_200_response_results_PE_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_pe_rent_inner.movie_watch_providers_200_response_results_PE_rent_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 5, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_pe_rent_inner.movie_watch_providers_200_response_results_PE_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_pe_rent_inner.movie_watch_providers_200_response_results_PE_rent_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 5, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ar_flatrate_inner.movie_watch_providers_200_response_results_AR_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ar_flatrate_inner.movie_watch_providers_200_response_results_AR_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 2, )
                         ], ),
-                ph = openapi_client.models.movie_watch_providers_200_response_results_ph.movie_watch_providers_200_response_results_PH(
+                ph = tmdb_client.models.movie_watch_providers_200_response_results_ph.movie_watch_providers_200_response_results_PH(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=PH', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                pk = openapi_client.models.movie_watch_providers_200_response_results_pk.movie_watch_providers_200_response_results_PK(
+                pk = tmdb_client.models.movie_watch_providers_200_response_results_pk.movie_watch_providers_200_response_results_PK(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=PK', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_pk_flatrate_inner.movie_watch_providers_200_response_results_PK_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_pk_flatrate_inner.movie_watch_providers_200_response_results_PK_flatrate_inner(
                             logo_path = '/t2yyOv40HZeVlLjYsCsPHnWLk4W.jpg', 
                             provider_id = 8, 
                             provider_name = 'Netflix', 
                             display_priority = 0, )
                         ], ),
-                pl = openapi_client.models.movie_watch_providers_200_response_results_pl.movie_watch_providers_200_response_results_PL(
+                pl = tmdb_client.models.movie_watch_providers_200_response_results_pl.movie_watch_providers_200_response_results_PL(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=PL', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ae_rent_inner.movie_watch_providers_200_response_results_AE_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ae_rent_inner.movie_watch_providers_200_response_results_AE_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 1, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_pl_flatrate_inner.movie_watch_providers_200_response_results_PL_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_pl_flatrate_inner.movie_watch_providers_200_response_results_PL_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 4, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ae_rent_inner.movie_watch_providers_200_response_results_AE_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ae_rent_inner.movie_watch_providers_200_response_results_AE_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 1, )
                         ], ),
-                ps = openapi_client.models.movie_watch_providers_200_response_results_ps.movie_watch_providers_200_response_results_PS(
+                ps = tmdb_client.models.movie_watch_providers_200_response_results_ps.movie_watch_providers_200_response_results_PS(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=PS', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                pt = openapi_client.models.movie_watch_providers_200_response_results_pt.movie_watch_providers_200_response_results_PT(
+                pt = tmdb_client.models.movie_watch_providers_200_response_results_pt.movie_watch_providers_200_response_results_PT(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=PT', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_pe_rent_inner.movie_watch_providers_200_response_results_PE_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_pe_rent_inner.movie_watch_providers_200_response_results_PE_rent_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 5, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_pt_rent_inner.movie_watch_providers_200_response_results_PT_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_pt_rent_inner.movie_watch_providers_200_response_results_PT_rent_inner(
                             logo_path = '/dUeHhim2WUZz8S7EWjv0Ws6anRP.jpg', 
                             provider_id = 242, 
                             provider_name = 'Meo', 
                             display_priority = 3, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_be_flatrate_inner.movie_watch_providers_200_response_results_BE_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_be_flatrate_inner.movie_watch_providers_200_response_results_BE_flatrate_inner(
                             logo_path = '/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg', 
                             provider_id = 337, 
                             provider_name = 'Disney Plus', 
                             display_priority = 1, )
                         ], ),
-                py = openapi_client.models.movie_watch_providers_200_response_results_py.movie_watch_providers_200_response_results_PY(
+                py = tmdb_client.models.movie_watch_providers_200_response_results_py.movie_watch_providers_200_response_results_PY(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=PY', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                qa = openapi_client.models.movie_watch_providers_200_response_results_qa.movie_watch_providers_200_response_results_QA(
+                qa = tmdb_client.models.movie_watch_providers_200_response_results_qa.movie_watch_providers_200_response_results_QA(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=QA', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bh_buy_inner.movie_watch_providers_200_response_results_BH_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bh_buy_inner.movie_watch_providers_200_response_results_BH_buy_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 1000, )
                         ], ),
-                ro = openapi_client.models.movie_watch_providers_200_response_results_ro.movie_watch_providers_200_response_results_RO(
+                ro = tmdb_client.models.movie_watch_providers_200_response_results_ro.movie_watch_providers_200_response_results_RO(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=RO', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                rs = openapi_client.models.movie_watch_providers_200_response_results_rs.movie_watch_providers_200_response_results_RS(
+                rs = tmdb_client.models.movie_watch_providers_200_response_results_rs.movie_watch_providers_200_response_results_RS(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=RS', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_al_buy_inner.movie_watch_providers_200_response_results_AL_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_al_buy_inner.movie_watch_providers_200_response_results_AL_buy_inner(
                             logo_path = '/5GEbAhFW2S5T8zVc1MNvz00pIzM.jpg', 
                             provider_id = 35, 
                             provider_name = 'Rakuten TV', 
                             display_priority = 9, )
                         ], ),
-                ru = openapi_client.models.movie_watch_providers_200_response_results_ru.movie_watch_providers_200_response_results_RU(
+                ru = tmdb_client.models.movie_watch_providers_200_response_results_ru.movie_watch_providers_200_response_results_RU(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=RU', 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ru_rent_inner.movie_watch_providers_200_response_results_RU_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ru_rent_inner.movie_watch_providers_200_response_results_RU_rent_inner(
                             logo_path = '/o9ExgOSLF3OTwR6T3DJOuwOKJgq.jpg', 
                             provider_id = 113, 
                             provider_name = 'Ivi', 
                             display_priority = 1000, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ru_rent_inner.movie_watch_providers_200_response_results_RU_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ru_rent_inner.movie_watch_providers_200_response_results_RU_rent_inner(
                             logo_path = '/o9ExgOSLF3OTwR6T3DJOuwOKJgq.jpg', 
                             provider_id = 113, 
                             provider_name = 'Ivi', 
                             display_priority = 1000, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ru_flatrate_inner.movie_watch_providers_200_response_results_RU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ru_flatrate_inner.movie_watch_providers_200_response_results_RU_flatrate_inner(
                             logo_path = '/zLM7f1w2L8TU2Fspzns72m6h3yY.jpg', 
                             provider_id = 501, 
                             provider_name = 'Wink', 
                             display_priority = 1000, )
                         ], ),
-                sa = openapi_client.models.movie_watch_providers_200_response_results_sa.movie_watch_providers_200_response_results_SA(
+                sa = tmdb_client.models.movie_watch_providers_200_response_results_sa.movie_watch_providers_200_response_results_SA(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=SA', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_sa_flatrate_inner.movie_watch_providers_200_response_results_SA_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_sa_flatrate_inner.movie_watch_providers_200_response_results_SA_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 28, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ae_rent_inner.movie_watch_providers_200_response_results_AE_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ae_rent_inner.movie_watch_providers_200_response_results_AE_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 1, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ae_rent_inner.movie_watch_providers_200_response_results_AE_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ae_rent_inner.movie_watch_providers_200_response_results_AE_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 1, )
                         ], ),
-                se = openapi_client.models.movie_watch_providers_200_response_results_se.movie_watch_providers_200_response_results_SE(
+                se = tmdb_client.models.movie_watch_providers_200_response_results_se.movie_watch_providers_200_response_results_SE(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=SE', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_se_buy_inner.movie_watch_providers_200_response_results_SE_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_se_buy_inner.movie_watch_providers_200_response_results_SE_buy_inner(
                             logo_path = '/shq88b09gTBYC4hA7K7MUL8Q4zP.jpg', 
                             provider_id = 68, 
                             provider_name = 'Microsoft Store', 
                             display_priority = 7, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_se_buy_inner.movie_watch_providers_200_response_results_SE_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_se_buy_inner.movie_watch_providers_200_response_results_SE_buy_inner(
                             logo_path = '/shq88b09gTBYC4hA7K7MUL8Q4zP.jpg', 
                             provider_id = 68, 
                             provider_name = 'Microsoft Store', 
                             display_priority = 7, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_be_flatrate_inner.movie_watch_providers_200_response_results_BE_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_be_flatrate_inner.movie_watch_providers_200_response_results_BE_flatrate_inner(
                             logo_path = '/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg', 
                             provider_id = 337, 
                             provider_name = 'Disney Plus', 
                             display_priority = 1, )
                         ], ),
-                sg = openapi_client.models.movie_watch_providers_200_response_results_sg.movie_watch_providers_200_response_results_SG(
+                sg = tmdb_client.models.movie_watch_providers_200_response_results_sg.movie_watch_providers_200_response_results_SG(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=SG', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                si = openapi_client.models.movie_watch_providers_200_response_results_si.movie_watch_providers_200_response_results_SI(
+                si = tmdb_client.models.movie_watch_providers_200_response_results_si.movie_watch_providers_200_response_results_SI(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=SI', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_al_buy_inner.movie_watch_providers_200_response_results_AL_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_al_buy_inner.movie_watch_providers_200_response_results_AL_buy_inner(
                             logo_path = '/5GEbAhFW2S5T8zVc1MNvz00pIzM.jpg', 
                             provider_id = 35, 
                             provider_name = 'Rakuten TV', 
                             display_priority = 9, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                sk = openapi_client.models.movie_watch_providers_200_response_results_sk.movie_watch_providers_200_response_results_SK(
+                sk = tmdb_client.models.movie_watch_providers_200_response_results_sk.movie_watch_providers_200_response_results_SK(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=SK', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_cz_buy_inner.movie_watch_providers_200_response_results_CZ_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_cz_buy_inner.movie_watch_providers_200_response_results_CZ_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 3, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_cz_buy_inner.movie_watch_providers_200_response_results_CZ_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_cz_buy_inner.movie_watch_providers_200_response_results_CZ_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 3, )
                         ], ),
-                sm = openapi_client.models.movie_watch_providers_200_response_results_sm.movie_watch_providers_200_response_results_SM(
+                sm = tmdb_client.models.movie_watch_providers_200_response_results_sm.movie_watch_providers_200_response_results_SM(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=SM', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_li_flatrate_inner.movie_watch_providers_200_response_results_LI_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_li_flatrate_inner.movie_watch_providers_200_response_results_LI_flatrate_inner(
                             logo_path = '/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg', 
                             provider_id = 337, 
                             provider_name = 'Disney Plus', 
                             display_priority = 30, )
                         ], ),
-                sv = openapi_client.models.movie_watch_providers_200_response_results_sv.movie_watch_providers_200_response_results_SV(
+                sv = tmdb_client.models.movie_watch_providers_200_response_results_sv.movie_watch_providers_200_response_results_SV(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=SV', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                th = openapi_client.models.movie_watch_providers_200_response_results_th.movie_watch_providers_200_response_results_TH(
+                th = tmdb_client.models.movie_watch_providers_200_response_results_th.movie_watch_providers_200_response_results_TH(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=TH', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_my_flatrate_inner.movie_watch_providers_200_response_results_MY_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_my_flatrate_inner.movie_watch_providers_200_response_results_MY_flatrate_inner(
                             logo_path = '/7Fl8ylPDclt3ZYgNbW2t7rbZE9I.jpg', 
                             provider_id = 122, 
                             provider_name = 'Hotstar', 
                             display_priority = 0, )
                         ], ),
-                tr = openapi_client.models.movie_watch_providers_200_response_results_tr.movie_watch_providers_200_response_results_TR(
+                tr = tmdb_client.models.movie_watch_providers_200_response_results_tr.movie_watch_providers_200_response_results_TR(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=TR', 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_pe_rent_inner.movie_watch_providers_200_response_results_PE_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_pe_rent_inner.movie_watch_providers_200_response_results_PE_rent_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 5, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_pl_flatrate_inner.movie_watch_providers_200_response_results_PL_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_pl_flatrate_inner.movie_watch_providers_200_response_results_PL_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 4, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_pe_rent_inner.movie_watch_providers_200_response_results_PE_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_pe_rent_inner.movie_watch_providers_200_response_results_PE_rent_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 5, )
                         ], ),
-                tt = openapi_client.models.movie_watch_providers_200_response_results_tt.movie_watch_providers_200_response_results_TT(
+                tt = tmdb_client.models.movie_watch_providers_200_response_results_tt.movie_watch_providers_200_response_results_TT(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=TT', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_tt_flatrate_inner.movie_watch_providers_200_response_results_TT_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_tt_flatrate_inner.movie_watch_providers_200_response_results_TT_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 11, )
                         ], ),
-                tw = openapi_client.models.movie_watch_providers_200_response_results_tw.movie_watch_providers_200_response_results_TW(
+                tw = tmdb_client.models.movie_watch_providers_200_response_results_tw.movie_watch_providers_200_response_results_TW(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=TW', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                ug = openapi_client.models.movie_watch_providers_200_response_results_ug.movie_watch_providers_200_response_results_UG(
+                ug = tmdb_client.models.movie_watch_providers_200_response_results_ug.movie_watch_providers_200_response_results_UG(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=UG', 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_mz_rent_inner.movie_watch_providers_200_response_results_MZ_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_mz_rent_inner.movie_watch_providers_200_response_results_MZ_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 16, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_mz_rent_inner.movie_watch_providers_200_response_results_MZ_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_mz_rent_inner.movie_watch_providers_200_response_results_MZ_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 16, )
                         ], ),
-                us = openapi_client.models.movie_watch_providers_200_response_results_us.movie_watch_providers_200_response_results_US(
+                us = tmdb_client.models.movie_watch_providers_200_response_results_us.movie_watch_providers_200_response_results_US(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=US', 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_us_rent_inner.movie_watch_providers_200_response_results_US_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_us_rent_inner.movie_watch_providers_200_response_results_US_rent_inner(
                             logo_path = '/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg', 
                             provider_id = 10, 
                             provider_name = 'Amazon Video', 
                             display_priority = 13, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_us_flatrate_inner.movie_watch_providers_200_response_results_US_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_us_flatrate_inner.movie_watch_providers_200_response_results_US_flatrate_inner(
                             logo_path = '/jPXksae158ukMLFhhlNvzsvaEyt.jpg', 
                             provider_id = 257, 
                             provider_name = 'fuboTV', 
                             display_priority = 5, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 4, )
                         ], ),
-                uy = openapi_client.models.movie_watch_providers_200_response_results_uy.movie_watch_providers_200_response_results_UY(
+                uy = tmdb_client.models.movie_watch_providers_200_response_results_uy.movie_watch_providers_200_response_results_UY(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=UY', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                ve = openapi_client.models.movie_watch_providers_200_response_results_ve.movie_watch_providers_200_response_results_VE(
+                ve = tmdb_client.models.movie_watch_providers_200_response_results_ve.movie_watch_providers_200_response_results_VE(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=VE', 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_co_buy_inner.movie_watch_providers_200_response_results_CO_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_co_buy_inner.movie_watch_providers_200_response_results_CO_buy_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 3, )
                         ], 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_ar_flatrate_inner.movie_watch_providers_200_response_results_AR_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_ar_flatrate_inner.movie_watch_providers_200_response_results_AR_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 2, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_co_buy_inner.movie_watch_providers_200_response_results_CO_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_co_buy_inner.movie_watch_providers_200_response_results_CO_buy_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 3, )
                         ], ),
-                ye = openapi_client.models.movie_watch_providers_200_response_results_ye.movie_watch_providers_200_response_results_YE(
+                ye = tmdb_client.models.movie_watch_providers_200_response_results_ye.movie_watch_providers_200_response_results_YE(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=YE', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], ),
-                za = openapi_client.models.movie_watch_providers_200_response_results_za.movie_watch_providers_200_response_results_ZA(
+                za = tmdb_client.models.movie_watch_providers_200_response_results_za.movie_watch_providers_200_response_results_ZA(
                     link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=ZA', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                             provider_id = 119, 
                             provider_name = 'Amazon Prime Video', 
                             display_priority = 1, )
                         ], 
                     rent = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bg_rent_inner.movie_watch_providers_200_response_results_BG_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bg_rent_inner.movie_watch_providers_200_response_results_BG_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 2, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bg_rent_inner.movie_watch_providers_200_response_results_BG_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bg_rent_inner.movie_watch_providers_200_response_results_BG_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 

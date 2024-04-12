@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_credits200_response import TvSeriesCredits200Response
+from tmdb_client.models.tv_series_credits200_response import TvSeriesCredits200Response
 
 class TestTvSeriesCredits200Response(unittest.TestCase):
     """TvSeriesCredits200Response unit test stubs"""
@@ -36,7 +36,7 @@ class TestTvSeriesCredits200Response(unittest.TestCase):
         if include_optional:
             return TvSeriesCredits200Response(
                 cast = [
-                    openapi_client.models.tv_series_credits_200_response_cast_inner.tv_series_credits_200_response_cast_inner(
+                    tmdb_client.models.tv_series_credits_200_response_cast_inner.tv_series_credits_200_response_cast_inner(
                         adult = False, 
                         gender = 2, 
                         id = 22970, 
@@ -50,7 +50,7 @@ class TestTvSeriesCredits200Response(unittest.TestCase):
                         order = 0, )
                     ],
                 crew = [
-                    openapi_client.models.tv_series_credits_200_response_crew_inner.tv_series_credits_200_response_crew_inner(
+                    tmdb_client.models.tv_series_credits_200_response_crew_inner.tv_series_credits_200_response_crew_inner(
                         adult = False, 
                         gender = 2, 
                         id = 1406855, 

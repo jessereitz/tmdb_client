@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_watch_providers200_response_results_ch import MovieWatchProviders200ResponseResultsCH
+from tmdb_client.models.movie_watch_providers200_response_results_ch import MovieWatchProviders200ResponseResultsCH
 
 class TestMovieWatchProviders200ResponseResultsCH(unittest.TestCase):
     """MovieWatchProviders200ResponseResultsCH unit test stubs"""
@@ -37,21 +37,21 @@ class TestMovieWatchProviders200ResponseResultsCH(unittest.TestCase):
             return MovieWatchProviders200ResponseResultsCH(
                 link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=CH',
                 flatrate = [
-                    openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                         logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                         provider_id = 119, 
                         provider_name = 'Amazon Prime Video', 
                         display_priority = 1, )
                     ],
                 buy = [
-                    openapi_client.models.movie_watch_providers_200_response_results_ch_buy_inner.movie_watch_providers_200_response_results_CH_buy_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_ch_buy_inner.movie_watch_providers_200_response_results_CH_buy_inner(
                         logo_path = '/rVOOhp6V8FheEAKtFAJMLMbnaMZ.jpg', 
                         provider_id = 150, 
                         provider_name = 'blue TV', 
                         display_priority = 3, )
                     ],
                 rent = [
-                    openapi_client.models.movie_watch_providers_200_response_results_ch_buy_inner.movie_watch_providers_200_response_results_CH_buy_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_ch_buy_inner.movie_watch_providers_200_response_results_CH_buy_inner(
                         logo_path = '/rVOOhp6V8FheEAKtFAJMLMbnaMZ.jpg', 
                         provider_id = 150, 
                         provider_name = 'blue TV', 

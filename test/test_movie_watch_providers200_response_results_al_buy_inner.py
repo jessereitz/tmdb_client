@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_watch_providers200_response_results_al_buy_inner import MovieWatchProviders200ResponseResultsALBuyInner
+from tmdb_client.models.movie_watch_providers200_response_results_al_buy_inner import MovieWatchProviders200ResponseResultsALBuyInner
 
 class TestMovieWatchProviders200ResponseResultsALBuyInner(unittest.TestCase):
     """MovieWatchProviders200ResponseResultsALBuyInner unit test stubs"""

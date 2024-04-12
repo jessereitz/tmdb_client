@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_episode_group_details200_response import TvEpisodeGroupDetails200Response
+from tmdb_client.models.tv_episode_group_details200_response import TvEpisodeGroupDetails200Response
 
 class TestTvEpisodeGroupDetails200Response(unittest.TestCase):
     """TvEpisodeGroupDetails200Response unit test stubs"""
@@ -39,12 +39,12 @@ class TestTvEpisodeGroupDetails200Response(unittest.TestCase):
                 episode_count = 83,
                 group_count = 6,
                 groups = [
-                    openapi_client.models.tv_episode_group_details_200_response_groups_inner.tv_episode_group_details_200_response_groups_inner(
+                    tmdb_client.models.tv_episode_group_details_200_response_groups_inner.tv_episode_group_details_200_response_groups_inner(
                         id = '5acf93efc3a368739a0000a9', 
                         name = 'First Cup', 
                         order = 1, 
                         episodes = [
-                            openapi_client.models.tv_episode_group_details_200_response_groups_inner_episodes_inner.tv_episode_group_details_200_response_groups_inner_episodes_inner(
+                            tmdb_client.models.tv_episode_group_details_200_response_groups_inner_episodes_inner.tv_episode_group_details_200_response_groups_inner_episodes_inner(
                                 air_date = '2015-06-17', 
                                 episode_number = 3, 
                                 id = 1078262, 
@@ -63,7 +63,7 @@ class TestTvEpisodeGroupDetails200Response(unittest.TestCase):
                     ],
                 id = '5acf93e60e0a26346d0000ce',
                 name = 'Netflix Collections',
-                network = openapi_client.models.tv_episode_group_details_200_response_network.tv_episode_group_details_200_response_network(
+                network = tmdb_client.models.tv_episode_group_details_200_response_network.tv_episode_group_details_200_response_network(
                     id = 213, 
                     logo_path = '/wwemzKWzjKYJFfCeiB57q3r4Bcm.png', 
                     name = 'Netflix', 

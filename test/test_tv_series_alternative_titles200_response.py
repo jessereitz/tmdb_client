@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_alternative_titles200_response import TvSeriesAlternativeTitles200Response
+from tmdb_client.models.tv_series_alternative_titles200_response import TvSeriesAlternativeTitles200Response
 
 class TestTvSeriesAlternativeTitles200Response(unittest.TestCase):
     """TvSeriesAlternativeTitles200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvSeriesAlternativeTitles200Response(unittest.TestCase):
             return TvSeriesAlternativeTitles200Response(
                 id = 1399,
                 results = [
-                    openapi_client.models.tv_series_alternative_titles_200_response_results_inner.tv_series_alternative_titles_200_response_results_inner(
+                    tmdb_client.models.tv_series_alternative_titles_200_response_results_inner.tv_series_alternative_titles_200_response_results_inner(
                         iso_3166_1 = 'AL', 
                         title = 'Froni i shpatave', 
                         type = '', )

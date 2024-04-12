@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.person_combined_credits200_response import PersonCombinedCredits200Response
+from tmdb_client.models.person_combined_credits200_response import PersonCombinedCredits200Response
 
 class TestPersonCombinedCredits200Response(unittest.TestCase):
     """PersonCombinedCredits200Response unit test stubs"""
@@ -36,7 +36,7 @@ class TestPersonCombinedCredits200Response(unittest.TestCase):
         if include_optional:
             return PersonCombinedCredits200Response(
                 cast = [
-                    openapi_client.models.person_combined_credits_200_response_cast_inner.person_combined_credits_200_response_cast_inner(
+                    tmdb_client.models.person_combined_credits_200_response_cast_inner.person_combined_credits_200_response_cast_inner(
                         adult = False, 
                         backdrop_path = '/3h1JZGDhZ8nzxdgvkxha0qBqi05.jpg', 
                         genre_ids = [
@@ -59,7 +59,7 @@ class TestPersonCombinedCredits200Response(unittest.TestCase):
                         media_type = 'movie', )
                     ],
                 crew = [
-                    openapi_client.models.person_combined_credits_200_response_crew_inner.person_combined_credits_200_response_crew_inner(
+                    tmdb_client.models.person_combined_credits_200_response_crew_inner.person_combined_credits_200_response_crew_inner(
                         adult = False, 
                         backdrop_path = '/tx3uj8GPWf5pzb0gWATJ4bokNHI.jpg', 
                         genre_ids = [

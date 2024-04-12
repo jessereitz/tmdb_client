@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.authentication_create_session200_response import AuthenticationCreateSession200Response
+from tmdb_client.models.authentication_create_session200_response import AuthenticationCreateSession200Response
 
 class TestAuthenticationCreateSession200Response(unittest.TestCase):
     """AuthenticationCreateSession200Response unit test stubs"""

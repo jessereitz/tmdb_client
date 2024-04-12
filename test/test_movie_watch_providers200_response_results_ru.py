@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_watch_providers200_response_results_ru import MovieWatchProviders200ResponseResultsRU
+from tmdb_client.models.movie_watch_providers200_response_results_ru import MovieWatchProviders200ResponseResultsRU
 
 class TestMovieWatchProviders200ResponseResultsRU(unittest.TestCase):
     """MovieWatchProviders200ResponseResultsRU unit test stubs"""
@@ -37,21 +37,21 @@ class TestMovieWatchProviders200ResponseResultsRU(unittest.TestCase):
             return MovieWatchProviders200ResponseResultsRU(
                 link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=RU',
                 rent = [
-                    openapi_client.models.movie_watch_providers_200_response_results_ru_rent_inner.movie_watch_providers_200_response_results_RU_rent_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_ru_rent_inner.movie_watch_providers_200_response_results_RU_rent_inner(
                         logo_path = '/o9ExgOSLF3OTwR6T3DJOuwOKJgq.jpg', 
                         provider_id = 113, 
                         provider_name = 'Ivi', 
                         display_priority = 1000, )
                     ],
                 buy = [
-                    openapi_client.models.movie_watch_providers_200_response_results_ru_rent_inner.movie_watch_providers_200_response_results_RU_rent_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_ru_rent_inner.movie_watch_providers_200_response_results_RU_rent_inner(
                         logo_path = '/o9ExgOSLF3OTwR6T3DJOuwOKJgq.jpg', 
                         provider_id = 113, 
                         provider_name = 'Ivi', 
                         display_priority = 1000, )
                     ],
                 flatrate = [
-                    openapi_client.models.movie_watch_providers_200_response_results_ru_flatrate_inner.movie_watch_providers_200_response_results_RU_flatrate_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_ru_flatrate_inner.movie_watch_providers_200_response_results_RU_flatrate_inner(
                         logo_path = '/zLM7f1w2L8TU2Fspzns72m6h3yY.jpg', 
                         provider_id = 501, 
                         provider_name = 'Wink', 

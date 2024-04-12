@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.discover_movie200_response import DiscoverMovie200Response
+from tmdb_client.models.discover_movie200_response import DiscoverMovie200Response
 
 class TestDiscoverMovie200Response(unittest.TestCase):
     """DiscoverMovie200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestDiscoverMovie200Response(unittest.TestCase):
             return DiscoverMovie200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.discover_movie_200_response_results_inner.discover_movie_200_response_results_inner(
+                    tmdb_client.models.discover_movie_200_response_results_inner.discover_movie_200_response_results_inner(
                         adult = False, 
                         backdrop_path = '/8YFL5QQVPy3AgrEQxNYVSgiPEbe.jpg', 
                         genre_ids = [

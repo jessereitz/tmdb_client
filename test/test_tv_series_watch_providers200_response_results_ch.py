@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_watch_providers200_response_results_ch import TvSeriesWatchProviders200ResponseResultsCH
+from tmdb_client.models.tv_series_watch_providers200_response_results_ch import TvSeriesWatchProviders200ResponseResultsCH
 
 class TestTvSeriesWatchProviders200ResponseResultsCH(unittest.TestCase):
     """TvSeriesWatchProviders200ResponseResultsCH unit test stubs"""
@@ -37,14 +37,14 @@ class TestTvSeriesWatchProviders200ResponseResultsCH(unittest.TestCase):
             return TvSeriesWatchProviders200ResponseResultsCH(
                 link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/watch?locale=CH',
                 flatrate = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_ch_flatrate_inner.tv_series_watch_providers_200_response_results_CH_flatrate_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_ch_flatrate_inner.tv_series_watch_providers_200_response_results_CH_flatrate_inner(
                         logo_path = '/sHP8XLo4Ac4WMbziRyAdRQdb76q.jpg', 
                         provider_id = 210, 
                         provider_name = 'Sky', 
                         display_priority = 7, )
                     ],
                 buy = [
-                    openapi_client.models.movie_watch_providers_200_response_results_pe_rent_inner.movie_watch_providers_200_response_results_PE_rent_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_pe_rent_inner.movie_watch_providers_200_response_results_PE_rent_inner(
                         logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                         provider_id = 3, 
                         provider_name = 'Google Play Movies', 

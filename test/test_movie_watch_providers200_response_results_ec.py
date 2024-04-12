@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_watch_providers200_response_results_ec import MovieWatchProviders200ResponseResultsEC
+from tmdb_client.models.movie_watch_providers200_response_results_ec import MovieWatchProviders200ResponseResultsEC
 
 class TestMovieWatchProviders200ResponseResultsEC(unittest.TestCase):
     """MovieWatchProviders200ResponseResultsEC unit test stubs"""
@@ -37,21 +37,21 @@ class TestMovieWatchProviders200ResponseResultsEC(unittest.TestCase):
             return MovieWatchProviders200ResponseResultsEC(
                 link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=EC',
                 buy = [
-                    openapi_client.models.movie_watch_providers_200_response_results_ec_buy_inner.movie_watch_providers_200_response_results_EC_buy_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_ec_buy_inner.movie_watch_providers_200_response_results_EC_buy_inner(
                         logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                         provider_id = 3, 
                         provider_name = 'Google Play Movies', 
                         display_priority = 11, )
                     ],
                 flatrate = [
-                    openapi_client.models.movie_watch_providers_200_response_results_ar_flatrate_inner.movie_watch_providers_200_response_results_AR_flatrate_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_ar_flatrate_inner.movie_watch_providers_200_response_results_AR_flatrate_inner(
                         logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                         provider_id = 119, 
                         provider_name = 'Amazon Prime Video', 
                         display_priority = 2, )
                     ],
                 rent = [
-                    openapi_client.models.movie_watch_providers_200_response_results_ec_buy_inner.movie_watch_providers_200_response_results_EC_buy_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_ec_buy_inner.movie_watch_providers_200_response_results_EC_buy_inner(
                         logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                         provider_id = 3, 
                         provider_name = 'Google Play Movies', 

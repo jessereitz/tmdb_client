@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_delete_rating200_response import MovieDeleteRating200Response
+from tmdb_client.models.movie_delete_rating200_response import MovieDeleteRating200Response
 
 class TestMovieDeleteRating200Response(unittest.TestCase):
     """MovieDeleteRating200Response unit test stubs"""

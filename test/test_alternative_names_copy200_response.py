@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.alternative_names_copy200_response import AlternativeNamesCopy200Response
+from tmdb_client.models.alternative_names_copy200_response import AlternativeNamesCopy200Response
 
 class TestAlternativeNamesCopy200Response(unittest.TestCase):
     """AlternativeNamesCopy200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestAlternativeNamesCopy200Response(unittest.TestCase):
             return AlternativeNamesCopy200Response(
                 id = 49,
                 logos = [
-                    openapi_client.models.alternative_names_copy_200_response_logos_inner.alternative_names_copy_200_response_logos_inner(
+                    tmdb_client.models.alternative_names_copy_200_response_logos_inner.alternative_names_copy_200_response_logos_inner(
                         aspect_ratio = 2.425287356321839, 
                         file_path = '/tuomPhY2UtuPTqqFnKMVHvSb724.png', 
                         height = 174, 

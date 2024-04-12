@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.company_alternative_names200_response import CompanyAlternativeNames200Response
+from tmdb_client.models.company_alternative_names200_response import CompanyAlternativeNames200Response
 
 class TestCompanyAlternativeNames200Response(unittest.TestCase):
     """CompanyAlternativeNames200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestCompanyAlternativeNames200Response(unittest.TestCase):
             return CompanyAlternativeNames200Response(
                 id = 1,
                 results = [
-                    openapi_client.models.company_alternative_names_200_response_results_inner.company_alternative_names_200_response_results_inner(
+                    tmdb_client.models.company_alternative_names_200_response_results_inner.company_alternative_names_200_response_results_inner(
                         name = '루카스필름', 
                         type = '', )
                     ]

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_details200_response_genres_inner import MovieDetails200ResponseGenresInner
+from tmdb_client.models.movie_details200_response_genres_inner import MovieDetails200ResponseGenresInner
 
 class TestMovieDetails200ResponseGenresInner(unittest.TestCase):
     """MovieDetails200ResponseGenresInner unit test stubs"""

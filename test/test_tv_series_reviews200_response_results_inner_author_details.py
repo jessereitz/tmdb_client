@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_reviews200_response_results_inner_author_details import TvSeriesReviews200ResponseResultsInnerAuthorDetails
+from tmdb_client.models.tv_series_reviews200_response_results_inner_author_details import TvSeriesReviews200ResponseResultsInnerAuthorDetails
 
 class TestTvSeriesReviews200ResponseResultsInnerAuthorDetails(unittest.TestCase):
     """TvSeriesReviews200ResponseResultsInnerAuthorDetails unit test stubs"""

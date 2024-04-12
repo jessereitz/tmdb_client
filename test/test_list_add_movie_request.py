@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.list_add_movie_request import ListAddMovieRequest
+from tmdb_client.models.list_add_movie_request import ListAddMovieRequest
 
 class TestListAddMovieRequest(unittest.TestCase):
     """ListAddMovieRequest unit test stubs"""

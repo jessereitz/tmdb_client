@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.company_images200_response import CompanyImages200Response
+from tmdb_client.models.company_images200_response import CompanyImages200Response
 
 class TestCompanyImages200Response(unittest.TestCase):
     """CompanyImages200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestCompanyImages200Response(unittest.TestCase):
             return CompanyImages200Response(
                 id = 1,
                 logos = [
-                    openapi_client.models.company_images_200_response_logos_inner.company_images_200_response_logos_inner(
+                    tmdb_client.models.company_images_200_response_logos_inner.company_images_200_response_logos_inner(
                         aspect_ratio = 2.97979797979798, 
                         file_path = '/o86DbpburjxrqAzEDhXZcyE8pDb.png', 
                         height = 99, 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_season_changes_by_id200_response import TvSeasonChangesById200Response
+from tmdb_client.models.tv_season_changes_by_id200_response import TvSeasonChangesById200Response
 
 class TestTvSeasonChangesById200Response(unittest.TestCase):
     """TvSeasonChangesById200Response unit test stubs"""
@@ -36,14 +36,14 @@ class TestTvSeasonChangesById200Response(unittest.TestCase):
         if include_optional:
             return TvSeasonChangesById200Response(
                 changes = [
-                    openapi_client.models.tv_season_changes_by_id_200_response_changes_inner.tv_season_changes_by_id_200_response_changes_inner(
+                    tmdb_client.models.tv_season_changes_by_id_200_response_changes_inner.tv_season_changes_by_id_200_response_changes_inner(
                         key = 'episode', 
                         items = [
-                            openapi_client.models.tv_season_changes_by_id_200_response_changes_inner_items_inner.tv_season_changes_by_id_200_response_changes_inner_items_inner(
+                            tmdb_client.models.tv_season_changes_by_id_200_response_changes_inner_items_inner.tv_season_changes_by_id_200_response_changes_inner_items_inner(
                                 id = '5717c8c69251414cfd00250f', 
                                 action = 'updated', 
                                 time = '2016-04-20 18:21:58 UTC', 
-                                value = openapi_client.models.tv_season_changes_by_id_200_response_changes_inner_items_inner_value.tv_season_changes_by_id_200_response_changes_inner_items_inner_value(
+                                value = tmdb_client.models.tv_season_changes_by_id_200_response_changes_inner_items_inner_value.tv_season_changes_by_id_200_response_changes_inner_items_inner_value(
                                     episode_id = 63056, 
                                     episode_number = 1, ), )
                             ], )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_season_watch_providers200_response_results_pl import TvSeasonWatchProviders200ResponseResultsPL
+from tmdb_client.models.tv_season_watch_providers200_response_results_pl import TvSeasonWatchProviders200ResponseResultsPL
 
 class TestTvSeasonWatchProviders200ResponseResultsPL(unittest.TestCase):
     """TvSeasonWatchProviders200ResponseResultsPL unit test stubs"""
@@ -37,14 +37,14 @@ class TestTvSeasonWatchProviders200ResponseResultsPL(unittest.TestCase):
             return TvSeasonWatchProviders200ResponseResultsPL(
                 link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=PL',
                 rent = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_pl_rent_inner.tv_series_watch_providers_200_response_results_PL_rent_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_pl_rent_inner.tv_series_watch_providers_200_response_results_PL_rent_inner(
                         logo_path = '/bZNXgd8fwVTD68aAGlElkpAtu7b.jpg', 
                         provider_id = 549, 
                         provider_name = 'IPLA', 
                         display_priority = 17, )
                     ],
                 flatrate = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_pl_flatrate_inner.tv_series_watch_providers_200_response_results_PL_flatrate_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_pl_flatrate_inner.tv_series_watch_providers_200_response_results_PL_flatrate_inner(
                         logo_path = '/l5Wxbsgral716BOtZsGyPVNn8GC.jpg', 
                         provider_id = 250, 
                         provider_name = 'Horizon', 

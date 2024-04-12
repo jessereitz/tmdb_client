@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_aggregate_credits200_response import TvSeriesAggregateCredits200Response
+from tmdb_client.models.tv_series_aggregate_credits200_response import TvSeriesAggregateCredits200Response
 
 class TestTvSeriesAggregateCredits200Response(unittest.TestCase):
     """TvSeriesAggregateCredits200Response unit test stubs"""
@@ -36,7 +36,7 @@ class TestTvSeriesAggregateCredits200Response(unittest.TestCase):
         if include_optional:
             return TvSeriesAggregateCredits200Response(
                 cast = [
-                    openapi_client.models.tv_series_aggregate_credits_200_response_cast_inner.tv_series_aggregate_credits_200_response_cast_inner(
+                    tmdb_client.models.tv_series_aggregate_credits_200_response_cast_inner.tv_series_aggregate_credits_200_response_cast_inner(
                         adult = False, 
                         gender = 1, 
                         id = 1223786, 
@@ -46,7 +46,7 @@ class TestTvSeriesAggregateCredits200Response(unittest.TestCase):
                         popularity = 42.737, 
                         profile_path = '/u59kTmNHXzaGZqokivxLPiBVIML.jpg', 
                         roles = [
-                            openapi_client.models.tv_series_aggregate_credits_200_response_cast_inner_roles_inner.tv_series_aggregate_credits_200_response_cast_inner_roles_inner(
+                            tmdb_client.models.tv_series_aggregate_credits_200_response_cast_inner_roles_inner.tv_series_aggregate_credits_200_response_cast_inner_roles_inner(
                                 credit_id = '5256c8af19c2956ff60479f6', 
                                 character = 'Daenerys Targaryen', 
                                 episode_count = 78, )
@@ -55,7 +55,7 @@ class TestTvSeriesAggregateCredits200Response(unittest.TestCase):
                         order = 6, )
                     ],
                 crew = [
-                    openapi_client.models.tv_series_aggregate_credits_200_response_crew_inner.tv_series_aggregate_credits_200_response_crew_inner(
+                    tmdb_client.models.tv_series_aggregate_credits_200_response_crew_inner.tv_series_aggregate_credits_200_response_crew_inner(
                         adult = False, 
                         gender = 1, 
                         id = 6411, 
@@ -65,7 +65,7 @@ class TestTvSeriesAggregateCredits200Response(unittest.TestCase):
                         popularity = 1.4, 
                         profile_path = '/cjhADpqdrnwB1PdDUKaBnWrIj2Q.jpg', 
                         jobs = [
-                            openapi_client.models.tv_series_aggregate_credits_200_response_crew_inner_jobs_inner.tv_series_aggregate_credits_200_response_crew_inner_jobs_inner(
+                            tmdb_client.models.tv_series_aggregate_credits_200_response_crew_inner_jobs_inner.tv_series_aggregate_credits_200_response_crew_inner_jobs_inner(
                                 credit_id = '54eee9e5c3a3686d5800584e', 
                                 job = 'Production Design', 
                                 episode_count = 43, )

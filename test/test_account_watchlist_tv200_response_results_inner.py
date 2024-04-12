@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.account_watchlist_tv200_response_results_inner import AccountWatchlistTv200ResponseResultsInner
+from tmdb_client.models.account_watchlist_tv200_response_results_inner import AccountWatchlistTv200ResponseResultsInner
 
 class TestAccountWatchlistTv200ResponseResultsInner(unittest.TestCase):
     """AccountWatchlistTv200ResponseResultsInner unit test stubs"""

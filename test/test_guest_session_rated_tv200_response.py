@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.guest_session_rated_tv200_response import GuestSessionRatedTv200Response
+from tmdb_client.models.guest_session_rated_tv200_response import GuestSessionRatedTv200Response
 
 class TestGuestSessionRatedTv200Response(unittest.TestCase):
     """GuestSessionRatedTv200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestGuestSessionRatedTv200Response(unittest.TestCase):
             return GuestSessionRatedTv200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.guest_session_rated_tv_200_response_results_inner.guest_session_rated_tv_200_response_results_inner(
+                    tmdb_client.models.guest_session_rated_tv_200_response_results_inner.guest_session_rated_tv_200_response_results_inner(
                         adult = False, 
                         backdrop_path = '/2OMB0ynKlyIenMJWI2Dy9IWT4c.jpg', 
                         genre_ids = [

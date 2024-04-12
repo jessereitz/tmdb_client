@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_changes200_response_changes_inner import TvSeriesChanges200ResponseChangesInner
+from tmdb_client.models.tv_series_changes200_response_changes_inner import TvSeriesChanges200ResponseChangesInner
 
 class TestTvSeriesChanges200ResponseChangesInner(unittest.TestCase):
     """TvSeriesChanges200ResponseChangesInner unit test stubs"""
@@ -37,17 +37,17 @@ class TestTvSeriesChanges200ResponseChangesInner(unittest.TestCase):
             return TvSeriesChanges200ResponseChangesInner(
                 key = 'images',
                 items = [
-                    openapi_client.models.tv_series_changes_200_response_changes_inner_items_inner.tv_series_changes_200_response_changes_inner_items_inner(
+                    tmdb_client.models.tv_series_changes_200_response_changes_inner_items_inner.tv_series_changes_200_response_changes_inner_items_inner(
                         id = '640435cf021cee0084710972', 
                         action = 'updated', 
                         time = '2023-03-05 06:25:19 UTC', 
                         iso_639_1 = 'en', 
                         iso_3166_1 = '', 
-                        value = openapi_client.models.tv_series_changes_200_response_changes_inner_items_inner_value.tv_series_changes_200_response_changes_inner_items_inner_value(
-                            poster = openapi_client.models.tv_series_changes_200_response_changes_inner_items_inner_value_poster.tv_series_changes_200_response_changes_inner_items_inner_value_poster(
+                        value = tmdb_client.models.tv_series_changes_200_response_changes_inner_items_inner_value.tv_series_changes_200_response_changes_inner_items_inner_value(
+                            poster = tmdb_client.models.tv_series_changes_200_response_changes_inner_items_inner_value_poster.tv_series_changes_200_response_changes_inner_items_inner_value_poster(
                                 file_path = '/ouudK6RCNnsbT1CSXrlATXQIQTG.jpg', 
                                 iso_639_1 = 'en', ), ), 
-                        original_value = openapi_client.models.tv_series_changes_200_response_changes_inner_items_inner_original_value.tv_series_changes_200_response_changes_inner_items_inner_original_value(), )
+                        original_value = tmdb_client.models.tv_series_changes_200_response_changes_inner_items_inner_original_value.tv_series_changes_200_response_changes_inner_items_inner_original_value(), )
                     ]
             )
         else:

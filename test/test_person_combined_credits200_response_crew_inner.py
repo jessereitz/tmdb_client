@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.person_combined_credits200_response_crew_inner import PersonCombinedCredits200ResponseCrewInner
+from tmdb_client.models.person_combined_credits200_response_crew_inner import PersonCombinedCredits200ResponseCrewInner
 
 class TestPersonCombinedCredits200ResponseCrewInner(unittest.TestCase):
     """PersonCombinedCredits200ResponseCrewInner unit test stubs"""

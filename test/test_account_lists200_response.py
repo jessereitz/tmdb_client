@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.account_lists200_response import AccountLists200Response
+from tmdb_client.models.account_lists200_response import AccountLists200Response
 
 class TestAccountLists200Response(unittest.TestCase):
     """AccountLists200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestAccountLists200Response(unittest.TestCase):
             return AccountLists200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.account_lists_200_response_results_inner.account_lists_200_response_results_inner(
+                    tmdb_client.models.account_lists_200_response_results_inner.account_lists_200_response_results_inner(
                         description = '', 
                         favorite_count = 0, 
                         id = 120174, 

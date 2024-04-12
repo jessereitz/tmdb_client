@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_changes200_response_changes_inner_items_inner import MovieChanges200ResponseChangesInnerItemsInner
+from tmdb_client.models.movie_changes200_response_changes_inner_items_inner import MovieChanges200ResponseChangesInnerItemsInner
 
 class TestMovieChanges200ResponseChangesInnerItemsInner(unittest.TestCase):
     """MovieChanges200ResponseChangesInnerItemsInner unit test stubs"""
@@ -40,8 +40,8 @@ class TestMovieChanges200ResponseChangesInnerItemsInner(unittest.TestCase):
                 time = '2023-04-08 16:35:05 UTC',
                 iso_639_1 = '',
                 iso_3166_1 = '',
-                value = openapi_client.models.movie_changes_200_response_changes_inner_items_inner_value.movie_changes_200_response_changes_inner_items_inner_value(
-                    poster = openapi_client.models.movie_changes_200_response_changes_inner_items_inner_value_poster.movie_changes_200_response_changes_inner_items_inner_value_poster(
+                value = tmdb_client.models.movie_changes_200_response_changes_inner_items_inner_value.movie_changes_200_response_changes_inner_items_inner_value(
+                    poster = tmdb_client.models.movie_changes_200_response_changes_inner_items_inner_value_poster.movie_changes_200_response_changes_inner_items_inner_value_poster(
                         file_path = '/s9ZrHprviFCx3azfWNBtt1LPSnL.jpg', ), )
             )
         else:

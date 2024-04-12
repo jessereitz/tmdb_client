@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_episode_images200_response import TvEpisodeImages200Response
+from tmdb_client.models.tv_episode_images200_response import TvEpisodeImages200Response
 
 class TestTvEpisodeImages200Response(unittest.TestCase):
     """TvEpisodeImages200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvEpisodeImages200Response(unittest.TestCase):
             return TvEpisodeImages200Response(
                 id = 63056,
                 stills = [
-                    openapi_client.models.tv_episode_images_200_response_stills_inner.tv_episode_images_200_response_stills_inner(
+                    tmdb_client.models.tv_episode_images_200_response_stills_inner.tv_episode_images_200_response_stills_inner(
                         aspect_ratio = 1.778, 
                         height = 1080, 
                         iso_639_1 = null, 

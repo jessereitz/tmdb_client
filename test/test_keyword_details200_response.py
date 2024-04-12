@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.keyword_details200_response import KeywordDetails200Response
+from tmdb_client.models.keyword_details200_response import KeywordDetails200Response
 
 class TestKeywordDetails200Response(unittest.TestCase):
     """KeywordDetails200Response unit test stubs"""

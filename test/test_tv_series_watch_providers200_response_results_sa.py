@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_watch_providers200_response_results_sa import TvSeriesWatchProviders200ResponseResultsSA
+from tmdb_client.models.tv_series_watch_providers200_response_results_sa import TvSeriesWatchProviders200ResponseResultsSA
 
 class TestTvSeriesWatchProviders200ResponseResultsSA(unittest.TestCase):
     """TvSeriesWatchProviders200ResponseResultsSA unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvSeriesWatchProviders200ResponseResultsSA(unittest.TestCase):
             return TvSeriesWatchProviders200ResponseResultsSA(
                 link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/watch?locale=SA',
                 flatrate = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_sa_flatrate_inner.tv_series_watch_providers_200_response_results_SA_flatrate_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_sa_flatrate_inner.tv_series_watch_providers_200_response_results_SA_flatrate_inner(
                         logo_path = '/xEPXbwbfABzPrUTWbgtDFH1NOa.jpg', 
                         provider_id = 629, 
                         provider_name = 'OSN', 

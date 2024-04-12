@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_watch_providers200_response_results_se import MovieWatchProviders200ResponseResultsSE
+from tmdb_client.models.movie_watch_providers200_response_results_se import MovieWatchProviders200ResponseResultsSE
 
 class TestMovieWatchProviders200ResponseResultsSE(unittest.TestCase):
     """MovieWatchProviders200ResponseResultsSE unit test stubs"""
@@ -37,21 +37,21 @@ class TestMovieWatchProviders200ResponseResultsSE(unittest.TestCase):
             return MovieWatchProviders200ResponseResultsSE(
                 link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=SE',
                 buy = [
-                    openapi_client.models.movie_watch_providers_200_response_results_se_buy_inner.movie_watch_providers_200_response_results_SE_buy_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_se_buy_inner.movie_watch_providers_200_response_results_SE_buy_inner(
                         logo_path = '/shq88b09gTBYC4hA7K7MUL8Q4zP.jpg', 
                         provider_id = 68, 
                         provider_name = 'Microsoft Store', 
                         display_priority = 7, )
                     ],
                 rent = [
-                    openapi_client.models.movie_watch_providers_200_response_results_se_buy_inner.movie_watch_providers_200_response_results_SE_buy_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_se_buy_inner.movie_watch_providers_200_response_results_SE_buy_inner(
                         logo_path = '/shq88b09gTBYC4hA7K7MUL8Q4zP.jpg', 
                         provider_id = 68, 
                         provider_name = 'Microsoft Store', 
                         display_priority = 7, )
                     ],
                 flatrate = [
-                    openapi_client.models.movie_watch_providers_200_response_results_be_flatrate_inner.movie_watch_providers_200_response_results_BE_flatrate_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_be_flatrate_inner.movie_watch_providers_200_response_results_BE_flatrate_inner(
                         logo_path = '/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg', 
                         provider_id = 337, 
                         provider_name = 'Disney Plus', 

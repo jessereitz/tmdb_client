@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.search_person200_response_results_inner_known_for_inner import SearchPerson200ResponseResultsInnerKnownForInner
+from tmdb_client.models.search_person200_response_results_inner_known_for_inner import SearchPerson200ResponseResultsInnerKnownForInner
 
 class TestSearchPerson200ResponseResultsInnerKnownForInner(unittest.TestCase):
     """SearchPerson200ResponseResultsInnerKnownForInner unit test stubs"""

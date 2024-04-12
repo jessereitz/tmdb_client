@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_season_watch_providers200_response_results_uy import TvSeasonWatchProviders200ResponseResultsUY
+from tmdb_client.models.tv_season_watch_providers200_response_results_uy import TvSeasonWatchProviders200ResponseResultsUY
 
 class TestTvSeasonWatchProviders200ResponseResultsUY(unittest.TestCase):
     """TvSeasonWatchProviders200ResponseResultsUY unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvSeasonWatchProviders200ResponseResultsUY(unittest.TestCase):
             return TvSeasonWatchProviders200ResponseResultsUY(
                 link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=UY',
                 flatrate = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_uy_flatrate_inner.tv_series_watch_providers_200_response_results_UY_flatrate_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_uy_flatrate_inner.tv_series_watch_providers_200_response_results_UY_flatrate_inner(
                         logo_path = '/kV8XFGI5OLJKl72dI8DtnKplfFr.jpg', 
                         provider_id = 467, 
                         provider_name = 'DIRECTV GO', 

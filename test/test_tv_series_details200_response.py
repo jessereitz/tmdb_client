@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_details200_response import TvSeriesDetails200Response
+from tmdb_client.models.tv_series_details200_response import TvSeriesDetails200Response
 
 class TestTvSeriesDetails200Response(unittest.TestCase):
     """TvSeriesDetails200Response unit test stubs"""
@@ -38,7 +38,7 @@ class TestTvSeriesDetails200Response(unittest.TestCase):
                 adult = False,
                 backdrop_path = '/6LWy0jvMpmjoS9fojNgHIKoWL05.jpg',
                 created_by = [
-                    openapi_client.models.tv_series_details_200_response_created_by_inner.tv_series_details_200_response_created_by_inner(
+                    tmdb_client.models.tv_series_details_200_response_created_by_inner.tv_series_details_200_response_created_by_inner(
                         id = 9813, 
                         credit_id = '5256c8c219c2956ff604858a', 
                         name = 'David Benioff', 
@@ -50,7 +50,7 @@ class TestTvSeriesDetails200Response(unittest.TestCase):
                     ],
                 first_air_date = '2011-04-17',
                 genres = [
-                    openapi_client.models.tv_series_details_200_response_genres_inner.tv_series_details_200_response_genres_inner(
+                    tmdb_client.models.tv_series_details_200_response_genres_inner.tv_series_details_200_response_genres_inner(
                         id = 10765, 
                         name = 'Sci-Fi & Fantasy', )
                     ],
@@ -61,7 +61,7 @@ class TestTvSeriesDetails200Response(unittest.TestCase):
                     'en'
                     ],
                 last_air_date = '2019-05-19',
-                last_episode_to_air = openapi_client.models.tv_series_details_200_response_last_episode_to_air.tv_series_details_200_response_last_episode_to_air(
+                last_episode_to_air = tmdb_client.models.tv_series_details_200_response_last_episode_to_air.tv_series_details_200_response_last_episode_to_air(
                     id = 1551830, 
                     name = 'The Iron Throne', 
                     overview = 'In the aftermath of the devastating attack on King's Landing, Daenerys must face the survivors.', 
@@ -77,7 +77,7 @@ class TestTvSeriesDetails200Response(unittest.TestCase):
                 name = 'Game of Thrones',
                 next_episode_to_air = None,
                 networks = [
-                    openapi_client.models.tv_series_details_200_response_networks_inner.tv_series_details_200_response_networks_inner(
+                    tmdb_client.models.tv_series_details_200_response_networks_inner.tv_series_details_200_response_networks_inner(
                         id = 49, 
                         logo_path = '/tuomPhY2UtuPTqqFnKMVHvSb724.png', 
                         name = 'HBO', 
@@ -94,19 +94,19 @@ class TestTvSeriesDetails200Response(unittest.TestCase):
                 popularity = 346.098,
                 poster_path = '/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg',
                 production_companies = [
-                    openapi_client.models.tv_series_details_200_response_production_companies_inner.tv_series_details_200_response_production_companies_inner(
+                    tmdb_client.models.tv_series_details_200_response_production_companies_inner.tv_series_details_200_response_production_companies_inner(
                         id = 76043, 
                         logo_path = '/9RO2vbQ67otPrBLXCaC8UMp3Qat.png', 
                         name = 'Revolution Sun Studios', 
                         origin_country = 'US', )
                     ],
                 production_countries = [
-                    openapi_client.models.tv_series_details_200_response_production_countries_inner.tv_series_details_200_response_production_countries_inner(
+                    tmdb_client.models.tv_series_details_200_response_production_countries_inner.tv_series_details_200_response_production_countries_inner(
                         iso_3166_1 = 'GB', 
                         name = 'United Kingdom', )
                     ],
                 seasons = [
-                    openapi_client.models.tv_series_details_200_response_seasons_inner.tv_series_details_200_response_seasons_inner(
+                    tmdb_client.models.tv_series_details_200_response_seasons_inner.tv_series_details_200_response_seasons_inner(
                         air_date = '2010-12-05', 
                         episode_count = 272, 
                         id = 3627, 
@@ -117,7 +117,7 @@ class TestTvSeriesDetails200Response(unittest.TestCase):
                         vote_average = 0, )
                     ],
                 spoken_languages = [
-                    openapi_client.models.movie_details_200_response_spoken_languages_inner.movie_details_200_response_spoken_languages_inner(
+                    tmdb_client.models.movie_details_200_response_spoken_languages_inner.movie_details_200_response_spoken_languages_inner(
                         english_name = 'English', 
                         iso_639_1 = 'en', 
                         name = 'English', )

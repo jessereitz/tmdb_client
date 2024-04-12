@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.configuration_details200_response_images import ConfigurationDetails200ResponseImages
+from tmdb_client.models.configuration_details200_response_images import ConfigurationDetails200ResponseImages
 
 class TestConfigurationDetails200ResponseImages(unittest.TestCase):
     """ConfigurationDetails200ResponseImages unit test stubs"""

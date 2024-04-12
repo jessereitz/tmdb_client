@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.list_delete200_response import ListDelete200Response
+from tmdb_client.models.list_delete200_response import ListDelete200Response
 
 class TestListDelete200Response(unittest.TestCase):
     """ListDelete200Response unit test stubs"""

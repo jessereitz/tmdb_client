@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_watch_providers200_response_results_tr_flatrate_inner import TvSeriesWatchProviders200ResponseResultsTRFlatrateInner
+from tmdb_client.models.tv_series_watch_providers200_response_results_tr_flatrate_inner import TvSeriesWatchProviders200ResponseResultsTRFlatrateInner
 
 class TestTvSeriesWatchProviders200ResponseResultsTRFlatrateInner(unittest.TestCase):
     """TvSeriesWatchProviders200ResponseResultsTRFlatrateInner unit test stubs"""

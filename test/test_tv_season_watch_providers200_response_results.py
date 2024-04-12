@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_season_watch_providers200_response_results import TvSeasonWatchProviders200ResponseResults
+from tmdb_client.models.tv_season_watch_providers200_response_results import TvSeasonWatchProviders200ResponseResults
 
 class TestTvSeasonWatchProviders200ResponseResults(unittest.TestCase):
     """TvSeasonWatchProviders200ResponseResults unit test stubs"""
@@ -35,910 +35,910 @@ class TestTvSeasonWatchProviders200ResponseResults(unittest.TestCase):
         model = TvSeasonWatchProviders200ResponseResults()
         if include_optional:
             return TvSeasonWatchProviders200ResponseResults(
-                ae = openapi_client.models.tv_season_watch_providers_200_response_results_ae.tv_season_watch_providers_200_response_results_AE(
+                ae = tmdb_client.models.tv_season_watch_providers_200_response_results_ae.tv_season_watch_providers_200_response_results_AE(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=AE', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_ae_flatrate_inner.tv_series_watch_providers_200_response_results_AE_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_ae_flatrate_inner.tv_series_watch_providers_200_response_results_AE_flatrate_inner(
                             logo_path = '/xEPXbwbfABzPrUTWbgtDFH1NOa.jpg', 
                             provider_id = 629, 
                             provider_name = 'OSN', 
                             display_priority = 11, )
                         ], ),
-                ar = openapi_client.models.tv_season_watch_providers_200_response_results_ar.tv_season_watch_providers_200_response_results_AR(
+                ar = tmdb_client.models.tv_season_watch_providers_200_response_results_ar.tv_season_watch_providers_200_response_results_AR(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=AR', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_ar_flatrate_inner.tv_series_watch_providers_200_response_results_AR_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_ar_flatrate_inner.tv_series_watch_providers_200_response_results_AR_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 5, )
                         ], ),
-                at = openapi_client.models.tv_season_watch_providers_200_response_results_at.tv_season_watch_providers_200_response_results_AT(
+                at = tmdb_client.models.tv_season_watch_providers_200_response_results_at.tv_season_watch_providers_200_response_results_AT(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=AT', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_at_flatrate_inner.tv_series_watch_providers_200_response_results_AT_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_at_flatrate_inner.tv_series_watch_providers_200_response_results_AT_flatrate_inner(
                             logo_path = '/y0kyIFElN5sJAsmW8Txj69wzrD2.jpg', 
                             provider_id = 321, 
                             provider_name = 'Sky X', 
                             display_priority = 23, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_at_buy_inner.movie_watch_providers_200_response_results_AT_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_at_buy_inner.movie_watch_providers_200_response_results_AT_buy_inner(
                             logo_path = '/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg', 
                             provider_id = 10, 
                             provider_name = 'Amazon Video', 
                             display_priority = 3, )
                         ], ),
-                au = openapi_client.models.tv_season_watch_providers_200_response_results_au.tv_season_watch_providers_200_response_results_AU(
+                au = tmdb_client.models.tv_season_watch_providers_200_response_results_au.tv_season_watch_providers_200_response_results_AU(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=AU', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_au_buy_inner.movie_watch_providers_200_response_results_AU_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_au_buy_inner.movie_watch_providers_200_response_results_AU_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 10, )
                         ], 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_au_flatrate_inner.tv_series_watch_providers_200_response_results_AU_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_au_flatrate_inner.tv_series_watch_providers_200_response_results_AU_flatrate_inner(
                             logo_path = '/d3ixI1no0EpTj2i7u0Sd2DBXVlG.jpg', 
                             provider_id = 385, 
                             provider_name = 'BINGE', 
                             display_priority = 3, )
                         ], ),
-                ba = openapi_client.models.tv_season_watch_providers_200_response_results_ba.tv_season_watch_providers_200_response_results_BA(
+                ba = tmdb_client.models.tv_season_watch_providers_200_response_results_ba.tv_season_watch_providers_200_response_results_BA(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=BA', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bb_flatrate_inner.movie_watch_providers_200_response_results_BB_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bb_flatrate_inner.movie_watch_providers_200_response_results_BB_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 28, )
                         ], ),
-                bb = openapi_client.models.tv_season_watch_providers_200_response_results_bb.tv_season_watch_providers_200_response_results_BB(
+                bb = tmdb_client.models.tv_season_watch_providers_200_response_results_bb.tv_season_watch_providers_200_response_results_BB(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=BB', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bb_flatrate_inner.movie_watch_providers_200_response_results_BB_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bb_flatrate_inner.movie_watch_providers_200_response_results_BB_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 28, )
                         ], ),
-                be = openapi_client.models.tv_season_watch_providers_200_response_results_be.tv_season_watch_providers_200_response_results_BE(
+                be = tmdb_client.models.tv_season_watch_providers_200_response_results_be.tv_season_watch_providers_200_response_results_BE(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=BE', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_be_flatrate_inner.tv_series_watch_providers_200_response_results_BE_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_be_flatrate_inner.tv_series_watch_providers_200_response_results_BE_flatrate_inner(
                             logo_path = '/pq8p1umEnJjdFAP1nFvNArTR61X.jpg', 
                             provider_id = 311, 
                             provider_name = 'Be TV Go', 
                             display_priority = 4, )
                         ], ),
-                bg = openapi_client.models.tv_season_watch_providers_200_response_results_bg.tv_season_watch_providers_200_response_results_BG(
+                bg = tmdb_client.models.tv_season_watch_providers_200_response_results_bg.tv_season_watch_providers_200_response_results_BG(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=BG', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_bg_flatrate_inner.tv_series_watch_providers_200_response_results_BG_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_bg_flatrate_inner.tv_series_watch_providers_200_response_results_BG_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 15, )
                         ], ),
-                bo = openapi_client.models.tv_season_watch_providers_200_response_results_bo.tv_season_watch_providers_200_response_results_BO(
+                bo = tmdb_client.models.tv_season_watch_providers_200_response_results_bo.tv_season_watch_providers_200_response_results_BO(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=BO', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_bo_flatrate_inner.tv_series_watch_providers_200_response_results_BO_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_bo_flatrate_inner.tv_series_watch_providers_200_response_results_BO_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 3, )
                         ], ),
-                br = openapi_client.models.tv_season_watch_providers_200_response_results_br.tv_season_watch_providers_200_response_results_BR(
+                br = tmdb_client.models.tv_season_watch_providers_200_response_results_br.tv_season_watch_providers_200_response_results_BR(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=BR', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_br_flatrate_inner.tv_series_watch_providers_200_response_results_BR_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_br_flatrate_inner.tv_series_watch_providers_200_response_results_BR_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 7, )
                         ], ),
-                bs = openapi_client.models.tv_season_watch_providers_200_response_results_bs.tv_season_watch_providers_200_response_results_BS(
+                bs = tmdb_client.models.tv_season_watch_providers_200_response_results_bs.tv_season_watch_providers_200_response_results_BS(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=BS', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bb_flatrate_inner.movie_watch_providers_200_response_results_BB_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bb_flatrate_inner.movie_watch_providers_200_response_results_BB_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 28, )
                         ], ),
-                ca = openapi_client.models.tv_season_watch_providers_200_response_results_ca.tv_season_watch_providers_200_response_results_CA(
+                ca = tmdb_client.models.tv_season_watch_providers_200_response_results_ca.tv_season_watch_providers_200_response_results_CA(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=CA', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_be_rent_inner.movie_watch_providers_200_response_results_BE_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_be_rent_inner.movie_watch_providers_200_response_results_BE_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 6, )
                         ], 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_ca_flatrate_inner.tv_series_watch_providers_200_response_results_CA_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_ca_flatrate_inner.tv_series_watch_providers_200_response_results_CA_flatrate_inner(
                             logo_path = '/gJ3yVMWouaVj6iHd59TISJ1TlM5.jpg', 
                             provider_id = 230, 
                             provider_name = 'Crave', 
                             display_priority = 4, )
                         ], ),
-                ch = openapi_client.models.tv_season_watch_providers_200_response_results_ch.tv_season_watch_providers_200_response_results_CH(
+                ch = tmdb_client.models.tv_season_watch_providers_200_response_results_ch.tv_season_watch_providers_200_response_results_CH(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=CH', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_pe_rent_inner.movie_watch_providers_200_response_results_PE_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_pe_rent_inner.movie_watch_providers_200_response_results_PE_rent_inner(
                             logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                             provider_id = 3, 
                             provider_name = 'Google Play Movies', 
                             display_priority = 5, )
                         ], 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_ch_flatrate_inner.tv_series_watch_providers_200_response_results_CH_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_ch_flatrate_inner.tv_series_watch_providers_200_response_results_CH_flatrate_inner(
                             logo_path = '/sHP8XLo4Ac4WMbziRyAdRQdb76q.jpg', 
                             provider_id = 210, 
                             provider_name = 'Sky', 
                             display_priority = 7, )
                         ], ),
-                ci = openapi_client.models.tv_season_watch_providers_200_response_results_ci.tv_season_watch_providers_200_response_results_CI(
+                ci = tmdb_client.models.tv_season_watch_providers_200_response_results_ci.tv_season_watch_providers_200_response_results_CI(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=CI', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_ci_flatrate_inner.tv_series_watch_providers_200_response_results_CI_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_ci_flatrate_inner.tv_series_watch_providers_200_response_results_CI_flatrate_inner(
                             logo_path = '/okiQZMXnqwv0aD3QDYmu5DBNLce.jpg', 
                             provider_id = 55, 
                             provider_name = 'ShowMax', 
                             display_priority = 25, )
                         ], ),
-                cl = openapi_client.models.tv_season_watch_providers_200_response_results_cl.tv_season_watch_providers_200_response_results_CL(
+                cl = tmdb_client.models.tv_season_watch_providers_200_response_results_cl.tv_season_watch_providers_200_response_results_CL(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=CL', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_br_flatrate_inner.tv_series_watch_providers_200_response_results_BR_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_br_flatrate_inner.tv_series_watch_providers_200_response_results_BR_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 7, )
                         ], ),
-                co = openapi_client.models.tv_season_watch_providers_200_response_results_co.tv_season_watch_providers_200_response_results_CO(
+                co = tmdb_client.models.tv_season_watch_providers_200_response_results_co.tv_season_watch_providers_200_response_results_CO(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=CO', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_co_flatrate_inner.tv_series_watch_providers_200_response_results_CO_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_co_flatrate_inner.tv_series_watch_providers_200_response_results_CO_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 6, )
                         ], ),
-                cr = openapi_client.models.tv_season_watch_providers_200_response_results_cr.tv_season_watch_providers_200_response_results_CR(
+                cr = tmdb_client.models.tv_season_watch_providers_200_response_results_cr.tv_season_watch_providers_200_response_results_CR(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=CR', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_cr_flatrate_inner.tv_series_watch_providers_200_response_results_CR_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_cr_flatrate_inner.tv_series_watch_providers_200_response_results_CR_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 4, )
                         ], ),
-                cz = openapi_client.models.tv_season_watch_providers_200_response_results_cz.tv_season_watch_providers_200_response_results_CZ(
+                cz = tmdb_client.models.tv_season_watch_providers_200_response_results_cz.tv_season_watch_providers_200_response_results_CZ(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=CZ', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_cz_flatrate_inner.tv_series_watch_providers_200_response_results_CZ_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_cz_flatrate_inner.tv_series_watch_providers_200_response_results_CZ_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 22, )
                         ], ),
-                de = openapi_client.models.tv_season_watch_providers_200_response_results_de.tv_season_watch_providers_200_response_results_DE(
+                de = tmdb_client.models.tv_season_watch_providers_200_response_results_de.tv_season_watch_providers_200_response_results_DE(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=DE', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 4, )
                         ], 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_de_flatrate_inner.tv_series_watch_providers_200_response_results_DE_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_de_flatrate_inner.tv_series_watch_providers_200_response_results_DE_flatrate_inner(
                             logo_path = '/MiVcYLkztM6qqLeVSYWHFCUcXx.jpg', 
                             provider_id = 30, 
                             provider_name = 'WOW', 
                             display_priority = 5, )
                         ], ),
-                dk = openapi_client.models.tv_season_watch_providers_200_response_results_dk.tv_season_watch_providers_200_response_results_DK(
+                dk = tmdb_client.models.tv_season_watch_providers_200_response_results_dk.tv_season_watch_providers_200_response_results_DK(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=DK', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_bo_flatrate_inner.tv_series_watch_providers_200_response_results_BO_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_bo_flatrate_inner.tv_series_watch_providers_200_response_results_BO_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 3, )
                         ], ),
-                do = openapi_client.models.tv_season_watch_providers_200_response_results_do.tv_season_watch_providers_200_response_results_DO(
+                do = tmdb_client.models.tv_season_watch_providers_200_response_results_do.tv_season_watch_providers_200_response_results_DO(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=DO', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bb_flatrate_inner.movie_watch_providers_200_response_results_BB_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bb_flatrate_inner.movie_watch_providers_200_response_results_BB_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 28, )
                         ], ),
-                dz = openapi_client.models.tv_season_watch_providers_200_response_results_dz.tv_season_watch_providers_200_response_results_DZ(
+                dz = tmdb_client.models.tv_season_watch_providers_200_response_results_dz.tv_season_watch_providers_200_response_results_DZ(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=DZ', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_dz_flatrate_inner.tv_series_watch_providers_200_response_results_DZ_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_dz_flatrate_inner.tv_series_watch_providers_200_response_results_DZ_flatrate_inner(
                             logo_path = '/okiQZMXnqwv0aD3QDYmu5DBNLce.jpg', 
                             provider_id = 55, 
                             provider_name = 'ShowMax', 
                             display_priority = 27, )
                         ], ),
-                ec = openapi_client.models.tv_season_watch_providers_200_response_results_ec.tv_season_watch_providers_200_response_results_EC(
+                ec = tmdb_client.models.tv_season_watch_providers_200_response_results_ec.tv_season_watch_providers_200_response_results_EC(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=EC', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_ec_flatrate_inner.tv_series_watch_providers_200_response_results_EC_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_ec_flatrate_inner.tv_series_watch_providers_200_response_results_EC_flatrate_inner(
                             logo_path = '/cDzkhgvozSr4GW2aRdV22uDuFpw.jpg', 
                             provider_id = 339, 
                             provider_name = 'Movistar Play', 
                             display_priority = 4, )
                         ], ),
-                eg = openapi_client.models.tv_season_watch_providers_200_response_results_eg.tv_season_watch_providers_200_response_results_EG(
+                eg = tmdb_client.models.tv_season_watch_providers_200_response_results_eg.tv_season_watch_providers_200_response_results_EG(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=EG', 
                     flatrate = [
-                        openapi_client.models.tv_season_watch_providers_200_response_results_eg_flatrate_inner.tv_season_watch_providers_200_response_results_EG_flatrate_inner(
+                        tmdb_client.models.tv_season_watch_providers_200_response_results_eg_flatrate_inner.tv_season_watch_providers_200_response_results_EG_flatrate_inner(
                             logo_path = '/xEPXbwbfABzPrUTWbgtDFH1NOa.jpg', 
                             provider_id = 629, 
                             provider_name = 'OSN', 
                             display_priority = 28, )
                         ], ),
-                es = openapi_client.models.tv_season_watch_providers_200_response_results_es.tv_season_watch_providers_200_response_results_ES(
+                es = tmdb_client.models.tv_season_watch_providers_200_response_results_es.tv_season_watch_providers_200_response_results_ES(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=ES', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_es_flatrate_inner.tv_series_watch_providers_200_response_results_ES_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_es_flatrate_inner.tv_series_watch_providers_200_response_results_ES_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 9, )
                         ], ),
-                fi = openapi_client.models.tv_season_watch_providers_200_response_results_fi.tv_season_watch_providers_200_response_results_FI(
+                fi = tmdb_client.models.tv_season_watch_providers_200_response_results_fi.tv_season_watch_providers_200_response_results_FI(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=FI', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_cr_flatrate_inner.tv_series_watch_providers_200_response_results_CR_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_cr_flatrate_inner.tv_series_watch_providers_200_response_results_CR_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 4, )
                         ], 
                     buy = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_fi_buy_inner.tv_series_watch_providers_200_response_results_FI_buy_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_fi_buy_inner.tv_series_watch_providers_200_response_results_FI_buy_inner(
                             logo_path = '/shq88b09gTBYC4hA7K7MUL8Q4zP.jpg', 
                             provider_id = 68, 
                             provider_name = 'Microsoft Store', 
                             display_priority = 12, )
                         ], ),
-                fr = openapi_client.models.tv_season_watch_providers_200_response_results_fr.tv_season_watch_providers_200_response_results_FR(
+                fr = tmdb_client.models.tv_season_watch_providers_200_response_results_fr.tv_season_watch_providers_200_response_results_FR(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=FR', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_fr_flatrate_inner.tv_series_watch_providers_200_response_results_FR_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_fr_flatrate_inner.tv_series_watch_providers_200_response_results_FR_flatrate_inner(
                             logo_path = '/loOaayvNiLnD0zKl70TO2L5vlAL.jpg', 
                             provider_id = 1870, 
                             provider_name = 'Pass Warner Amazon Channel', 
                             display_priority = 95, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_fr_rent_inner.movie_watch_providers_200_response_results_FR_rent_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_fr_rent_inner.movie_watch_providers_200_response_results_FR_rent_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 5, )
                         ], ),
-                gb = openapi_client.models.tv_season_watch_providers_200_response_results_gb.tv_season_watch_providers_200_response_results_GB(
+                gb = tmdb_client.models.tv_season_watch_providers_200_response_results_gb.tv_season_watch_providers_200_response_results_GB(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=GB', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_gb_flatrate_inner.tv_series_watch_providers_200_response_results_GB_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_gb_flatrate_inner.tv_series_watch_providers_200_response_results_GB_flatrate_inner(
                             logo_path = '/fBHHXKC34ffxAsQvDe0ZJbvmTEQ.jpg', 
                             provider_id = 29, 
                             provider_name = 'Sky Go', 
                             display_priority = 9, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_gb_buy_inner.movie_watch_providers_200_response_results_GB_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_gb_buy_inner.movie_watch_providers_200_response_results_GB_buy_inner(
                             logo_path = '/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg', 
                             provider_id = 10, 
                             provider_name = 'Amazon Video', 
                             display_priority = 4, )
                         ], ),
-                gf = openapi_client.models.tv_season_watch_providers_200_response_results_gf.tv_season_watch_providers_200_response_results_GF(
+                gf = tmdb_client.models.tv_season_watch_providers_200_response_results_gf.tv_season_watch_providers_200_response_results_GF(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=GF', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_gf_flatrate_inner.movie_watch_providers_200_response_results_GF_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_gf_flatrate_inner.movie_watch_providers_200_response_results_GF_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 30, )
                         ], ),
-                gh = openapi_client.models.tv_season_watch_providers_200_response_results_gh.tv_season_watch_providers_200_response_results_GH(
+                gh = tmdb_client.models.tv_season_watch_providers_200_response_results_gh.tv_season_watch_providers_200_response_results_GH(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=GH', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_gh_flatrate_inner.tv_series_watch_providers_200_response_results_GH_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_gh_flatrate_inner.tv_series_watch_providers_200_response_results_GH_flatrate_inner(
                             logo_path = '/okiQZMXnqwv0aD3QDYmu5DBNLce.jpg', 
                             provider_id = 55, 
                             provider_name = 'ShowMax', 
                             display_priority = 11, )
                         ], ),
-                gq = openapi_client.models.tv_season_watch_providers_200_response_results_gq.tv_season_watch_providers_200_response_results_GQ(
+                gq = tmdb_client.models.tv_season_watch_providers_200_response_results_gq.tv_season_watch_providers_200_response_results_GQ(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=GQ', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_gh_flatrate_inner.tv_series_watch_providers_200_response_results_GH_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_gh_flatrate_inner.tv_series_watch_providers_200_response_results_GH_flatrate_inner(
                             logo_path = '/okiQZMXnqwv0aD3QDYmu5DBNLce.jpg', 
                             provider_id = 55, 
                             provider_name = 'ShowMax', 
                             display_priority = 11, )
                         ], ),
-                gt = openapi_client.models.tv_season_watch_providers_200_response_results_gt.tv_season_watch_providers_200_response_results_GT(
+                gt = tmdb_client.models.tv_season_watch_providers_200_response_results_gt.tv_season_watch_providers_200_response_results_GT(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=GT', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_cr_flatrate_inner.tv_series_watch_providers_200_response_results_CR_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_cr_flatrate_inner.tv_series_watch_providers_200_response_results_CR_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 4, )
                         ], ),
-                hk = openapi_client.models.tv_season_watch_providers_200_response_results_hk.tv_season_watch_providers_200_response_results_HK(
+                hk = tmdb_client.models.tv_season_watch_providers_200_response_results_hk.tv_season_watch_providers_200_response_results_HK(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=HK', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_hk_flatrate_inner.tv_series_watch_providers_200_response_results_HK_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_hk_flatrate_inner.tv_series_watch_providers_200_response_results_HK_flatrate_inner(
                             logo_path = '/bxdNcDbk1ohVeOMmM3eusAAiTLw.jpg', 
                             provider_id = 425, 
                             provider_name = 'HBO Go', 
                             display_priority = 40, )
                         ], ),
-                hn = openapi_client.models.tv_season_watch_providers_200_response_results_hn.tv_season_watch_providers_200_response_results_HN(
+                hn = tmdb_client.models.tv_season_watch_providers_200_response_results_hn.tv_season_watch_providers_200_response_results_HN(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=HN', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_cr_flatrate_inner.tv_series_watch_providers_200_response_results_CR_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_cr_flatrate_inner.tv_series_watch_providers_200_response_results_CR_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 4, )
                         ], ),
-                hr = openapi_client.models.tv_season_watch_providers_200_response_results_hr.tv_season_watch_providers_200_response_results_HR(
+                hr = tmdb_client.models.tv_season_watch_providers_200_response_results_hr.tv_season_watch_providers_200_response_results_HR(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=HR', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_hr_flatrate_inner.tv_series_watch_providers_200_response_results_HR_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_hr_flatrate_inner.tv_series_watch_providers_200_response_results_HR_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 34, )
                         ], ),
-                hu = openapi_client.models.tv_season_watch_providers_200_response_results_hu.tv_season_watch_providers_200_response_results_HU(
+                hu = tmdb_client.models.tv_season_watch_providers_200_response_results_hu.tv_season_watch_providers_200_response_results_HU(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=HU', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_cz_flatrate_inner.tv_series_watch_providers_200_response_results_CZ_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_cz_flatrate_inner.tv_series_watch_providers_200_response_results_CZ_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 22, )
                         ], ),
-                id = openapi_client.models.tv_season_watch_providers_200_response_results_id.tv_season_watch_providers_200_response_results_ID(
+                id = tmdb_client.models.tv_season_watch_providers_200_response_results_id.tv_season_watch_providers_200_response_results_ID(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=ID', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_id_flatrate_inner.tv_series_watch_providers_200_response_results_ID_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_id_flatrate_inner.tv_series_watch_providers_200_response_results_ID_flatrate_inner(
                             logo_path = '/bxdNcDbk1ohVeOMmM3eusAAiTLw.jpg', 
                             provider_id = 425, 
                             provider_name = 'HBO Go', 
                             display_priority = 14, )
                         ], ),
-                ie = openapi_client.models.tv_season_watch_providers_200_response_results_ie.tv_season_watch_providers_200_response_results_IE(
+                ie = tmdb_client.models.tv_season_watch_providers_200_response_results_ie.tv_season_watch_providers_200_response_results_IE(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=IE', 
                     buy = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_ie_buy_inner.tv_series_watch_providers_200_response_results_IE_buy_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_ie_buy_inner.tv_series_watch_providers_200_response_results_IE_buy_inner(
                             logo_path = '/2pCbao1J9s0DMak2KKnEzmzHni8.jpg', 
                             provider_id = 130, 
                             provider_name = 'Sky Store', 
                             display_priority = 9, )
                         ], 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_ie_flatrate_inner.tv_series_watch_providers_200_response_results_IE_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_ie_flatrate_inner.tv_series_watch_providers_200_response_results_IE_flatrate_inner(
                             logo_path = '/fBHHXKC34ffxAsQvDe0ZJbvmTEQ.jpg', 
                             provider_id = 29, 
                             provider_name = 'Sky Go', 
                             display_priority = 8, )
                         ], ),
-                il = openapi_client.models.tv_season_watch_providers_200_response_results_il.tv_season_watch_providers_200_response_results_IL(
+                il = tmdb_client.models.tv_season_watch_providers_200_response_results_il.tv_season_watch_providers_200_response_results_IL(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=IL', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_il_flatrate_inner.tv_series_watch_providers_200_response_results_IL_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_il_flatrate_inner.tv_series_watch_providers_200_response_results_IL_flatrate_inner(
                             logo_path = '/xEPXbwbfABzPrUTWbgtDFH1NOa.jpg', 
                             provider_id = 629, 
                             provider_name = 'OSN', 
                             display_priority = 13, )
                         ], ),
-                iq = openapi_client.models.tv_season_watch_providers_200_response_results_iq.tv_season_watch_providers_200_response_results_IQ(
+                iq = tmdb_client.models.tv_season_watch_providers_200_response_results_iq.tv_season_watch_providers_200_response_results_IQ(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=IQ', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_iq_flatrate_inner.tv_series_watch_providers_200_response_results_IQ_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_iq_flatrate_inner.tv_series_watch_providers_200_response_results_IQ_flatrate_inner(
                             logo_path = '/xEPXbwbfABzPrUTWbgtDFH1NOa.jpg', 
                             provider_id = 629, 
                             provider_name = 'OSN', 
                             display_priority = 12, )
                         ], ),
-                it = openapi_client.models.tv_season_watch_providers_200_response_results_it.tv_season_watch_providers_200_response_results_IT(
+                it = tmdb_client.models.tv_season_watch_providers_200_response_results_it.tv_season_watch_providers_200_response_results_IT(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=IT', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_ie_flatrate_inner.tv_series_watch_providers_200_response_results_IE_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_ie_flatrate_inner.tv_series_watch_providers_200_response_results_IE_flatrate_inner(
                             logo_path = '/fBHHXKC34ffxAsQvDe0ZJbvmTEQ.jpg', 
                             provider_id = 29, 
                             provider_name = 'Sky Go', 
                             display_priority = 8, )
                         ], 
                     buy = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_it_buy_inner.tv_series_watch_providers_200_response_results_IT_buy_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_it_buy_inner.tv_series_watch_providers_200_response_results_IT_buy_inner(
                             logo_path = '/cksgBjTHV3rzAVaO2zUyS1mH4Ke.jpg', 
                             provider_id = 40, 
                             provider_name = 'Chili', 
                             display_priority = 11, )
                         ], ),
-                jm = openapi_client.models.tv_season_watch_providers_200_response_results_jm.tv_season_watch_providers_200_response_results_JM(
+                jm = tmdb_client.models.tv_season_watch_providers_200_response_results_jm.tv_season_watch_providers_200_response_results_JM(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=JM', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_jm_flatrate_inner.movie_watch_providers_200_response_results_JM_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_jm_flatrate_inner.movie_watch_providers_200_response_results_JM_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 27, )
                         ], ),
-                jp = openapi_client.models.tv_season_watch_providers_200_response_results_jp.tv_season_watch_providers_200_response_results_JP(
+                jp = tmdb_client.models.tv_season_watch_providers_200_response_results_jp.tv_season_watch_providers_200_response_results_JP(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=JP', 
                     buy = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_jp_buy_inner.tv_series_watch_providers_200_response_results_JP_buy_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_jp_buy_inner.tv_series_watch_providers_200_response_results_JP_buy_inner(
                             logo_path = '/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg', 
                             provider_id = 10, 
                             provider_name = 'Amazon Video', 
                             display_priority = 6, )
                         ], 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_jp_flatrate_inner.tv_series_watch_providers_200_response_results_JP_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_jp_flatrate_inner.tv_series_watch_providers_200_response_results_JP_flatrate_inner(
                             logo_path = '/npg1OiBidQSndMsBZwgEPOYU6Jq.jpg', 
                             provider_id = 84, 
                             provider_name = 'U-NEXT', 
                             display_priority = 4, )
                         ], 
                     rent = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_jp_buy_inner.tv_series_watch_providers_200_response_results_JP_buy_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_jp_buy_inner.tv_series_watch_providers_200_response_results_JP_buy_inner(
                             logo_path = '/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg', 
                             provider_id = 10, 
                             provider_name = 'Amazon Video', 
                             display_priority = 6, )
                         ], ),
-                ke = openapi_client.models.tv_season_watch_providers_200_response_results_ke.tv_season_watch_providers_200_response_results_KE(
+                ke = tmdb_client.models.tv_season_watch_providers_200_response_results_ke.tv_season_watch_providers_200_response_results_KE(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=KE', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_ke_flatrate_inner.tv_series_watch_providers_200_response_results_KE_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_ke_flatrate_inner.tv_series_watch_providers_200_response_results_KE_flatrate_inner(
                             logo_path = '/okiQZMXnqwv0aD3QDYmu5DBNLce.jpg', 
                             provider_id = 55, 
                             provider_name = 'ShowMax', 
                             display_priority = 10, )
                         ], ),
-                kr = openapi_client.models.tv_season_watch_providers_200_response_results_kr.tv_season_watch_providers_200_response_results_KR(
+                kr = tmdb_client.models.tv_season_watch_providers_200_response_results_kr.tv_season_watch_providers_200_response_results_KR(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=KR', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_kr_buy_inner.movie_watch_providers_200_response_results_KR_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_kr_buy_inner.movie_watch_providers_200_response_results_KR_buy_inner(
                             logo_path = '/2ioan5BX5L9tz4fIGU93blTeFhv.jpg', 
                             provider_id = 356, 
                             provider_name = 'wavve', 
                             display_priority = 3, )
                         ], ),
-                lb = openapi_client.models.tv_season_watch_providers_200_response_results_lb.tv_season_watch_providers_200_response_results_LB(
+                lb = tmdb_client.models.tv_season_watch_providers_200_response_results_lb.tv_season_watch_providers_200_response_results_LB(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=LB', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_il_flatrate_inner.tv_series_watch_providers_200_response_results_IL_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_il_flatrate_inner.tv_series_watch_providers_200_response_results_IL_flatrate_inner(
                             logo_path = '/xEPXbwbfABzPrUTWbgtDFH1NOa.jpg', 
                             provider_id = 629, 
                             provider_name = 'OSN', 
                             display_priority = 13, )
                         ], ),
-                ly = openapi_client.models.tv_season_watch_providers_200_response_results_ly.tv_season_watch_providers_200_response_results_LY(
+                ly = tmdb_client.models.tv_season_watch_providers_200_response_results_ly.tv_season_watch_providers_200_response_results_LY(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=LY', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_dz_flatrate_inner.tv_series_watch_providers_200_response_results_DZ_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_dz_flatrate_inner.tv_series_watch_providers_200_response_results_DZ_flatrate_inner(
                             logo_path = '/okiQZMXnqwv0aD3QDYmu5DBNLce.jpg', 
                             provider_id = 55, 
                             provider_name = 'ShowMax', 
                             display_priority = 27, )
                         ], ),
-                md = openapi_client.models.tv_season_watch_providers_200_response_results_md.tv_season_watch_providers_200_response_results_MD(
+                md = tmdb_client.models.tv_season_watch_providers_200_response_results_md.tv_season_watch_providers_200_response_results_MD(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=MD', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_md_flatrate_inner.movie_watch_providers_200_response_results_MD_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_md_flatrate_inner.movie_watch_providers_200_response_results_MD_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 26, )
                         ], ),
-                mk = openapi_client.models.tv_season_watch_providers_200_response_results_mk.tv_season_watch_providers_200_response_results_MK(
+                mk = tmdb_client.models.tv_season_watch_providers_200_response_results_mk.tv_season_watch_providers_200_response_results_MK(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=MK', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_mk_flatrate_inner.movie_watch_providers_200_response_results_MK_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_mk_flatrate_inner.movie_watch_providers_200_response_results_MK_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 29, )
                         ], ),
-                mu = openapi_client.models.tv_season_watch_providers_200_response_results_mu.tv_season_watch_providers_200_response_results_MU(
+                mu = tmdb_client.models.tv_season_watch_providers_200_response_results_mu.tv_season_watch_providers_200_response_results_MU(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=MU', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_mu_flatrate_inner.tv_series_watch_providers_200_response_results_MU_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_mu_flatrate_inner.tv_series_watch_providers_200_response_results_MU_flatrate_inner(
                             logo_path = '/okiQZMXnqwv0aD3QDYmu5DBNLce.jpg', 
                             provider_id = 55, 
                             provider_name = 'ShowMax', 
                             display_priority = 8, )
                         ], ),
-                mx = openapi_client.models.tv_season_watch_providers_200_response_results_mx.tv_season_watch_providers_200_response_results_MX(
+                mx = tmdb_client.models.tv_season_watch_providers_200_response_results_mx.tv_season_watch_providers_200_response_results_MX(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=MX', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_tt_flatrate_inner.movie_watch_providers_200_response_results_TT_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_tt_flatrate_inner.movie_watch_providers_200_response_results_TT_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 11, )
                         ], ),
-                my = openapi_client.models.tv_season_watch_providers_200_response_results_my.tv_season_watch_providers_200_response_results_MY(
+                my = tmdb_client.models.tv_season_watch_providers_200_response_results_my.tv_season_watch_providers_200_response_results_MY(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=MY', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_id_flatrate_inner.tv_series_watch_providers_200_response_results_ID_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_id_flatrate_inner.tv_series_watch_providers_200_response_results_ID_flatrate_inner(
                             logo_path = '/bxdNcDbk1ohVeOMmM3eusAAiTLw.jpg', 
                             provider_id = 425, 
                             provider_name = 'HBO Go', 
                             display_priority = 14, )
                         ], ),
-                mz = openapi_client.models.tv_season_watch_providers_200_response_results_mz.tv_season_watch_providers_200_response_results_MZ(
+                mz = tmdb_client.models.tv_season_watch_providers_200_response_results_mz.tv_season_watch_providers_200_response_results_MZ(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=MZ', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_ke_flatrate_inner.tv_series_watch_providers_200_response_results_KE_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_ke_flatrate_inner.tv_series_watch_providers_200_response_results_KE_flatrate_inner(
                             logo_path = '/okiQZMXnqwv0aD3QDYmu5DBNLce.jpg', 
                             provider_id = 55, 
                             provider_name = 'ShowMax', 
                             display_priority = 10, )
                         ], ),
-                ne = openapi_client.models.tv_season_watch_providers_200_response_results_ne.tv_season_watch_providers_200_response_results_NE(
+                ne = tmdb_client.models.tv_season_watch_providers_200_response_results_ne.tv_season_watch_providers_200_response_results_NE(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=NE', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_ci_flatrate_inner.tv_series_watch_providers_200_response_results_CI_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_ci_flatrate_inner.tv_series_watch_providers_200_response_results_CI_flatrate_inner(
                             logo_path = '/okiQZMXnqwv0aD3QDYmu5DBNLce.jpg', 
                             provider_id = 55, 
                             provider_name = 'ShowMax', 
                             display_priority = 25, )
                         ], ),
-                ng = openapi_client.models.tv_season_watch_providers_200_response_results_ng.tv_season_watch_providers_200_response_results_NG(
+                ng = tmdb_client.models.tv_season_watch_providers_200_response_results_ng.tv_season_watch_providers_200_response_results_NG(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=NG', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_dz_flatrate_inner.tv_series_watch_providers_200_response_results_DZ_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_dz_flatrate_inner.tv_series_watch_providers_200_response_results_DZ_flatrate_inner(
                             logo_path = '/okiQZMXnqwv0aD3QDYmu5DBNLce.jpg', 
                             provider_id = 55, 
                             provider_name = 'ShowMax', 
                             display_priority = 27, )
                         ], ),
-                nl = openapi_client.models.tv_season_watch_providers_200_response_results_nl.tv_season_watch_providers_200_response_results_NL(
+                nl = tmdb_client.models.tv_season_watch_providers_200_response_results_nl.tv_season_watch_providers_200_response_results_NL(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=NL', 
                     buy = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_fi_buy_inner.tv_series_watch_providers_200_response_results_FI_buy_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_fi_buy_inner.tv_series_watch_providers_200_response_results_FI_buy_inner(
                             logo_path = '/shq88b09gTBYC4hA7K7MUL8Q4zP.jpg', 
                             provider_id = 68, 
                             provider_name = 'Microsoft Store', 
                             display_priority = 12, )
                         ], 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_nl_flatrate_inner.tv_series_watch_providers_200_response_results_NL_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_nl_flatrate_inner.tv_series_watch_providers_200_response_results_NL_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 47, )
                         ], ),
-                no = openapi_client.models.tv_season_watch_providers_200_response_results_no.tv_season_watch_providers_200_response_results_NO(
+                no = tmdb_client.models.tv_season_watch_providers_200_response_results_no.tv_season_watch_providers_200_response_results_NO(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=NO', 
                     buy = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_no_buy_inner.tv_series_watch_providers_200_response_results_NO_buy_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_no_buy_inner.tv_series_watch_providers_200_response_results_NO_buy_inner(
                             logo_path = '/shq88b09gTBYC4hA7K7MUL8Q4zP.jpg', 
                             provider_id = 68, 
                             provider_name = 'Microsoft Store', 
                             display_priority = 9, )
                         ], 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_ar_flatrate_inner.tv_series_watch_providers_200_response_results_AR_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_ar_flatrate_inner.tv_series_watch_providers_200_response_results_AR_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 5, )
                         ], ),
-                nz = openapi_client.models.tv_season_watch_providers_200_response_results_nz.tv_season_watch_providers_200_response_results_NZ(
+                nz = tmdb_client.models.tv_season_watch_providers_200_response_results_nz.tv_season_watch_providers_200_response_results_NZ(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=NZ', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_nz_flatrate_inner.tv_series_watch_providers_200_response_results_NZ_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_nz_flatrate_inner.tv_series_watch_providers_200_response_results_NZ_flatrate_inner(
                             logo_path = '/od4YNSSLgOP3p8EtQTnEYfrPa77.jpg', 
                             provider_id = 273, 
                             provider_name = 'Neon TV', 
                             display_priority = 2, )
                         ], ),
-                pa = openapi_client.models.tv_season_watch_providers_200_response_results_pa.tv_season_watch_providers_200_response_results_PA(
+                pa = tmdb_client.models.tv_season_watch_providers_200_response_results_pa.tv_season_watch_providers_200_response_results_PA(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=PA', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_jm_flatrate_inner.movie_watch_providers_200_response_results_JM_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_jm_flatrate_inner.movie_watch_providers_200_response_results_JM_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 27, )
                         ], ),
-                pe = openapi_client.models.tv_season_watch_providers_200_response_results_pe.tv_season_watch_providers_200_response_results_PE(
+                pe = tmdb_client.models.tv_season_watch_providers_200_response_results_pe.tv_season_watch_providers_200_response_results_PE(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=PE', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_pe_flatrate_inner.tv_series_watch_providers_200_response_results_PE_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_pe_flatrate_inner.tv_series_watch_providers_200_response_results_PE_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 8, )
                         ], ),
-                ph = openapi_client.models.tv_season_watch_providers_200_response_results_ph.tv_season_watch_providers_200_response_results_PH(
+                ph = tmdb_client.models.tv_season_watch_providers_200_response_results_ph.tv_season_watch_providers_200_response_results_PH(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=PH', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_ph_flatrate_inner.tv_series_watch_providers_200_response_results_PH_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_ph_flatrate_inner.tv_series_watch_providers_200_response_results_PH_flatrate_inner(
                             logo_path = '/bxdNcDbk1ohVeOMmM3eusAAiTLw.jpg', 
                             provider_id = 425, 
                             provider_name = 'HBO Go', 
                             display_priority = 12, )
                         ], ),
-                pl = openapi_client.models.tv_season_watch_providers_200_response_results_pl.tv_season_watch_providers_200_response_results_PL(
+                pl = tmdb_client.models.tv_season_watch_providers_200_response_results_pl.tv_season_watch_providers_200_response_results_PL(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=PL', 
                     rent = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_pl_rent_inner.tv_series_watch_providers_200_response_results_PL_rent_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_pl_rent_inner.tv_series_watch_providers_200_response_results_PL_rent_inner(
                             logo_path = '/bZNXgd8fwVTD68aAGlElkpAtu7b.jpg', 
                             provider_id = 549, 
                             provider_name = 'IPLA', 
                             display_priority = 17, )
                         ], 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_pl_flatrate_inner.tv_series_watch_providers_200_response_results_PL_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_pl_flatrate_inner.tv_series_watch_providers_200_response_results_PL_flatrate_inner(
                             logo_path = '/l5Wxbsgral716BOtZsGyPVNn8GC.jpg', 
                             provider_id = 250, 
                             provider_name = 'Horizon', 
                             display_priority = 7, )
                         ], ),
-                ps = openapi_client.models.tv_season_watch_providers_200_response_results_ps.tv_season_watch_providers_200_response_results_PS(
+                ps = tmdb_client.models.tv_season_watch_providers_200_response_results_ps.tv_season_watch_providers_200_response_results_PS(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=PS', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_iq_flatrate_inner.tv_series_watch_providers_200_response_results_IQ_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_iq_flatrate_inner.tv_series_watch_providers_200_response_results_IQ_flatrate_inner(
                             logo_path = '/xEPXbwbfABzPrUTWbgtDFH1NOa.jpg', 
                             provider_id = 629, 
                             provider_name = 'OSN', 
                             display_priority = 12, )
                         ], ),
-                pt = openapi_client.models.tv_season_watch_providers_200_response_results_pt.tv_season_watch_providers_200_response_results_PT(
+                pt = tmdb_client.models.tv_season_watch_providers_200_response_results_pt.tv_season_watch_providers_200_response_results_PT(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=PT', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_bb_flatrate_inner.movie_watch_providers_200_response_results_BB_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_bb_flatrate_inner.movie_watch_providers_200_response_results_BB_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 28, )
                         ], ),
-                py = openapi_client.models.tv_season_watch_providers_200_response_results_py.tv_season_watch_providers_200_response_results_PY(
+                py = tmdb_client.models.tv_season_watch_providers_200_response_results_py.tv_season_watch_providers_200_response_results_PY(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=PY', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_bo_flatrate_inner.tv_series_watch_providers_200_response_results_BO_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_bo_flatrate_inner.tv_series_watch_providers_200_response_results_BO_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 3, )
                         ], ),
-                ro = openapi_client.models.tv_season_watch_providers_200_response_results_ro.tv_season_watch_providers_200_response_results_RO(
+                ro = tmdb_client.models.tv_season_watch_providers_200_response_results_ro.tv_season_watch_providers_200_response_results_RO(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=RO', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_ro_flatrate_inner.tv_series_watch_providers_200_response_results_RO_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_ro_flatrate_inner.tv_series_watch_providers_200_response_results_RO_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 17, )
                         ], ),
-                rs = openapi_client.models.tv_season_watch_providers_200_response_results_rs.tv_season_watch_providers_200_response_results_RS(
+                rs = tmdb_client.models.tv_season_watch_providers_200_response_results_rs.tv_season_watch_providers_200_response_results_RS(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=RS', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_rs_flatrate_inner.tv_series_watch_providers_200_response_results_RS_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_rs_flatrate_inner.tv_series_watch_providers_200_response_results_RS_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 32, )
                         ], ),
-                ru = openapi_client.models.tv_season_watch_providers_200_response_results_ru.tv_season_watch_providers_200_response_results_RU(
+                ru = tmdb_client.models.tv_season_watch_providers_200_response_results_ru.tv_season_watch_providers_200_response_results_RU(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=RU', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_ru_flatrate_inner.tv_series_watch_providers_200_response_results_RU_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_ru_flatrate_inner.tv_series_watch_providers_200_response_results_RU_flatrate_inner(
                             logo_path = '/w1T8s7FqakcfucR8cgOvbe6UeXN.jpg', 
                             provider_id = 115, 
                             provider_name = 'Okko', 
                             display_priority = 0, )
                         ], ),
-                sa = openapi_client.models.tv_season_watch_providers_200_response_results_sa.tv_season_watch_providers_200_response_results_SA(
+                sa = tmdb_client.models.tv_season_watch_providers_200_response_results_sa.tv_season_watch_providers_200_response_results_SA(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=SA', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_sa_flatrate_inner.tv_series_watch_providers_200_response_results_SA_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_sa_flatrate_inner.tv_series_watch_providers_200_response_results_SA_flatrate_inner(
                             logo_path = '/xEPXbwbfABzPrUTWbgtDFH1NOa.jpg', 
                             provider_id = 629, 
                             provider_name = 'OSN', 
                             display_priority = 25, )
                         ], ),
-                sc = openapi_client.models.tv_season_watch_providers_200_response_results_sc.tv_season_watch_providers_200_response_results_SC(
+                sc = tmdb_client.models.tv_season_watch_providers_200_response_results_sc.tv_season_watch_providers_200_response_results_SC(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=SC', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_sc_flatrate_inner.tv_series_watch_providers_200_response_results_SC_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_sc_flatrate_inner.tv_series_watch_providers_200_response_results_SC_flatrate_inner(
                             logo_path = '/okiQZMXnqwv0aD3QDYmu5DBNLce.jpg', 
                             provider_id = 55, 
                             provider_name = 'ShowMax', 
                             display_priority = 9, )
                         ], ),
-                se = openapi_client.models.tv_season_watch_providers_200_response_results_se.tv_season_watch_providers_200_response_results_SE(
+                se = tmdb_client.models.tv_season_watch_providers_200_response_results_se.tv_season_watch_providers_200_response_results_SE(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=SE', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_cr_flatrate_inner.tv_series_watch_providers_200_response_results_CR_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_cr_flatrate_inner.tv_series_watch_providers_200_response_results_CR_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 4, )
                         ], 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_se_buy_inner.movie_watch_providers_200_response_results_SE_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_se_buy_inner.movie_watch_providers_200_response_results_SE_buy_inner(
                             logo_path = '/shq88b09gTBYC4hA7K7MUL8Q4zP.jpg', 
                             provider_id = 68, 
                             provider_name = 'Microsoft Store', 
                             display_priority = 7, )
                         ], ),
-                sg = openapi_client.models.tv_season_watch_providers_200_response_results_sg.tv_season_watch_providers_200_response_results_SG(
+                sg = tmdb_client.models.tv_season_watch_providers_200_response_results_sg.tv_season_watch_providers_200_response_results_SG(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=SG', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_sg_flatrate_inner.tv_series_watch_providers_200_response_results_SG_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_sg_flatrate_inner.tv_series_watch_providers_200_response_results_SG_flatrate_inner(
                             logo_path = '/bxdNcDbk1ohVeOMmM3eusAAiTLw.jpg', 
                             provider_id = 425, 
                             provider_name = 'HBO Go', 
                             display_priority = 13, )
                         ], ),
-                si = openapi_client.models.tv_season_watch_providers_200_response_results_si.tv_season_watch_providers_200_response_results_SI(
+                si = tmdb_client.models.tv_season_watch_providers_200_response_results_si.tv_season_watch_providers_200_response_results_SI(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=SI', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_mk_flatrate_inner.movie_watch_providers_200_response_results_MK_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_mk_flatrate_inner.movie_watch_providers_200_response_results_MK_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 29, )
                         ], ),
-                sk = openapi_client.models.tv_season_watch_providers_200_response_results_sk.tv_season_watch_providers_200_response_results_SK(
+                sk = tmdb_client.models.tv_season_watch_providers_200_response_results_sk.tv_season_watch_providers_200_response_results_SK(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=SK', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_sk_flatrate_inner.tv_series_watch_providers_200_response_results_SK_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_sk_flatrate_inner.tv_series_watch_providers_200_response_results_SK_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 37, )
                         ], ),
-                sn = openapi_client.models.tv_season_watch_providers_200_response_results_sn.tv_season_watch_providers_200_response_results_SN(
+                sn = tmdb_client.models.tv_season_watch_providers_200_response_results_sn.tv_season_watch_providers_200_response_results_SN(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=SN', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_gh_flatrate_inner.tv_series_watch_providers_200_response_results_GH_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_gh_flatrate_inner.tv_series_watch_providers_200_response_results_GH_flatrate_inner(
                             logo_path = '/okiQZMXnqwv0aD3QDYmu5DBNLce.jpg', 
                             provider_id = 55, 
                             provider_name = 'ShowMax', 
                             display_priority = 11, )
                         ], ),
-                sv = openapi_client.models.tv_season_watch_providers_200_response_results_sv.tv_season_watch_providers_200_response_results_SV(
+                sv = tmdb_client.models.tv_season_watch_providers_200_response_results_sv.tv_season_watch_providers_200_response_results_SV(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=SV', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_sv_flatrate_inner.tv_series_watch_providers_200_response_results_SV_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_sv_flatrate_inner.tv_series_watch_providers_200_response_results_SV_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 25, )
                         ], ),
-                th = openapi_client.models.tv_season_watch_providers_200_response_results_th.tv_season_watch_providers_200_response_results_TH(
+                th = tmdb_client.models.tv_season_watch_providers_200_response_results_th.tv_season_watch_providers_200_response_results_TH(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=TH', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_ph_flatrate_inner.tv_series_watch_providers_200_response_results_PH_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_ph_flatrate_inner.tv_series_watch_providers_200_response_results_PH_flatrate_inner(
                             logo_path = '/bxdNcDbk1ohVeOMmM3eusAAiTLw.jpg', 
                             provider_id = 425, 
                             provider_name = 'HBO Go', 
                             display_priority = 12, )
                         ], ),
-                tr = openapi_client.models.tv_season_watch_providers_200_response_results_tr.tv_season_watch_providers_200_response_results_TR(
+                tr = tmdb_client.models.tv_season_watch_providers_200_response_results_tr.tv_season_watch_providers_200_response_results_TR(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=TR', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_tr_flatrate_inner.tv_series_watch_providers_200_response_results_TR_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_tr_flatrate_inner.tv_series_watch_providers_200_response_results_TR_flatrate_inner(
                             logo_path = '/z3XAGCCbDD3KTZFvc96Ytr3XR56.jpg', 
                             provider_id = 341, 
                             provider_name = 'blutv', 
                             display_priority = 2, )
                         ], ),
-                tt = openapi_client.models.tv_season_watch_providers_200_response_results_tt.tv_season_watch_providers_200_response_results_TT(
+                tt = tmdb_client.models.tv_season_watch_providers_200_response_results_tt.tv_season_watch_providers_200_response_results_TT(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=TT', 
                     flatrate = [
-                        openapi_client.models.movie_watch_providers_200_response_results_tt_flatrate_inner.movie_watch_providers_200_response_results_TT_flatrate_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_tt_flatrate_inner.movie_watch_providers_200_response_results_TT_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 11, )
                         ], ),
-                tw = openapi_client.models.tv_season_watch_providers_200_response_results_tw.tv_season_watch_providers_200_response_results_TW(
+                tw = tmdb_client.models.tv_season_watch_providers_200_response_results_tw.tv_season_watch_providers_200_response_results_TW(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=TW', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_hk_flatrate_inner.tv_series_watch_providers_200_response_results_HK_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_hk_flatrate_inner.tv_series_watch_providers_200_response_results_HK_flatrate_inner(
                             logo_path = '/bxdNcDbk1ohVeOMmM3eusAAiTLw.jpg', 
                             provider_id = 425, 
                             provider_name = 'HBO Go', 
                             display_priority = 40, )
                         ], ),
-                tz = openapi_client.models.tv_season_watch_providers_200_response_results_tz.tv_season_watch_providers_200_response_results_TZ(
+                tz = tmdb_client.models.tv_season_watch_providers_200_response_results_tz.tv_season_watch_providers_200_response_results_TZ(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=TZ', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_sc_flatrate_inner.tv_series_watch_providers_200_response_results_SC_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_sc_flatrate_inner.tv_series_watch_providers_200_response_results_SC_flatrate_inner(
                             logo_path = '/okiQZMXnqwv0aD3QDYmu5DBNLce.jpg', 
                             provider_id = 55, 
                             provider_name = 'ShowMax', 
                             display_priority = 9, )
                         ], ),
-                ug = openapi_client.models.tv_season_watch_providers_200_response_results_ug.tv_season_watch_providers_200_response_results_UG(
+                ug = tmdb_client.models.tv_season_watch_providers_200_response_results_ug.tv_season_watch_providers_200_response_results_UG(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=UG', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_ke_flatrate_inner.tv_series_watch_providers_200_response_results_KE_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_ke_flatrate_inner.tv_series_watch_providers_200_response_results_KE_flatrate_inner(
                             logo_path = '/okiQZMXnqwv0aD3QDYmu5DBNLce.jpg', 
                             provider_id = 55, 
                             provider_name = 'ShowMax', 
                             display_priority = 10, )
                         ], ),
-                us = openapi_client.models.tv_season_watch_providers_200_response_results_us.tv_season_watch_providers_200_response_results_US(
+                us = tmdb_client.models.tv_season_watch_providers_200_response_results_us.tv_season_watch_providers_200_response_results_US(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=US', 
                     buy = [
-                        openapi_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
+                        tmdb_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
                             logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                             provider_id = 2, 
                             provider_name = 'Apple TV', 
                             display_priority = 4, )
                         ], 
                     free = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_br_flatrate_inner.tv_series_watch_providers_200_response_results_BR_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_br_flatrate_inner.tv_series_watch_providers_200_response_results_BR_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 7, )
                         ], 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_br_flatrate_inner.tv_series_watch_providers_200_response_results_BR_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_br_flatrate_inner.tv_series_watch_providers_200_response_results_BR_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 7, )
                         ], ),
-                uy = openapi_client.models.tv_season_watch_providers_200_response_results_uy.tv_season_watch_providers_200_response_results_UY(
+                uy = tmdb_client.models.tv_season_watch_providers_200_response_results_uy.tv_season_watch_providers_200_response_results_UY(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=UY', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_uy_flatrate_inner.tv_series_watch_providers_200_response_results_UY_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_uy_flatrate_inner.tv_series_watch_providers_200_response_results_UY_flatrate_inner(
                             logo_path = '/kV8XFGI5OLJKl72dI8DtnKplfFr.jpg', 
                             provider_id = 467, 
                             provider_name = 'DIRECTV GO', 
                             display_priority = 9, )
                         ], ),
-                ve = openapi_client.models.tv_season_watch_providers_200_response_results_ve.tv_season_watch_providers_200_response_results_VE(
+                ve = tmdb_client.models.tv_season_watch_providers_200_response_results_ve.tv_season_watch_providers_200_response_results_VE(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=VE', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_pe_flatrate_inner.tv_series_watch_providers_200_response_results_PE_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_pe_flatrate_inner.tv_series_watch_providers_200_response_results_PE_flatrate_inner(
                             logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                             provider_id = 384, 
                             provider_name = 'HBO Max', 
                             display_priority = 8, )
                         ], ),
-                za = openapi_client.models.tv_season_watch_providers_200_response_results_za.tv_season_watch_providers_200_response_results_ZA(
+                za = tmdb_client.models.tv_season_watch_providers_200_response_results_za.tv_season_watch_providers_200_response_results_ZA(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=ZA', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_za_flatrate_inner.tv_series_watch_providers_200_response_results_ZA_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_za_flatrate_inner.tv_series_watch_providers_200_response_results_ZA_flatrate_inner(
                             logo_path = '/okiQZMXnqwv0aD3QDYmu5DBNLce.jpg', 
                             provider_id = 55, 
                             provider_name = 'ShowMax', 
                             display_priority = 4, )
                         ], ),
-                zm = openapi_client.models.tv_season_watch_providers_200_response_results_zm.tv_season_watch_providers_200_response_results_ZM(
+                zm = tmdb_client.models.tv_season_watch_providers_200_response_results_zm.tv_season_watch_providers_200_response_results_ZM(
                     link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=ZM', 
                     flatrate = [
-                        openapi_client.models.tv_series_watch_providers_200_response_results_ke_flatrate_inner.tv_series_watch_providers_200_response_results_KE_flatrate_inner(
+                        tmdb_client.models.tv_series_watch_providers_200_response_results_ke_flatrate_inner.tv_series_watch_providers_200_response_results_KE_flatrate_inner(
                             logo_path = '/okiQZMXnqwv0aD3QDYmu5DBNLce.jpg', 
                             provider_id = 55, 
                             provider_name = 'ShowMax', 

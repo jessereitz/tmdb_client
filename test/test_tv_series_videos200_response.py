@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_videos200_response import TvSeriesVideos200Response
+from tmdb_client.models.tv_series_videos200_response import TvSeriesVideos200Response
 
 class TestTvSeriesVideos200Response(unittest.TestCase):
     """TvSeriesVideos200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvSeriesVideos200Response(unittest.TestCase):
             return TvSeriesVideos200Response(
                 id = 1399,
                 results = [
-                    openapi_client.models.tv_series_videos_200_response_results_inner.tv_series_videos_200_response_results_inner(
+                    tmdb_client.models.tv_series_videos_200_response_results_inner.tv_series_videos_200_response_results_inner(
                         iso_639_1 = 'en', 
                         iso_3166_1 = 'US', 
                         name = 'Inside Game of Thrones: A Story in Camera Work – BTS (HBO)', 

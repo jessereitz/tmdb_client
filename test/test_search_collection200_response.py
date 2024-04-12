@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.search_collection200_response import SearchCollection200Response
+from tmdb_client.models.search_collection200_response import SearchCollection200Response
 
 class TestSearchCollection200Response(unittest.TestCase):
     """SearchCollection200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestSearchCollection200Response(unittest.TestCase):
             return SearchCollection200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.search_collection_200_response_results_inner.search_collection_200_response_results_inner(
+                    tmdb_client.models.search_collection_200_response_results_inner.search_collection_200_response_results_inner(
                         adult = False, 
                         backdrop_path = '/zuW6fOiusv4X9nnW3paHGfXcSll.jpg', 
                         id = 86311, 

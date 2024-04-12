@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_season_external_ids200_response import TvSeasonExternalIds200Response
+from tmdb_client.models.tv_season_external_ids200_response import TvSeasonExternalIds200Response
 
 class TestTvSeasonExternalIds200Response(unittest.TestCase):
     """TvSeasonExternalIds200Response unit test stubs"""

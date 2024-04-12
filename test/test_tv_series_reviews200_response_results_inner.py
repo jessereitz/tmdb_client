@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_reviews200_response_results_inner import TvSeriesReviews200ResponseResultsInner
+from tmdb_client.models.tv_series_reviews200_response_results_inner import TvSeriesReviews200ResponseResultsInner
 
 class TestTvSeriesReviews200ResponseResultsInner(unittest.TestCase):
     """TvSeriesReviews200ResponseResultsInner unit test stubs"""
@@ -36,7 +36,7 @@ class TestTvSeriesReviews200ResponseResultsInner(unittest.TestCase):
         if include_optional:
             return TvSeriesReviews200ResponseResultsInner(
                 author = 'lmao7',
-                author_details = openapi_client.models.tv_series_reviews_200_response_results_inner_author_details.tv_series_reviews_200_response_results_inner_author_details(
+                author_details = tmdb_client.models.tv_series_reviews_200_response_results_inner_author_details.tv_series_reviews_200_response_results_inner_author_details(
                     name = 'lmao7', 
                     username = 'lmao7', 
                     avatar_path = '/ekmYOUU4tfx9zGGadjRdE7UPce.jpg', 

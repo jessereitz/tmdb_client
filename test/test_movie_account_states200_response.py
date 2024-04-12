@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_account_states200_response import MovieAccountStates200Response
+from tmdb_client.models.movie_account_states200_response import MovieAccountStates200Response
 
 class TestMovieAccountStates200Response(unittest.TestCase):
     """MovieAccountStates200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestMovieAccountStates200Response(unittest.TestCase):
             return MovieAccountStates200Response(
                 id = 550,
                 favorite = True,
-                rated = openapi_client.models.movie_account_states_200_response_rated.movie_account_states_200_response_rated(
+                rated = tmdb_client.models.movie_account_states_200_response_rated.movie_account_states_200_response_rated(
                     value = 9, ),
                 watchlist = False
             )

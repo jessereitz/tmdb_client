@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_season_changes_by_id200_response_changes_inner_items_inner_value import TvSeasonChangesById200ResponseChangesInnerItemsInnerValue
+from tmdb_client.models.tv_season_changes_by_id200_response_changes_inner_items_inner_value import TvSeasonChangesById200ResponseChangesInnerItemsInnerValue
 
 class TestTvSeasonChangesById200ResponseChangesInnerItemsInnerValue(unittest.TestCase):
     """TvSeasonChangesById200ResponseChangesInnerItemsInnerValue unit test stubs"""

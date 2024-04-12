@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_now_playing_list200_response_dates import MovieNowPlayingList200ResponseDates
+from tmdb_client.models.movie_now_playing_list200_response_dates import MovieNowPlayingList200ResponseDates
 
 class TestMovieNowPlayingList200ResponseDates(unittest.TestCase):
     """MovieNowPlayingList200ResponseDates unit test stubs"""

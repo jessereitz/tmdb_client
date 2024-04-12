@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.collection_translations200_response import CollectionTranslations200Response
+from tmdb_client.models.collection_translations200_response import CollectionTranslations200Response
 
 class TestCollectionTranslations200Response(unittest.TestCase):
     """CollectionTranslations200Response unit test stubs"""
@@ -37,12 +37,12 @@ class TestCollectionTranslations200Response(unittest.TestCase):
             return CollectionTranslations200Response(
                 id = 10,
                 translations = [
-                    openapi_client.models.collection_translations_200_response_translations_inner.collection_translations_200_response_translations_inner(
+                    tmdb_client.models.collection_translations_200_response_translations_inner.collection_translations_200_response_translations_inner(
                         iso_3166_1 = 'AE', 
                         iso_639_1 = 'ar', 
                         name = 'العربية', 
                         english_name = 'Arabic', 
-                        data = openapi_client.models.collection_translations_200_response_translations_inner_data.collection_translations_200_response_translations_inner_data(
+                        data = tmdb_client.models.collection_translations_200_response_translations_inner_data.collection_translations_200_response_translations_inner_data(
                             title = '', 
                             overview = '', 
                             homepage = '', ), )

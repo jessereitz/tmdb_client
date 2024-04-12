@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.person_popular_list200_response_results_inner_known_for_inner import PersonPopularList200ResponseResultsInnerKnownForInner
+from tmdb_client.models.person_popular_list200_response_results_inner_known_for_inner import PersonPopularList200ResponseResultsInnerKnownForInner
 
 class TestPersonPopularList200ResponseResultsInnerKnownForInner(unittest.TestCase):
     """PersonPopularList200ResponseResultsInnerKnownForInner unit test stubs"""

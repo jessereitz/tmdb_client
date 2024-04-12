@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.list_details200_response import ListDetails200Response
+from tmdb_client.models.list_details200_response import ListDetails200Response
 
 class TestListDetails200Response(unittest.TestCase):
     """ListDetails200Response unit test stubs"""
@@ -40,7 +40,7 @@ class TestListDetails200Response(unittest.TestCase):
                 favorite_count = 0,
                 id = '1',
                 items = [
-                    openapi_client.models.list_details_200_response_items_inner.list_details_200_response_items_inner(
+                    tmdb_client.models.list_details_200_response_items_inner.list_details_200_response_items_inner(
                         adult = False, 
                         backdrop_path = '/14QbnygCuTO0vl7CAFmPf1fgZfV.jpg', 
                         genre_ids = [

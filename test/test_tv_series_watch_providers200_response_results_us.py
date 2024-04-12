@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_watch_providers200_response_results_us import TvSeriesWatchProviders200ResponseResultsUS
+from tmdb_client.models.tv_series_watch_providers200_response_results_us import TvSeriesWatchProviders200ResponseResultsUS
 
 class TestTvSeriesWatchProviders200ResponseResultsUS(unittest.TestCase):
     """TvSeriesWatchProviders200ResponseResultsUS unit test stubs"""
@@ -37,21 +37,21 @@ class TestTvSeriesWatchProviders200ResponseResultsUS(unittest.TestCase):
             return TvSeriesWatchProviders200ResponseResultsUS(
                 link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/watch?locale=US',
                 free = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_br_flatrate_inner.tv_series_watch_providers_200_response_results_BR_flatrate_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_br_flatrate_inner.tv_series_watch_providers_200_response_results_BR_flatrate_inner(
                         logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                         provider_id = 384, 
                         provider_name = 'HBO Max', 
                         display_priority = 7, )
                     ],
                 buy = [
-                    openapi_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_de_buy_inner.movie_watch_providers_200_response_results_DE_buy_inner(
                         logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                         provider_id = 2, 
                         provider_name = 'Apple TV', 
                         display_priority = 4, )
                     ],
                 flatrate = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_br_flatrate_inner.tv_series_watch_providers_200_response_results_BR_flatrate_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_br_flatrate_inner.tv_series_watch_providers_200_response_results_BR_flatrate_inner(
                         logo_path = '/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg', 
                         provider_id = 384, 
                         provider_name = 'HBO Max', 

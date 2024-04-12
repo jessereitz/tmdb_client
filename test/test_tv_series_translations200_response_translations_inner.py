@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_translations200_response_translations_inner import TvSeriesTranslations200ResponseTranslationsInner
+from tmdb_client.models.tv_series_translations200_response_translations_inner import TvSeriesTranslations200ResponseTranslationsInner
 
 class TestTvSeriesTranslations200ResponseTranslationsInner(unittest.TestCase):
     """TvSeriesTranslations200ResponseTranslationsInner unit test stubs"""
@@ -39,7 +39,7 @@ class TestTvSeriesTranslations200ResponseTranslationsInner(unittest.TestCase):
                 iso_639_1 = 'ar',
                 name = 'العربية',
                 english_name = 'Arabic',
-                data = openapi_client.models.tv_series_translations_200_response_translations_inner_data.tv_series_translations_200_response_translations_inner_data(
+                data = tmdb_client.models.tv_series_translations_200_response_translations_inner_data.tv_series_translations_200_response_translations_inner_data(
                     name = 'صراع العروش', 
                     overview = 'تتقاتل سبع عائلات نبيلة من أجل السيطرة على أرض - ويستيروس - الأسطورية. الاحتكاك بين العوائل يؤدي إلى حرب واسعة النطاق.  في حين يستيقظ الشر القديم في أقصى الشمال. وفي خضم الحرب، نظام عسكري مهمَل - حرس الليل - هم كل ما يقف بين عالم الإنسان والأهوال الجليدية.', 
                     homepage = '', 

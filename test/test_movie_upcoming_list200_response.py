@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_upcoming_list200_response import MovieUpcomingList200Response
+from tmdb_client.models.movie_upcoming_list200_response import MovieUpcomingList200Response
 
 class TestMovieUpcomingList200Response(unittest.TestCase):
     """MovieUpcomingList200Response unit test stubs"""
@@ -35,12 +35,12 @@ class TestMovieUpcomingList200Response(unittest.TestCase):
         model = MovieUpcomingList200Response()
         if include_optional:
             return MovieUpcomingList200Response(
-                dates = openapi_client.models.movie_upcoming_list_200_response_dates.movie_upcoming_list_200_response_dates(
+                dates = tmdb_client.models.movie_upcoming_list_200_response_dates.movie_upcoming_list_200_response_dates(
                     maximum = '2023-05-23', 
                     minimum = '2023-05-04', ),
                 page = 1,
                 results = [
-                    openapi_client.models.movie_upcoming_list_200_response_results_inner.movie_upcoming_list_200_response_results_inner(
+                    tmdb_client.models.movie_upcoming_list_200_response_results_inner.movie_upcoming_list_200_response_results_inner(
                         adult = False, 
                         backdrop_path = '/7bWxAsNPv9CXHOhZbJVlj2KxgfP.jpg', 
                         genre_ids = [

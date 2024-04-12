@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.configuration_jobs200_response_inner import ConfigurationJobs200ResponseInner
+from tmdb_client.models.configuration_jobs200_response_inner import ConfigurationJobs200ResponseInner
 
 class TestConfigurationJobs200ResponseInner(unittest.TestCase):
     """ConfigurationJobs200ResponseInner unit test stubs"""

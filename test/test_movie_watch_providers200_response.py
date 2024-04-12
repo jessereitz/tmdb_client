@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_watch_providers200_response import MovieWatchProviders200Response
+from tmdb_client.models.movie_watch_providers200_response import MovieWatchProviders200Response
 
 class TestMovieWatchProviders200Response(unittest.TestCase):
     """MovieWatchProviders200Response unit test stubs"""
@@ -36,224 +36,224 @@ class TestMovieWatchProviders200Response(unittest.TestCase):
         if include_optional:
             return MovieWatchProviders200Response(
                 id = 550,
-                results = openapi_client.models.movie_watch_providers_200_response_results.movie_watch_providers_200_response_results(
-                    ae = openapi_client.models.movie_watch_providers_200_response_results_ae.movie_watch_providers_200_response_results_AE(
+                results = tmdb_client.models.movie_watch_providers_200_response_results.movie_watch_providers_200_response_results(
+                    ae = tmdb_client.models.movie_watch_providers_200_response_results_ae.movie_watch_providers_200_response_results_AE(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=AE', 
                         flatrate = [
-                            openapi_client.models.movie_watch_providers_200_response_results_ae_flatrate_inner.movie_watch_providers_200_response_results_AE_flatrate_inner(
+                            tmdb_client.models.movie_watch_providers_200_response_results_ae_flatrate_inner.movie_watch_providers_200_response_results_AE_flatrate_inner(
                                 logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                                 provider_id = 119, 
                                 provider_name = 'Amazon Prime Video', 
                                 display_priority = 12, )
                             ], 
                         rent = [
-                            openapi_client.models.movie_watch_providers_200_response_results_ae_rent_inner.movie_watch_providers_200_response_results_AE_rent_inner(
+                            tmdb_client.models.movie_watch_providers_200_response_results_ae_rent_inner.movie_watch_providers_200_response_results_AE_rent_inner(
                                 logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                                 provider_id = 2, 
                                 provider_name = 'Apple TV', 
                                 display_priority = 1, )
                             ], 
                         buy = [
-                            openapi_client.models.movie_watch_providers_200_response_results_ae_rent_inner.movie_watch_providers_200_response_results_AE_rent_inner(
+                            tmdb_client.models.movie_watch_providers_200_response_results_ae_rent_inner.movie_watch_providers_200_response_results_AE_rent_inner(
                                 logo_path = '/peURlLlr8jggOwK53fJ5wdQl05y.jpg', 
                                 provider_id = 2, 
                                 provider_name = 'Apple TV', 
                                 display_priority = 1, )
                             ], ), 
-                    al = openapi_client.models.movie_watch_providers_200_response_results_al.movie_watch_providers_200_response_results_AL(
+                    al = tmdb_client.models.movie_watch_providers_200_response_results_al.movie_watch_providers_200_response_results_AL(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=AL', ), 
-                    ar = openapi_client.models.movie_watch_providers_200_response_results_ar.movie_watch_providers_200_response_results_AR(
+                    ar = tmdb_client.models.movie_watch_providers_200_response_results_ar.movie_watch_providers_200_response_results_AR(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=AR', ), 
-                    at = openapi_client.models.movie_watch_providers_200_response_results_at.movie_watch_providers_200_response_results_AT(
+                    at = tmdb_client.models.movie_watch_providers_200_response_results_at.movie_watch_providers_200_response_results_AT(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=AT', ), 
-                    au = openapi_client.models.movie_watch_providers_200_response_results_au.movie_watch_providers_200_response_results_AU(
+                    au = tmdb_client.models.movie_watch_providers_200_response_results_au.movie_watch_providers_200_response_results_AU(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=AU', ), 
-                    ba = openapi_client.models.movie_watch_providers_200_response_results_ba.movie_watch_providers_200_response_results_BA(
+                    ba = tmdb_client.models.movie_watch_providers_200_response_results_ba.movie_watch_providers_200_response_results_BA(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=BA', ), 
-                    bb = openapi_client.models.movie_watch_providers_200_response_results_bb.movie_watch_providers_200_response_results_BB(
+                    bb = tmdb_client.models.movie_watch_providers_200_response_results_bb.movie_watch_providers_200_response_results_BB(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=BB', ), 
-                    be = openapi_client.models.movie_watch_providers_200_response_results_be.movie_watch_providers_200_response_results_BE(
+                    be = tmdb_client.models.movie_watch_providers_200_response_results_be.movie_watch_providers_200_response_results_BE(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=BE', ), 
-                    bg = openapi_client.models.movie_watch_providers_200_response_results_bg.movie_watch_providers_200_response_results_BG(
+                    bg = tmdb_client.models.movie_watch_providers_200_response_results_bg.movie_watch_providers_200_response_results_BG(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=BG', ), 
-                    bh = openapi_client.models.movie_watch_providers_200_response_results_bh.movie_watch_providers_200_response_results_BH(
+                    bh = tmdb_client.models.movie_watch_providers_200_response_results_bh.movie_watch_providers_200_response_results_BH(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=BH', ), 
-                    bo = openapi_client.models.movie_watch_providers_200_response_results_bo.movie_watch_providers_200_response_results_BO(
+                    bo = tmdb_client.models.movie_watch_providers_200_response_results_bo.movie_watch_providers_200_response_results_BO(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=BO', ), 
-                    br = openapi_client.models.movie_watch_providers_200_response_results_br.movie_watch_providers_200_response_results_BR(
+                    br = tmdb_client.models.movie_watch_providers_200_response_results_br.movie_watch_providers_200_response_results_BR(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=BR', ), 
-                    bs = openapi_client.models.movie_watch_providers_200_response_results_bs.movie_watch_providers_200_response_results_BS(
+                    bs = tmdb_client.models.movie_watch_providers_200_response_results_bs.movie_watch_providers_200_response_results_BS(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=BS', ), 
-                    ca = openapi_client.models.movie_watch_providers_200_response_results_ca.movie_watch_providers_200_response_results_CA(
+                    ca = tmdb_client.models.movie_watch_providers_200_response_results_ca.movie_watch_providers_200_response_results_CA(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=CA', ), 
-                    ch = openapi_client.models.movie_watch_providers_200_response_results_ch.movie_watch_providers_200_response_results_CH(
+                    ch = tmdb_client.models.movie_watch_providers_200_response_results_ch.movie_watch_providers_200_response_results_CH(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=CH', ), 
-                    cl = openapi_client.models.movie_watch_providers_200_response_results_cl.movie_watch_providers_200_response_results_CL(
+                    cl = tmdb_client.models.movie_watch_providers_200_response_results_cl.movie_watch_providers_200_response_results_CL(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=CL', ), 
-                    co = openapi_client.models.movie_watch_providers_200_response_results_co.movie_watch_providers_200_response_results_CO(
+                    co = tmdb_client.models.movie_watch_providers_200_response_results_co.movie_watch_providers_200_response_results_CO(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=CO', ), 
-                    cr = openapi_client.models.movie_watch_providers_200_response_results_cr.movie_watch_providers_200_response_results_CR(
+                    cr = tmdb_client.models.movie_watch_providers_200_response_results_cr.movie_watch_providers_200_response_results_CR(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=CR', ), 
-                    cv = openapi_client.models.movie_watch_providers_200_response_results_cv.movie_watch_providers_200_response_results_CV(
+                    cv = tmdb_client.models.movie_watch_providers_200_response_results_cv.movie_watch_providers_200_response_results_CV(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=CV', ), 
-                    cz = openapi_client.models.movie_watch_providers_200_response_results_cz.movie_watch_providers_200_response_results_CZ(
+                    cz = tmdb_client.models.movie_watch_providers_200_response_results_cz.movie_watch_providers_200_response_results_CZ(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=CZ', ), 
-                    de = openapi_client.models.movie_watch_providers_200_response_results_de.movie_watch_providers_200_response_results_DE(
+                    de = tmdb_client.models.movie_watch_providers_200_response_results_de.movie_watch_providers_200_response_results_DE(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=DE', ), 
-                    dk = openapi_client.models.movie_watch_providers_200_response_results_dk.movie_watch_providers_200_response_results_DK(
+                    dk = tmdb_client.models.movie_watch_providers_200_response_results_dk.movie_watch_providers_200_response_results_DK(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=DK', ), 
-                    do = openapi_client.models.movie_watch_providers_200_response_results_do.movie_watch_providers_200_response_results_DO(
+                    do = tmdb_client.models.movie_watch_providers_200_response_results_do.movie_watch_providers_200_response_results_DO(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=DO', ), 
-                    ec = openapi_client.models.movie_watch_providers_200_response_results_ec.movie_watch_providers_200_response_results_EC(
+                    ec = tmdb_client.models.movie_watch_providers_200_response_results_ec.movie_watch_providers_200_response_results_EC(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=EC', ), 
-                    ee = openapi_client.models.movie_watch_providers_200_response_results_ee.movie_watch_providers_200_response_results_EE(
+                    ee = tmdb_client.models.movie_watch_providers_200_response_results_ee.movie_watch_providers_200_response_results_EE(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=EE', ), 
-                    eg = openapi_client.models.movie_watch_providers_200_response_results_eg.movie_watch_providers_200_response_results_EG(
+                    eg = tmdb_client.models.movie_watch_providers_200_response_results_eg.movie_watch_providers_200_response_results_EG(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=EG', ), 
-                    es = openapi_client.models.movie_watch_providers_200_response_results_es.movie_watch_providers_200_response_results_ES(
+                    es = tmdb_client.models.movie_watch_providers_200_response_results_es.movie_watch_providers_200_response_results_ES(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=ES', 
                         ads = [
-                            openapi_client.models.movie_watch_providers_200_response_results_es_ads_inner.movie_watch_providers_200_response_results_ES_ads_inner(
+                            tmdb_client.models.movie_watch_providers_200_response_results_es_ads_inner.movie_watch_providers_200_response_results_ES_ads_inner(
                                 logo_path = '/5GEbAhFW2S5T8zVc1MNvz00pIzM.jpg', 
                                 provider_id = 35, 
                                 provider_name = 'Rakuten TV', 
                                 display_priority = 11, )
                             ], ), 
-                    fi = openapi_client.models.movie_watch_providers_200_response_results_fi.movie_watch_providers_200_response_results_FI(
+                    fi = tmdb_client.models.movie_watch_providers_200_response_results_fi.movie_watch_providers_200_response_results_FI(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=FI', ), 
-                    fj = openapi_client.models.movie_watch_providers_200_response_results_fj.movie_watch_providers_200_response_results_FJ(
+                    fj = tmdb_client.models.movie_watch_providers_200_response_results_fj.movie_watch_providers_200_response_results_FJ(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=FJ', ), 
-                    fr = openapi_client.models.movie_watch_providers_200_response_results_fr.movie_watch_providers_200_response_results_FR(
+                    fr = tmdb_client.models.movie_watch_providers_200_response_results_fr.movie_watch_providers_200_response_results_FR(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=FR', ), 
-                    gb = openapi_client.models.movie_watch_providers_200_response_results_gb.movie_watch_providers_200_response_results_GB(
+                    gb = tmdb_client.models.movie_watch_providers_200_response_results_gb.movie_watch_providers_200_response_results_GB(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=GB', ), 
-                    gf = openapi_client.models.movie_watch_providers_200_response_results_gf.movie_watch_providers_200_response_results_GF(
+                    gf = tmdb_client.models.movie_watch_providers_200_response_results_gf.movie_watch_providers_200_response_results_GF(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=GF', ), 
-                    gi = openapi_client.models.movie_watch_providers_200_response_results_gi.movie_watch_providers_200_response_results_GI(
+                    gi = tmdb_client.models.movie_watch_providers_200_response_results_gi.movie_watch_providers_200_response_results_GI(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=GI', ), 
-                    gr = openapi_client.models.movie_watch_providers_200_response_results_gr.movie_watch_providers_200_response_results_GR(
+                    gr = tmdb_client.models.movie_watch_providers_200_response_results_gr.movie_watch_providers_200_response_results_GR(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=GR', ), 
-                    gt = openapi_client.models.movie_watch_providers_200_response_results_gt.movie_watch_providers_200_response_results_GT(
+                    gt = tmdb_client.models.movie_watch_providers_200_response_results_gt.movie_watch_providers_200_response_results_GT(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=GT', ), 
-                    hk = openapi_client.models.movie_watch_providers_200_response_results_hk.movie_watch_providers_200_response_results_HK(
+                    hk = tmdb_client.models.movie_watch_providers_200_response_results_hk.movie_watch_providers_200_response_results_HK(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=HK', ), 
-                    hn = openapi_client.models.movie_watch_providers_200_response_results_hn.movie_watch_providers_200_response_results_HN(
+                    hn = tmdb_client.models.movie_watch_providers_200_response_results_hn.movie_watch_providers_200_response_results_HN(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=HN', ), 
-                    hr = openapi_client.models.movie_watch_providers_200_response_results_hr.movie_watch_providers_200_response_results_HR(
+                    hr = tmdb_client.models.movie_watch_providers_200_response_results_hr.movie_watch_providers_200_response_results_HR(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=HR', ), 
-                    hu = openapi_client.models.movie_watch_providers_200_response_results_hu.movie_watch_providers_200_response_results_HU(
+                    hu = tmdb_client.models.movie_watch_providers_200_response_results_hu.movie_watch_providers_200_response_results_HU(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=HU', ), 
-                    id = openapi_client.models.movie_watch_providers_200_response_results_id.movie_watch_providers_200_response_results_ID(
+                    id = tmdb_client.models.movie_watch_providers_200_response_results_id.movie_watch_providers_200_response_results_ID(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=ID', ), 
-                    ie = openapi_client.models.movie_watch_providers_200_response_results_ie.movie_watch_providers_200_response_results_IE(
+                    ie = tmdb_client.models.movie_watch_providers_200_response_results_ie.movie_watch_providers_200_response_results_IE(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=IE', ), 
-                    il = openapi_client.models.movie_watch_providers_200_response_results_il.movie_watch_providers_200_response_results_IL(
+                    il = tmdb_client.models.movie_watch_providers_200_response_results_il.movie_watch_providers_200_response_results_IL(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=IL', ), 
-                    in = openapi_client.models.movie_watch_providers_200_response_results_in.movie_watch_providers_200_response_results_IN(
+                    in = tmdb_client.models.movie_watch_providers_200_response_results_in.movie_watch_providers_200_response_results_IN(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=IN', ), 
-                    iq = openapi_client.models.movie_watch_providers_200_response_results_iq.movie_watch_providers_200_response_results_IQ(
+                    iq = tmdb_client.models.movie_watch_providers_200_response_results_iq.movie_watch_providers_200_response_results_IQ(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=IQ', ), 
-                    is = openapi_client.models.movie_watch_providers_200_response_results_is.movie_watch_providers_200_response_results_IS(
+                    is = tmdb_client.models.movie_watch_providers_200_response_results_is.movie_watch_providers_200_response_results_IS(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=IS', ), 
-                    it = openapi_client.models.movie_watch_providers_200_response_results_it.movie_watch_providers_200_response_results_IT(
+                    it = tmdb_client.models.movie_watch_providers_200_response_results_it.movie_watch_providers_200_response_results_IT(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=IT', ), 
-                    jm = openapi_client.models.movie_watch_providers_200_response_results_jm.movie_watch_providers_200_response_results_JM(
+                    jm = tmdb_client.models.movie_watch_providers_200_response_results_jm.movie_watch_providers_200_response_results_JM(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=JM', ), 
-                    jo = openapi_client.models.movie_watch_providers_200_response_results_jo.movie_watch_providers_200_response_results_JO(
+                    jo = tmdb_client.models.movie_watch_providers_200_response_results_jo.movie_watch_providers_200_response_results_JO(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=JO', ), 
-                    jp = openapi_client.models.movie_watch_providers_200_response_results_jp.movie_watch_providers_200_response_results_JP(
+                    jp = tmdb_client.models.movie_watch_providers_200_response_results_jp.movie_watch_providers_200_response_results_JP(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=JP', ), 
-                    kr = openapi_client.models.movie_watch_providers_200_response_results_kr.movie_watch_providers_200_response_results_KR(
+                    kr = tmdb_client.models.movie_watch_providers_200_response_results_kr.movie_watch_providers_200_response_results_KR(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=KR', ), 
-                    kw = openapi_client.models.movie_watch_providers_200_response_results_kw.movie_watch_providers_200_response_results_KW(
+                    kw = tmdb_client.models.movie_watch_providers_200_response_results_kw.movie_watch_providers_200_response_results_KW(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=KW', ), 
-                    lb = openapi_client.models.movie_watch_providers_200_response_results_lb.movie_watch_providers_200_response_results_LB(
+                    lb = tmdb_client.models.movie_watch_providers_200_response_results_lb.movie_watch_providers_200_response_results_LB(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=LB', ), 
-                    li = openapi_client.models.movie_watch_providers_200_response_results_li.movie_watch_providers_200_response_results_LI(
+                    li = tmdb_client.models.movie_watch_providers_200_response_results_li.movie_watch_providers_200_response_results_LI(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=LI', ), 
-                    lt = openapi_client.models.movie_watch_providers_200_response_results_lt.movie_watch_providers_200_response_results_LT(
+                    lt = tmdb_client.models.movie_watch_providers_200_response_results_lt.movie_watch_providers_200_response_results_LT(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=LT', ), 
-                    lv = openapi_client.models.movie_watch_providers_200_response_results_lv.movie_watch_providers_200_response_results_LV(
+                    lv = tmdb_client.models.movie_watch_providers_200_response_results_lv.movie_watch_providers_200_response_results_LV(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=LV', ), 
-                    md = openapi_client.models.movie_watch_providers_200_response_results_md.movie_watch_providers_200_response_results_MD(
+                    md = tmdb_client.models.movie_watch_providers_200_response_results_md.movie_watch_providers_200_response_results_MD(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=MD', ), 
-                    mk = openapi_client.models.movie_watch_providers_200_response_results_mk.movie_watch_providers_200_response_results_MK(
+                    mk = tmdb_client.models.movie_watch_providers_200_response_results_mk.movie_watch_providers_200_response_results_MK(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=MK', ), 
-                    mt = openapi_client.models.movie_watch_providers_200_response_results_mt.movie_watch_providers_200_response_results_MT(
+                    mt = tmdb_client.models.movie_watch_providers_200_response_results_mt.movie_watch_providers_200_response_results_MT(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=MT', ), 
-                    mu = openapi_client.models.movie_watch_providers_200_response_results_mu.movie_watch_providers_200_response_results_MU(
+                    mu = tmdb_client.models.movie_watch_providers_200_response_results_mu.movie_watch_providers_200_response_results_MU(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=MU', ), 
-                    mx = openapi_client.models.movie_watch_providers_200_response_results_mx.movie_watch_providers_200_response_results_MX(
+                    mx = tmdb_client.models.movie_watch_providers_200_response_results_mx.movie_watch_providers_200_response_results_MX(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=MX', ), 
-                    my = openapi_client.models.movie_watch_providers_200_response_results_my.movie_watch_providers_200_response_results_MY(
+                    my = tmdb_client.models.movie_watch_providers_200_response_results_my.movie_watch_providers_200_response_results_MY(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=MY', ), 
-                    mz = openapi_client.models.movie_watch_providers_200_response_results_mz.movie_watch_providers_200_response_results_MZ(
+                    mz = tmdb_client.models.movie_watch_providers_200_response_results_mz.movie_watch_providers_200_response_results_MZ(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=MZ', ), 
-                    nl = openapi_client.models.movie_watch_providers_200_response_results_nl.movie_watch_providers_200_response_results_NL(
+                    nl = tmdb_client.models.movie_watch_providers_200_response_results_nl.movie_watch_providers_200_response_results_NL(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=NL', ), 
-                    no = openapi_client.models.movie_watch_providers_200_response_results_no.movie_watch_providers_200_response_results_NO(
+                    no = tmdb_client.models.movie_watch_providers_200_response_results_no.movie_watch_providers_200_response_results_NO(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=NO', ), 
-                    nz = openapi_client.models.movie_watch_providers_200_response_results_nz.movie_watch_providers_200_response_results_NZ(
+                    nz = tmdb_client.models.movie_watch_providers_200_response_results_nz.movie_watch_providers_200_response_results_NZ(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=NZ', ), 
-                    om = openapi_client.models.movie_watch_providers_200_response_results_om.movie_watch_providers_200_response_results_OM(
+                    om = tmdb_client.models.movie_watch_providers_200_response_results_om.movie_watch_providers_200_response_results_OM(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=OM', ), 
-                    pa = openapi_client.models.movie_watch_providers_200_response_results_pa.movie_watch_providers_200_response_results_PA(
+                    pa = tmdb_client.models.movie_watch_providers_200_response_results_pa.movie_watch_providers_200_response_results_PA(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=PA', ), 
-                    pe = openapi_client.models.movie_watch_providers_200_response_results_pe.movie_watch_providers_200_response_results_PE(
+                    pe = tmdb_client.models.movie_watch_providers_200_response_results_pe.movie_watch_providers_200_response_results_PE(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=PE', ), 
-                    ph = openapi_client.models.movie_watch_providers_200_response_results_ph.movie_watch_providers_200_response_results_PH(
+                    ph = tmdb_client.models.movie_watch_providers_200_response_results_ph.movie_watch_providers_200_response_results_PH(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=PH', ), 
-                    pk = openapi_client.models.movie_watch_providers_200_response_results_pk.movie_watch_providers_200_response_results_PK(
+                    pk = tmdb_client.models.movie_watch_providers_200_response_results_pk.movie_watch_providers_200_response_results_PK(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=PK', ), 
-                    pl = openapi_client.models.movie_watch_providers_200_response_results_pl.movie_watch_providers_200_response_results_PL(
+                    pl = tmdb_client.models.movie_watch_providers_200_response_results_pl.movie_watch_providers_200_response_results_PL(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=PL', ), 
-                    ps = openapi_client.models.movie_watch_providers_200_response_results_ps.movie_watch_providers_200_response_results_PS(
+                    ps = tmdb_client.models.movie_watch_providers_200_response_results_ps.movie_watch_providers_200_response_results_PS(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=PS', ), 
-                    pt = openapi_client.models.movie_watch_providers_200_response_results_pt.movie_watch_providers_200_response_results_PT(
+                    pt = tmdb_client.models.movie_watch_providers_200_response_results_pt.movie_watch_providers_200_response_results_PT(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=PT', ), 
-                    py = openapi_client.models.movie_watch_providers_200_response_results_py.movie_watch_providers_200_response_results_PY(
+                    py = tmdb_client.models.movie_watch_providers_200_response_results_py.movie_watch_providers_200_response_results_PY(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=PY', ), 
-                    qa = openapi_client.models.movie_watch_providers_200_response_results_qa.movie_watch_providers_200_response_results_QA(
+                    qa = tmdb_client.models.movie_watch_providers_200_response_results_qa.movie_watch_providers_200_response_results_QA(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=QA', ), 
-                    ro = openapi_client.models.movie_watch_providers_200_response_results_ro.movie_watch_providers_200_response_results_RO(
+                    ro = tmdb_client.models.movie_watch_providers_200_response_results_ro.movie_watch_providers_200_response_results_RO(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=RO', ), 
-                    rs = openapi_client.models.movie_watch_providers_200_response_results_rs.movie_watch_providers_200_response_results_RS(
+                    rs = tmdb_client.models.movie_watch_providers_200_response_results_rs.movie_watch_providers_200_response_results_RS(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=RS', ), 
-                    ru = openapi_client.models.movie_watch_providers_200_response_results_ru.movie_watch_providers_200_response_results_RU(
+                    ru = tmdb_client.models.movie_watch_providers_200_response_results_ru.movie_watch_providers_200_response_results_RU(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=RU', ), 
-                    sa = openapi_client.models.movie_watch_providers_200_response_results_sa.movie_watch_providers_200_response_results_SA(
+                    sa = tmdb_client.models.movie_watch_providers_200_response_results_sa.movie_watch_providers_200_response_results_SA(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=SA', ), 
-                    se = openapi_client.models.movie_watch_providers_200_response_results_se.movie_watch_providers_200_response_results_SE(
+                    se = tmdb_client.models.movie_watch_providers_200_response_results_se.movie_watch_providers_200_response_results_SE(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=SE', ), 
-                    sg = openapi_client.models.movie_watch_providers_200_response_results_sg.movie_watch_providers_200_response_results_SG(
+                    sg = tmdb_client.models.movie_watch_providers_200_response_results_sg.movie_watch_providers_200_response_results_SG(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=SG', ), 
-                    si = openapi_client.models.movie_watch_providers_200_response_results_si.movie_watch_providers_200_response_results_SI(
+                    si = tmdb_client.models.movie_watch_providers_200_response_results_si.movie_watch_providers_200_response_results_SI(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=SI', ), 
-                    sk = openapi_client.models.movie_watch_providers_200_response_results_sk.movie_watch_providers_200_response_results_SK(
+                    sk = tmdb_client.models.movie_watch_providers_200_response_results_sk.movie_watch_providers_200_response_results_SK(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=SK', ), 
-                    sm = openapi_client.models.movie_watch_providers_200_response_results_sm.movie_watch_providers_200_response_results_SM(
+                    sm = tmdb_client.models.movie_watch_providers_200_response_results_sm.movie_watch_providers_200_response_results_SM(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=SM', ), 
-                    sv = openapi_client.models.movie_watch_providers_200_response_results_sv.movie_watch_providers_200_response_results_SV(
+                    sv = tmdb_client.models.movie_watch_providers_200_response_results_sv.movie_watch_providers_200_response_results_SV(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=SV', ), 
-                    th = openapi_client.models.movie_watch_providers_200_response_results_th.movie_watch_providers_200_response_results_TH(
+                    th = tmdb_client.models.movie_watch_providers_200_response_results_th.movie_watch_providers_200_response_results_TH(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=TH', ), 
-                    tr = openapi_client.models.movie_watch_providers_200_response_results_tr.movie_watch_providers_200_response_results_TR(
+                    tr = tmdb_client.models.movie_watch_providers_200_response_results_tr.movie_watch_providers_200_response_results_TR(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=TR', ), 
-                    tt = openapi_client.models.movie_watch_providers_200_response_results_tt.movie_watch_providers_200_response_results_TT(
+                    tt = tmdb_client.models.movie_watch_providers_200_response_results_tt.movie_watch_providers_200_response_results_TT(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=TT', ), 
-                    tw = openapi_client.models.movie_watch_providers_200_response_results_tw.movie_watch_providers_200_response_results_TW(
+                    tw = tmdb_client.models.movie_watch_providers_200_response_results_tw.movie_watch_providers_200_response_results_TW(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=TW', ), 
-                    ug = openapi_client.models.movie_watch_providers_200_response_results_ug.movie_watch_providers_200_response_results_UG(
+                    ug = tmdb_client.models.movie_watch_providers_200_response_results_ug.movie_watch_providers_200_response_results_UG(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=UG', ), 
-                    us = openapi_client.models.movie_watch_providers_200_response_results_us.movie_watch_providers_200_response_results_US(
+                    us = tmdb_client.models.movie_watch_providers_200_response_results_us.movie_watch_providers_200_response_results_US(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=US', ), 
-                    uy = openapi_client.models.movie_watch_providers_200_response_results_uy.movie_watch_providers_200_response_results_UY(
+                    uy = tmdb_client.models.movie_watch_providers_200_response_results_uy.movie_watch_providers_200_response_results_UY(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=UY', ), 
-                    ve = openapi_client.models.movie_watch_providers_200_response_results_ve.movie_watch_providers_200_response_results_VE(
+                    ve = tmdb_client.models.movie_watch_providers_200_response_results_ve.movie_watch_providers_200_response_results_VE(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=VE', ), 
-                    ye = openapi_client.models.movie_watch_providers_200_response_results_ye.movie_watch_providers_200_response_results_YE(
+                    ye = tmdb_client.models.movie_watch_providers_200_response_results_ye.movie_watch_providers_200_response_results_YE(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=YE', ), 
-                    za = openapi_client.models.movie_watch_providers_200_response_results_za.movie_watch_providers_200_response_results_ZA(
+                    za = tmdb_client.models.movie_watch_providers_200_response_results_za.movie_watch_providers_200_response_results_ZA(
                         link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=ZA', ), )
             )
         else:

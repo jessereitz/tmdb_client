@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.person_external_ids200_response import PersonExternalIds200Response
+from tmdb_client.models.person_external_ids200_response import PersonExternalIds200Response
 
 class TestPersonExternalIds200Response(unittest.TestCase):
     """PersonExternalIds200Response unit test stubs"""

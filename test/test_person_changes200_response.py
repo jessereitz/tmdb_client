@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.person_changes200_response import PersonChanges200Response
+from tmdb_client.models.person_changes200_response import PersonChanges200Response
 
 class TestPersonChanges200Response(unittest.TestCase):
     """PersonChanges200Response unit test stubs"""
@@ -36,10 +36,10 @@ class TestPersonChanges200Response(unittest.TestCase):
         if include_optional:
             return PersonChanges200Response(
                 changes = [
-                    openapi_client.models.person_changes_200_response_changes_inner.person_changes_200_response_changes_inner(
+                    tmdb_client.models.person_changes_200_response_changes_inner.person_changes_200_response_changes_inner(
                         key = 'biography', 
                         items = [
-                            openapi_client.models.person_changes_200_response_changes_inner_items_inner.person_changes_200_response_changes_inner_items_inner(
+                            tmdb_client.models.person_changes_200_response_changes_inner_items_inner.person_changes_200_response_changes_inner_items_inner(
                                 id = '640469b113654500ba4e859a', 
                                 action = 'added', 
                                 time = '2023-03-05 10:06:41 UTC', 

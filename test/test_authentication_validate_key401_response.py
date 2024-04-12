@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.authentication_validate_key401_response import AuthenticationValidateKey401Response
+from tmdb_client.models.authentication_validate_key401_response import AuthenticationValidateKey401Response
 
 class TestAuthenticationValidateKey401Response(unittest.TestCase):
     """AuthenticationValidateKey401Response unit test stubs"""

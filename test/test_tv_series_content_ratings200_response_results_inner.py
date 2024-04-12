@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_content_ratings200_response_results_inner import TvSeriesContentRatings200ResponseResultsInner
+from tmdb_client.models.tv_series_content_ratings200_response_results_inner import TvSeriesContentRatings200ResponseResultsInner
 
 class TestTvSeriesContentRatings200ResponseResultsInner(unittest.TestCase):
     """TvSeriesContentRatings200ResponseResultsInner unit test stubs"""

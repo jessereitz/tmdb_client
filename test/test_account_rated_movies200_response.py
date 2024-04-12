@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.account_rated_movies200_response import AccountRatedMovies200Response
+from tmdb_client.models.account_rated_movies200_response import AccountRatedMovies200Response
 
 class TestAccountRatedMovies200Response(unittest.TestCase):
     """AccountRatedMovies200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestAccountRatedMovies200Response(unittest.TestCase):
             return AccountRatedMovies200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.account_rated_movies_200_response_results_inner.account_rated_movies_200_response_results_inner(
+                    tmdb_client.models.account_rated_movies_200_response_results_inner.account_rated_movies_200_response_results_inner(
                         adult = False, 
                         backdrop_path = '/dUVbWINfRMGojGZRcO6GF1Z2nV8.jpg', 
                         genre_ids = [

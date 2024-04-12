@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_release_dates200_response_results_inner_release_dates_inner import MovieReleaseDates200ResponseResultsInnerReleaseDatesInner
+from tmdb_client.models.movie_release_dates200_response_results_inner_release_dates_inner import MovieReleaseDates200ResponseResultsInnerReleaseDatesInner
 
 class TestMovieReleaseDates200ResponseResultsInnerReleaseDatesInner(unittest.TestCase):
     """MovieReleaseDates200ResponseResultsInnerReleaseDatesInner unit test stubs"""

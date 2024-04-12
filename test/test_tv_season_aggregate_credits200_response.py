@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_season_aggregate_credits200_response import TvSeasonAggregateCredits200Response
+from tmdb_client.models.tv_season_aggregate_credits200_response import TvSeasonAggregateCredits200Response
 
 class TestTvSeasonAggregateCredits200Response(unittest.TestCase):
     """TvSeasonAggregateCredits200Response unit test stubs"""
@@ -36,7 +36,7 @@ class TestTvSeasonAggregateCredits200Response(unittest.TestCase):
         if include_optional:
             return TvSeasonAggregateCredits200Response(
                 cast = [
-                    openapi_client.models.tv_season_aggregate_credits_200_response_cast_inner.tv_season_aggregate_credits_200_response_cast_inner(
+                    tmdb_client.models.tv_season_aggregate_credits_200_response_cast_inner.tv_season_aggregate_credits_200_response_cast_inner(
                         adult = False, 
                         gender = 2, 
                         id = 22970, 
@@ -46,7 +46,7 @@ class TestTvSeasonAggregateCredits200Response(unittest.TestCase):
                         popularity = 30.6, 
                         profile_path = '/lRsRgnksAhBRXwAB68MFjmTtLrk.jpg', 
                         roles = [
-                            openapi_client.models.tv_season_aggregate_credits_200_response_cast_inner_roles_inner.tv_season_aggregate_credits_200_response_cast_inner_roles_inner(
+                            tmdb_client.models.tv_season_aggregate_credits_200_response_cast_inner_roles_inner.tv_season_aggregate_credits_200_response_cast_inner_roles_inner(
                                 credit_id = '5256c8b219c2956ff6047cd8', 
                                 character = 'Tyrion Lannister', 
                                 episode_count = 10, )
@@ -55,7 +55,7 @@ class TestTvSeasonAggregateCredits200Response(unittest.TestCase):
                         order = 0, )
                     ],
                 crew = [
-                    openapi_client.models.tv_season_aggregate_credits_200_response_crew_inner.tv_season_aggregate_credits_200_response_crew_inner(
+                    tmdb_client.models.tv_season_aggregate_credits_200_response_crew_inner.tv_season_aggregate_credits_200_response_crew_inner(
                         adult = False, 
                         gender = 1, 
                         id = 9153, 
@@ -65,7 +65,7 @@ class TestTvSeasonAggregateCredits200Response(unittest.TestCase):
                         popularity = 0.995, 
                         profile_path = null, 
                         jobs = [
-                            openapi_client.models.tv_season_aggregate_credits_200_response_crew_inner_jobs_inner.tv_season_aggregate_credits_200_response_crew_inner_jobs_inner(
+                            tmdb_client.models.tv_season_aggregate_credits_200_response_crew_inner_jobs_inner.tv_season_aggregate_credits_200_response_crew_inner_jobs_inner(
                                 credit_id = '54eee8b8c3a3686d5e005430', 
                                 job = 'Production Design', 
                                 episode_count = 10, )

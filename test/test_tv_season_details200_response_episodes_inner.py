@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_season_details200_response_episodes_inner import TvSeasonDetails200ResponseEpisodesInner
+from tmdb_client.models.tv_season_details200_response_episodes_inner import TvSeasonDetails200ResponseEpisodesInner
 
 class TestTvSeasonDetails200ResponseEpisodesInner(unittest.TestCase):
     """TvSeasonDetails200ResponseEpisodesInner unit test stubs"""
@@ -48,7 +48,7 @@ class TestTvSeasonDetails200ResponseEpisodesInner(unittest.TestCase):
                 vote_average = 7.838,
                 vote_count = 291,
                 crew = [
-                    openapi_client.models.tv_season_details_200_response_episodes_inner_crew_inner.tv_season_details_200_response_episodes_inner_crew_inner(
+                    tmdb_client.models.tv_season_details_200_response_episodes_inner_crew_inner.tv_season_details_200_response_episodes_inner_crew_inner(
                         department = 'Directing', 
                         job = 'Director', 
                         credit_id = '5256c8a219c2956ff6046e77', 
@@ -62,7 +62,7 @@ class TestTvSeasonDetails200ResponseEpisodesInner(unittest.TestCase):
                         profile_path = '/MzSOFrd99HRdr6pkSRSctk3kBR.jpg', )
                     ],
                 guest_stars = [
-                    openapi_client.models.tv_season_details_200_response_episodes_inner_guest_stars_inner.tv_season_details_200_response_episodes_inner_guest_stars_inner(
+                    tmdb_client.models.tv_season_details_200_response_episodes_inner_guest_stars_inner.tv_season_details_200_response_episodes_inner_guest_stars_inner(
                         character = 'Benjen Stark', 
                         credit_id = '5256c8b919c2956ff604836a', 
                         order = 62, 

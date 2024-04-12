@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_reviews200_response import TvSeriesReviews200Response
+from tmdb_client.models.tv_series_reviews200_response import TvSeriesReviews200Response
 
 class TestTvSeriesReviews200Response(unittest.TestCase):
     """TvSeriesReviews200Response unit test stubs"""
@@ -38,9 +38,9 @@ class TestTvSeriesReviews200Response(unittest.TestCase):
                 id = 1399,
                 page = 1,
                 results = [
-                    openapi_client.models.tv_series_reviews_200_response_results_inner.tv_series_reviews_200_response_results_inner(
+                    tmdb_client.models.tv_series_reviews_200_response_results_inner.tv_series_reviews_200_response_results_inner(
                         author = 'lmao7', 
-                        author_details = openapi_client.models.tv_series_reviews_200_response_results_inner_author_details.tv_series_reviews_200_response_results_inner_author_details(
+                        author_details = tmdb_client.models.tv_series_reviews_200_response_results_inner_author_details.tv_series_reviews_200_response_results_inner_author_details(
                             name = 'lmao7', 
                             username = 'lmao7', 
                             avatar_path = '/ekmYOUU4tfx9zGGadjRdE7UPce.jpg', 

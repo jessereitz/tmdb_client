@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_alternative_titles200_response import MovieAlternativeTitles200Response
+from tmdb_client.models.movie_alternative_titles200_response import MovieAlternativeTitles200Response
 
 class TestMovieAlternativeTitles200Response(unittest.TestCase):
     """MovieAlternativeTitles200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestMovieAlternativeTitles200Response(unittest.TestCase):
             return MovieAlternativeTitles200Response(
                 id = 550,
                 titles = [
-                    openapi_client.models.movie_alternative_titles_200_response_titles_inner.movie_alternative_titles_200_response_titles_inner(
+                    tmdb_client.models.movie_alternative_titles_200_response_titles_inner.movie_alternative_titles_200_response_titles_inner(
                         iso_3166_1 = 'RS', 
                         title = 'Borilački klub', 
                         type = '', )

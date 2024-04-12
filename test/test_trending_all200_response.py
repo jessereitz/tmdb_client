@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.trending_all200_response import TrendingAll200Response
+from tmdb_client.models.trending_all200_response import TrendingAll200Response
 
 class TestTrendingAll200Response(unittest.TestCase):
     """TrendingAll200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestTrendingAll200Response(unittest.TestCase):
             return TrendingAll200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.trending_all_200_response_results_inner.trending_all_200_response_results_inner(
+                    tmdb_client.models.trending_all_200_response_results_inner.trending_all_200_response_results_inner(
                         adult = False, 
                         backdrop_path = '/44immBwzhDVyjn87b3x3l9mlhAD.jpg', 
                         id = 934433, 

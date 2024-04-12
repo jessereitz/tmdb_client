@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.discover_tv200_response import DiscoverTv200Response
+from tmdb_client.models.discover_tv200_response import DiscoverTv200Response
 
 class TestDiscoverTv200Response(unittest.TestCase):
     """DiscoverTv200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestDiscoverTv200Response(unittest.TestCase):
             return DiscoverTv200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.discover_tv_200_response_results_inner.discover_tv_200_response_results_inner(
+                    tmdb_client.models.discover_tv_200_response_results_inner.discover_tv_200_response_results_inner(
                         backdrop_path = '/mAJ84W6I8I272Da87qplS2Dp9ST.jpg', 
                         first_air_date = '2023-01-23', 
                         genre_ids = [

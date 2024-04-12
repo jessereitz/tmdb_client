@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.translations200_response import Translations200Response
+from tmdb_client.models.translations200_response import Translations200Response
 
 class TestTranslations200Response(unittest.TestCase):
     """Translations200Response unit test stubs"""
@@ -37,12 +37,12 @@ class TestTranslations200Response(unittest.TestCase):
             return Translations200Response(
                 id = 31,
                 translations = [
-                    openapi_client.models.translations_200_response_translations_inner.translations_200_response_translations_inner(
+                    tmdb_client.models.translations_200_response_translations_inner.translations_200_response_translations_inner(
                         iso_3166_1 = 'US', 
                         iso_639_1 = 'en', 
                         name = 'English', 
                         english_name = 'English', 
-                        data = openapi_client.models.translations_200_response_translations_inner_data.translations_200_response_translations_inner_data(
+                        data = tmdb_client.models.translations_200_response_translations_inner_data.translations_200_response_translations_inner_data(
                             biography = 'Thomas Jeffrey Hanks (born July 9, 1956) is an American actor and filmmaker. Known for both his comedic and dramatic roles, Hanks is one of the most popular and recognizable film stars worldwide, and is widely regarded as an American cultural icon.
 
 Hanks made his breakthrough with leading roles in the comedies Splash (1984) and Big (1988). He won two consecutive Academy Awards for Best Actor for starring as a gay lawyer suffering from AIDS in Philadelphia (1993) and a young man with below-average IQ in Forrest Gump (1994). Hanks collaborated with film director Steven Spielberg on five films: Saving Private Ryan (1998), Catch Me If You Can (2002), The Terminal (2004), Bridge of Spies (2015), and The Post (2017), as well as the 2001 miniseries Band of Brothers, which launched him as a director, producer, and screenwriter.

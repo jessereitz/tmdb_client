@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_watch_providers200_response_results_hr import MovieWatchProviders200ResponseResultsHR
+from tmdb_client.models.movie_watch_providers200_response_results_hr import MovieWatchProviders200ResponseResultsHR
 
 class TestMovieWatchProviders200ResponseResultsHR(unittest.TestCase):
     """MovieWatchProviders200ResponseResultsHR unit test stubs"""
@@ -37,21 +37,21 @@ class TestMovieWatchProviders200ResponseResultsHR(unittest.TestCase):
             return MovieWatchProviders200ResponseResultsHR(
                 link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=HR',
                 buy = [
-                    openapi_client.models.movie_watch_providers_200_response_results_co_buy_inner.movie_watch_providers_200_response_results_CO_buy_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_co_buy_inner.movie_watch_providers_200_response_results_CO_buy_inner(
                         logo_path = '/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg', 
                         provider_id = 3, 
                         provider_name = 'Google Play Movies', 
                         display_priority = 3, )
                     ],
                 ads = [
-                    openapi_client.models.movie_watch_providers_200_response_results_hr_ads_inner.movie_watch_providers_200_response_results_HR_ads_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_hr_ads_inner.movie_watch_providers_200_response_results_HR_ads_inner(
                         logo_path = '/xrHrIraInfRXnrz1zHhY1tXJowg.jpg', 
                         provider_id = 572, 
                         provider_name = 'RTL Play', 
                         display_priority = 30, )
                     ],
                 flatrate = [
-                    openapi_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_au_flatrate_inner.movie_watch_providers_200_response_results_AU_flatrate_inner(
                         logo_path = '/emthp39XA2YScoYL1p0sdbAH2WA.jpg', 
                         provider_id = 119, 
                         provider_name = 'Amazon Prime Video', 

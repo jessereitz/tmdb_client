@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.configuration_timezones200_response_inner import ConfigurationTimezones200ResponseInner
+from tmdb_client.models.configuration_timezones200_response_inner import ConfigurationTimezones200ResponseInner
 
 # TODO update the JSON string below
 json = "{}"

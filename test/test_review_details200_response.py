@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.review_details200_response import ReviewDetails200Response
+from tmdb_client.models.review_details200_response import ReviewDetails200Response
 
 class TestReviewDetails200Response(unittest.TestCase):
     """ReviewDetails200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestReviewDetails200Response(unittest.TestCase):
             return ReviewDetails200Response(
                 id = '640b2aeecaaca20079decdcc',
                 author = 'Ricardo Oliveira',
-                author_details = openapi_client.models.review_details_200_response_author_details.review_details_200_response_author_details(
+                author_details = tmdb_client.models.review_details_200_response_author_details.review_details_200_response_author_details(
                     name = 'Ricardo Oliveira', 
                     username = 'RSOliveira', 
                     avatar_path = '/23Cl7rhsknc7IIAcZZAGKzovjTu.jpg', 

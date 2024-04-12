@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_series_changes200_response_changes_inner_items_inner_value_poster import TvSeriesChanges200ResponseChangesInnerItemsInnerValuePoster
+from tmdb_client.models.tv_series_changes200_response_changes_inner_items_inner_value_poster import TvSeriesChanges200ResponseChangesInnerItemsInnerValuePoster
 
 class TestTvSeriesChanges200ResponseChangesInnerItemsInnerValuePoster(unittest.TestCase):
     """TvSeriesChanges200ResponseChangesInnerItemsInnerValuePoster unit test stubs"""

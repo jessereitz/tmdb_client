@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_season_translations200_response_translations_inner import TvSeasonTranslations200ResponseTranslationsInner
+from tmdb_client.models.tv_season_translations200_response_translations_inner import TvSeasonTranslations200ResponseTranslationsInner
 
 class TestTvSeasonTranslations200ResponseTranslationsInner(unittest.TestCase):
     """TvSeasonTranslations200ResponseTranslationsInner unit test stubs"""
@@ -39,7 +39,7 @@ class TestTvSeasonTranslations200ResponseTranslationsInner(unittest.TestCase):
                 iso_639_1 = 'ar',
                 name = 'العربية',
                 english_name = 'Arabic',
-                data = openapi_client.models.tv_season_translations_200_response_translations_inner_data.tv_season_translations_200_response_translations_inner_data(
+                data = tmdb_client.models.tv_season_translations_200_response_translations_inner_data.tv_season_translations_200_response_translations_inner_data(
                     name = '', 
                     overview = 'سلسلة درامية مبنية على سلسلة روايات لـ جورج آر آر مارتن بعنوان "إيه سونغ أوف آيس أن فاير" والتي حققت مبيعات كبيرة وتتمحور حول الصراعات التي كانت تحدث في العصور الوسطى بين العائلات النبيلة للسيطرة على عرش وستيروس.', )
             )

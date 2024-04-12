@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.authentication_delete_session200_response import AuthenticationDeleteSession200Response
+from tmdb_client.models.authentication_delete_session200_response import AuthenticationDeleteSession200Response
 
 class TestAuthenticationDeleteSession200Response(unittest.TestCase):
     """AuthenticationDeleteSession200Response unit test stubs"""

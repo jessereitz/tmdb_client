@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.person_combined_credits200_response_cast_inner import PersonCombinedCredits200ResponseCastInner
+from tmdb_client.models.person_combined_credits200_response_cast_inner import PersonCombinedCredits200ResponseCastInner
 
 class TestPersonCombinedCredits200ResponseCastInner(unittest.TestCase):
     """PersonCombinedCredits200ResponseCastInner unit test stubs"""

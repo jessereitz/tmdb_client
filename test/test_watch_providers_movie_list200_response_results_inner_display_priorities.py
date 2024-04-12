@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.watch_providers_movie_list200_response_results_inner_display_priorities import WatchProvidersMovieList200ResponseResultsInnerDisplayPriorities
+from tmdb_client.models.watch_providers_movie_list200_response_results_inner_display_priorities import WatchProvidersMovieList200ResponseResultsInnerDisplayPriorities
 
 class TestWatchProvidersMovieList200ResponseResultsInnerDisplayPriorities(unittest.TestCase):
     """WatchProvidersMovieList200ResponseResultsInnerDisplayPriorities unit test stubs"""

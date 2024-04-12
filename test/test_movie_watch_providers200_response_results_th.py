@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_watch_providers200_response_results_th import MovieWatchProviders200ResponseResultsTH
+from tmdb_client.models.movie_watch_providers200_response_results_th import MovieWatchProviders200ResponseResultsTH
 
 class TestMovieWatchProviders200ResponseResultsTH(unittest.TestCase):
     """MovieWatchProviders200ResponseResultsTH unit test stubs"""
@@ -37,7 +37,7 @@ class TestMovieWatchProviders200ResponseResultsTH(unittest.TestCase):
             return MovieWatchProviders200ResponseResultsTH(
                 link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=TH',
                 flatrate = [
-                    openapi_client.models.movie_watch_providers_200_response_results_my_flatrate_inner.movie_watch_providers_200_response_results_MY_flatrate_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_my_flatrate_inner.movie_watch_providers_200_response_results_MY_flatrate_inner(
                         logo_path = '/7Fl8ylPDclt3ZYgNbW2t7rbZE9I.jpg', 
                         provider_id = 122, 
                         provider_name = 'Hotstar', 

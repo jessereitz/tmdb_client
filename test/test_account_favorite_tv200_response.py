@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.account_favorite_tv200_response import AccountFavoriteTv200Response
+from tmdb_client.models.account_favorite_tv200_response import AccountFavoriteTv200Response
 
 class TestAccountFavoriteTv200Response(unittest.TestCase):
     """AccountFavoriteTv200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestAccountFavoriteTv200Response(unittest.TestCase):
             return AccountFavoriteTv200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.account_favorite_tv_200_response_results_inner.account_favorite_tv_200_response_results_inner(
+                    tmdb_client.models.account_favorite_tv_200_response_results_inner.account_favorite_tv_200_response_results_inner(
                         adult = False, 
                         backdrop_path = '/bsNm9z2TJfe0WO3RedPGWQ8mG1X.jpg', 
                         genre_ids = [

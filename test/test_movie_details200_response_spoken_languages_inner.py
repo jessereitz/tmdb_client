@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_details200_response_spoken_languages_inner import MovieDetails200ResponseSpokenLanguagesInner
+from tmdb_client.models.movie_details200_response_spoken_languages_inner import MovieDetails200ResponseSpokenLanguagesInner
 
 class TestMovieDetails200ResponseSpokenLanguagesInner(unittest.TestCase):
     """MovieDetails200ResponseSpokenLanguagesInner unit test stubs"""

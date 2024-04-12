@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.credit_details200_response import CreditDetails200Response
+from tmdb_client.models.credit_details200_response import CreditDetails200Response
 
 class TestCreditDetails200Response(unittest.TestCase):
     """CreditDetails200Response unit test stubs"""
@@ -38,7 +38,7 @@ class TestCreditDetails200Response(unittest.TestCase):
                 credit_type = 'cast',
                 department = 'Acting',
                 job = 'Actor',
-                media = openapi_client.models.credit_details_200_response_media.credit_details_200_response_media(
+                media = tmdb_client.models.credit_details_200_response_media.credit_details_200_response_media(
                     adult = False, 
                     backdrop_path = '/uDgy6hyPd82kOHh6I95FLtLnj6p.jpg', 
                     id = 100088, 
@@ -63,7 +63,7 @@ class TestCreditDetails200Response(unittest.TestCase):
                         ''
                         ], 
                     seasons = [
-                        openapi_client.models.credit_details_200_response_media_seasons_inner.credit_details_200_response_media_seasons_inner(
+                        tmdb_client.models.credit_details_200_response_media_seasons_inner.credit_details_200_response_media_seasons_inner(
                             air_date = '2023-01-15', 
                             episode_count = 9, 
                             id = 144593, 
@@ -75,7 +75,7 @@ class TestCreditDetails200Response(unittest.TestCase):
                         ], ),
                 media_type = 'tv',
                 id = '6024a814c0ae36003d59cc3c',
-                person = openapi_client.models.credit_details_200_response_person.credit_details_200_response_person(
+                person = tmdb_client.models.credit_details_200_response_person.credit_details_200_response_person(
                     adult = False, 
                     id = 1253360, 
                     name = 'Pedro Pascal', 

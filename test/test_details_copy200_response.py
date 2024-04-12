@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.details_copy200_response import DetailsCopy200Response
+from tmdb_client.models.details_copy200_response import DetailsCopy200Response
 
 class TestDetailsCopy200Response(unittest.TestCase):
     """DetailsCopy200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestDetailsCopy200Response(unittest.TestCase):
             return DetailsCopy200Response(
                 id = 49,
                 results = [
-                    openapi_client.models.details_copy_200_response_results_inner.details_copy_200_response_results_inner(
+                    tmdb_client.models.details_copy_200_response_results_inner.details_copy_200_response_results_inner(
                         name = 'Home Box Office', 
                         type = '', )
                     ]

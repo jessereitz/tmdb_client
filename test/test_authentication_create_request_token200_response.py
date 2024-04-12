@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.authentication_create_request_token200_response import AuthenticationCreateRequestToken200Response
+from tmdb_client.models.authentication_create_request_token200_response import AuthenticationCreateRequestToken200Response
 
 class TestAuthenticationCreateRequestToken200Response(unittest.TestCase):
     """AuthenticationCreateRequestToken200Response unit test stubs"""

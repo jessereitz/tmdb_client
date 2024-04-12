@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.account_favorite_tv200_response_results_inner import AccountFavoriteTv200ResponseResultsInner
+from tmdb_client.models.account_favorite_tv200_response_results_inner import AccountFavoriteTv200ResponseResultsInner
 
 class TestAccountFavoriteTv200ResponseResultsInner(unittest.TestCase):
     """AccountFavoriteTv200ResponseResultsInner unit test stubs"""

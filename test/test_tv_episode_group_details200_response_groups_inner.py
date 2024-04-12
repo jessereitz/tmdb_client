@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_episode_group_details200_response_groups_inner import TvEpisodeGroupDetails200ResponseGroupsInner
+from tmdb_client.models.tv_episode_group_details200_response_groups_inner import TvEpisodeGroupDetails200ResponseGroupsInner
 
 class TestTvEpisodeGroupDetails200ResponseGroupsInner(unittest.TestCase):
     """TvEpisodeGroupDetails200ResponseGroupsInner unit test stubs"""
@@ -39,7 +39,7 @@ class TestTvEpisodeGroupDetails200ResponseGroupsInner(unittest.TestCase):
                 name = 'First Cup',
                 order = 1,
                 episodes = [
-                    openapi_client.models.tv_episode_group_details_200_response_groups_inner_episodes_inner.tv_episode_group_details_200_response_groups_inner_episodes_inner(
+                    tmdb_client.models.tv_episode_group_details_200_response_groups_inner_episodes_inner.tv_episode_group_details_200_response_groups_inner_episodes_inner(
                         air_date = '2015-06-17', 
                         episode_number = 3, 
                         id = 1078262, 

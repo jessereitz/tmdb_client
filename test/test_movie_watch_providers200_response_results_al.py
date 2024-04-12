@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_watch_providers200_response_results_al import MovieWatchProviders200ResponseResultsAL
+from tmdb_client.models.movie_watch_providers200_response_results_al import MovieWatchProviders200ResponseResultsAL
 
 class TestMovieWatchProviders200ResponseResultsAL(unittest.TestCase):
     """MovieWatchProviders200ResponseResultsAL unit test stubs"""
@@ -37,7 +37,7 @@ class TestMovieWatchProviders200ResponseResultsAL(unittest.TestCase):
             return MovieWatchProviders200ResponseResultsAL(
                 link = 'https://www.themoviedb.org/movie/550-fight-club/watch?locale=AL',
                 buy = [
-                    openapi_client.models.movie_watch_providers_200_response_results_al_buy_inner.movie_watch_providers_200_response_results_AL_buy_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_al_buy_inner.movie_watch_providers_200_response_results_AL_buy_inner(
                         logo_path = '/5GEbAhFW2S5T8zVc1MNvz00pIzM.jpg', 
                         provider_id = 35, 
                         provider_name = 'Rakuten TV', 

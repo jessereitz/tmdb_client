@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.movie_similar200_response import MovieSimilar200Response
+from tmdb_client.models.movie_similar200_response import MovieSimilar200Response
 
 class TestMovieSimilar200Response(unittest.TestCase):
     """MovieSimilar200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestMovieSimilar200Response(unittest.TestCase):
             return MovieSimilar200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.movie_similar_200_response_results_inner.movie_similar_200_response_results_inner(
+                    tmdb_client.models.movie_similar_200_response_results_inner.movie_similar_200_response_results_inner(
                         adult = False, 
                         backdrop_path = '/3YAldML4EDyoC6RBpzceALigrAZ.jpg', 
                         genre_ids = [

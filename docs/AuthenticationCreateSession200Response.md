@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.authentication_create_session200_response import AuthenticationCreateSession200Response
+from tmdb_client.models.authentication_create_session200_response import AuthenticationCreateSession200Response
 
 # TODO update the JSON string below
 json = "{}"

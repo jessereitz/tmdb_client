@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_season_watch_providers200_response_results_ru import TvSeasonWatchProviders200ResponseResultsRU
+from tmdb_client.models.tv_season_watch_providers200_response_results_ru import TvSeasonWatchProviders200ResponseResultsRU
 
 class TestTvSeasonWatchProviders200ResponseResultsRU(unittest.TestCase):
     """TvSeasonWatchProviders200ResponseResultsRU unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvSeasonWatchProviders200ResponseResultsRU(unittest.TestCase):
             return TvSeasonWatchProviders200ResponseResultsRU(
                 link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=RU',
                 flatrate = [
-                    openapi_client.models.tv_series_watch_providers_200_response_results_ru_flatrate_inner.tv_series_watch_providers_200_response_results_RU_flatrate_inner(
+                    tmdb_client.models.tv_series_watch_providers_200_response_results_ru_flatrate_inner.tv_series_watch_providers_200_response_results_RU_flatrate_inner(
                         logo_path = '/w1T8s7FqakcfucR8cgOvbe6UeXN.jpg', 
                         provider_id = 115, 
                         provider_name = 'Okko', 

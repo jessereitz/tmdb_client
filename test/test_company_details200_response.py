@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.company_details200_response import CompanyDetails200Response
+from tmdb_client.models.company_details200_response import CompanyDetails200Response
 
 class TestCompanyDetails200Response(unittest.TestCase):
     """CompanyDetails200Response unit test stubs"""

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.tv_season_watch_providers200_response_results_kr import TvSeasonWatchProviders200ResponseResultsKR
+from tmdb_client.models.tv_season_watch_providers200_response_results_kr import TvSeasonWatchProviders200ResponseResultsKR
 
 class TestTvSeasonWatchProviders200ResponseResultsKR(unittest.TestCase):
     """TvSeasonWatchProviders200ResponseResultsKR unit test stubs"""
@@ -37,7 +37,7 @@ class TestTvSeasonWatchProviders200ResponseResultsKR(unittest.TestCase):
             return TvSeasonWatchProviders200ResponseResultsKR(
                 link = 'https://www.themoviedb.org/tv/1399-game-of-thrones/season/1/watch?locale=KR',
                 flatrate = [
-                    openapi_client.models.movie_watch_providers_200_response_results_kr_buy_inner.movie_watch_providers_200_response_results_KR_buy_inner(
+                    tmdb_client.models.movie_watch_providers_200_response_results_kr_buy_inner.movie_watch_providers_200_response_results_KR_buy_inner(
                         logo_path = '/2ioan5BX5L9tz4fIGU93blTeFhv.jpg', 
                         provider_id = 356, 
                         provider_name = 'wavve', 

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.models.account_watchlist_movies200_response import AccountWatchlistMovies200Response
+from tmdb_client.models.account_watchlist_movies200_response import AccountWatchlistMovies200Response
 
 class TestAccountWatchlistMovies200Response(unittest.TestCase):
     """AccountWatchlistMovies200Response unit test stubs"""
@@ -37,7 +37,7 @@ class TestAccountWatchlistMovies200Response(unittest.TestCase):
             return AccountWatchlistMovies200Response(
                 page = 1,
                 results = [
-                    openapi_client.models.account_watchlist_movies_200_response_results_inner.account_watchlist_movies_200_response_results_inner(
+                    tmdb_client.models.account_watchlist_movies_200_response_results_inner.account_watchlist_movies_200_response_results_inner(
                         adult = False, 
                         backdrop_path = '/rgNzvSagnlc32TuMEBa529QFIig.jpg', 
                         genre_ids = [
